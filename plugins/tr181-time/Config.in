@@ -1,0 +1,20 @@
+config PACKAGE_time-plugin
+    tristate
+    select SAH_AMX_TR181_TIME
+
+if PACKAGE_time-plugin
+
+menu "Select time-plugin build options"
+    depends on PACKAGE_time-plugin
+
+config SAH_AMX_TR181_TIME
+    bool "Build a tr181 compatible time plugin"
+    default y
+
+config SAH_AMX_TR181_TIME_ORDER
+    int "tr181 time plugin start up order"
+    default 80
+
+endmenu
+
+endif
