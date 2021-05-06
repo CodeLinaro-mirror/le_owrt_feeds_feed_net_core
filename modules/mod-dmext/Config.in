@@ -1,0 +1,16 @@
+config PACKAGE_mod-dmext
+    tristate
+    select SAH_MOD_DMEXT
+
+if PACKAGE_mod-dmext
+
+menu "Select mod-dmext build options"
+    depends on PACKAGE_mod-dmext
+
+config SAH_MOD_DMEXT
+    bool "Build data model extension"
+    default y
+
+endmenu
+
+endif
