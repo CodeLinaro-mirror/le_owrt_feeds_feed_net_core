@@ -1,11 +1,11 @@
-config PACKAGE_time-plugin
+config PACKAGE_time-manager
     tristate
     select SAH_AMX_TR181_TIME
 
-if PACKAGE_time-plugin
+if PACKAGE_time-manager
 
-menu "Select time-plugin build options"
-    depends on PACKAGE_time-plugin
+menu "Select time-manager build options"
+    depends on PACKAGE_time-manager
 
 config SAH_AMX_TR181_TIME
     bool "Build a tr181 compatible time plugin"

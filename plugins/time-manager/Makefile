@@ -1,18 +1,18 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=time-plugin
-PKG_VERSION:=v2.0.0
+PKG_NAME:=time-manager
+PKG_VERSION:=v1.0.2
 SHORT_DESCRIPTION:=TR181 Time plugin
 
-PKG_SOURCE:=tr181-time-v2.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-time/-/archive/v2.0.0
-PKG_HASH:=8b7b2a60e5a457584b43dab85f7127d278558669ccbc0b57b7c562fe53b0d5bd
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-time-v2.0.0
+PKG_SOURCE:=tr181-time-v1.0.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-time/-/archive/v1.0.2
+PKG_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-time-v1.0.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
-COMPONENT:=time-plugin
+COMPONENT:=time-manager
 
 PKG_RELEASE:=1
 
@@ -35,6 +35,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxo
   DEPENDS += +amxrt
   DEPENDS += +libsahtrace
+  DEPENDS += +mod-dmext
   MENU:=1
 endef
 
