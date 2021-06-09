@@ -1,0 +1,6 @@
+build:
+  config: []
+
+  whitelist:
+  - "hop/config/generic-prplwrt/rpi3/full-amx-image"
+
