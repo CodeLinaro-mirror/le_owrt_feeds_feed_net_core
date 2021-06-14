@@ -13,6 +13,7 @@ PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_RELEASE:=1
+PKG_BUILD_DEPENDS += libamxo
 
 include $(INCLUDE_DIR)/package.mk
 
