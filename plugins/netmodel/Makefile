@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Network Model plugin
 
 PKG_SOURCE:=netmodel-v1.0.2.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/netmodel/-/archive/v1.0.2
-PKG_HASH:=skip
+PKG_HASH:=cfef39c37d679ca44c485edff188c89cf1eb61f1ba7ddc4c0c58f76a40365ec7
 PKG_BUILD_DIR:=$(BUILD_DIR)/netmodel-v1.0.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
