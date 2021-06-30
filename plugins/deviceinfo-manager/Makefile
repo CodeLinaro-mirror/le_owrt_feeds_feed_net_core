@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=TR-181 compatible DeviceInfo plugin
 
 PKG_SOURCE:=tr181-deviceinfo-v1.0.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-deviceinfo/-/archive/v1.0.1
-PKG_HASH:=skip
+PKG_HASH:=58bfdcb3ddc09810986b5d032e3075f5803d376295032282c85c10e0df256fbe
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-deviceinfo-v1.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
