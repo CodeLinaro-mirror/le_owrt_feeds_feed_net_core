@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=TR181 Time plugin
 
 PKG_SOURCE:=tr181-time-v1.0.5.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-time/-/archive/v1.0.5
-PKG_HASH:=skip
+PKG_HASH:=4c6b28284e4ba5b2f4581d483b7769d35d5476a97925fc245edaf8d9014cd6fe
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-time-v1.0.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
