@@ -24,9 +24,11 @@ Feed_net_core includes the following components:
 ## How to add feed_net_core to your OpenWrt build
 
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
+
 ```sh
-src-git feed_net_core git@gitlab.com:soft.at.home/buildsystems/openwrt/feed_net_core.git;master
+src-git feed_net_core git@gitlab.com:soft.at.home/buildsystems/openwrt/feed_net_core.git;main
 ```
+
 Add the packages to your OpenWrt instance with the following commands:
 ```sh
 ./scripts/feeds update feed_net_core #retrieve the feed from service/update to latest
