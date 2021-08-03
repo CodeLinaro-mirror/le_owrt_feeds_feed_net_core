@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.4.0 - 2021-08-03(20:55:24 +0000)
+
+- [prpl][amx][DHCPv4 Client] Implement a TR181 compliant DHCPv4 Client plugin
+
 ## Release v0.3.1 - 2021-08-02(12:51:03 +0000)
 
 ## Release v0.3.0 - 2021-07-29(14:57:00 +0000)
