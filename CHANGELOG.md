@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.5.0 - 2021-08-04(13:00:53 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [TR181 Firewall][Portmapping] port forwarding
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [tr181-firewall] warn_unused_result during compilation
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): add firewall level 'Medium'
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): add firewall level 'Medium'
+
 ## Release v0.4.0 - 2021-08-03(20:55:24 +0000)
 
 - [prpl][amx][DHCPv4 Client] Implement a TR181 compliant DHCPv4 Client plugin
