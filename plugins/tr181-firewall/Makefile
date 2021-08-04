@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=TR181 firewall manager
 
 PKG_SOURCE:=tr181-firewall-v1.1.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-firewall/-/archive/v1.1.1
-PKG_HASH:=skip
+PKG_HASH:=98e1fa188cb49256cf771f7e1b092cf6e63ecdd308b8e869dc082c587177d5ff
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v1.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
