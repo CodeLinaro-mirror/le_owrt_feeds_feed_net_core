@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=A library providing interfaces between lib_fwrules and netfil
 
 PKG_SOURCE:=libfwinterface-v1.1.6.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libfwinterface/-/archive/v1.1.6
-PKG_HASH:=skip
+PKG_HASH:=7485ad174d6d7676058f79558c9df29228782de3dc530220416836e52f77031f
 PKG_BUILD_DIR:=$(BUILD_DIR)/libfwinterface-v1.1.6
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
