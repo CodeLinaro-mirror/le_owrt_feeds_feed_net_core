@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.5.1 - 2021-08-05(14:54:46 +0000)
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [Gitlab CI][Unit tests][valgrind] Pipelines don't stop when memory leaks are detected
+- [netdev-plugin](https://gitlab.com/soft.at.home/plugins/netdev): [Netdev] Individual NetDev.Link.{i}. parameters can not be retrieved with ubus-cli
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): [libfwinterface] Check rule before adding it to the firewall
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): [libfwinterface] Pipeline doesn't stop when memory leaks are detected
+
+### Other
+
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): - [libfwinterface][iptc] Check if a firewall rule exists before an insert or append
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): Issue: soft.at.home/libraries/libfwinterface#12 baf: add libiptc as a compile and runtime dependency
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): - [Gitlab CI][Unit tests][valgrind] Pipelines don't stop when memory leaks are detected
+
 ## Release v0.5.0 - 2021-08-04(13:00:53 +0000)
 
 ### New
