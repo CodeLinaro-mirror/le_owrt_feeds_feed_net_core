@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.6.0 - 2021-08-06(14:27:18 +0000)
+
+### New
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): Server internal eventing
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): Service status is enabled yet no rule found with iptables -L
+
+### Changes
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): [Startup Order] modify initialization priority
+
+### Other
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): Correct CHANGELOG.md formatting
+
 ## Release v0.5.1 - 2021-08-05(14:54:46 +0000)
 
 ### Fixes
