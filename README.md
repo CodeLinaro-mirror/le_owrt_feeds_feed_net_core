@@ -10,6 +10,7 @@ Feed_net_core includes the following components:
 
 - [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface) - A library providing interfaces between lib_fwrules and netfilter
 - [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules) - A library to store ordered firewall rules
+- [libnetmodel](https://gitlab.com/soft.at.home/libraries/libnetmodel) - NetModel client library
 
 ### Modules
 
