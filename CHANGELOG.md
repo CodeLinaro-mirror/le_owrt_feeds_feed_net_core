@@ -8,6 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.7.0 - 2021-08-12(16:52:14 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [TR181 Firewall] TR181 chains and rules
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): add debian package generation
+- [libnetmodel](https://gitlab.com/soft.at.home/libraries/libnetmodel): Component added
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): iptables rule matches icmptype 1 by default
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): service parameter "Interface" is not used to match packets
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): update copyright headers to be conform with the SPDX specification
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): staticip: fix staticip_remove
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): Use standard c11
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): Use standard c11
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [unit testing] better regression testing
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): [unit testing] better regression testing
+
 ## Release v0.6.0 - 2021-08-06(14:27:18 +0000)
 
 ### New
