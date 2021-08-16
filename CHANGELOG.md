@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.8.0 - 2021-08-16(12:13:19 +0000)
+
+### New
+
+- [dhcpv6s-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6s): Component added
+
+### Fixes
+
+- [libnetmodel](https://gitlab.com/soft.at.home/libraries/libnetmodel): Fix traces
+
 ## Release v0.7.0 - 2021-08-12(16:52:14 +0000)
 
 ### New
