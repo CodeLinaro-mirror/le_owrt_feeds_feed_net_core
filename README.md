@@ -20,6 +20,7 @@ Feed_net_core includes the following components:
 
 - [deviceinfo-manager](https://gitlab.com/soft.at.home/plugins/tr181-deviceinfo) - TR-181 compatible DeviceInfo plugin
 - [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4) - Implementation of Device.DHCPv4 object of the TR-181 datamodel
+- [dhcpv6s-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6s) - Implementation of Device.DHCPv6.Server. object of the TR-181 datamodel
 - [ip-manager](https://gitlab.com/soft.at.home/plugins/tr181-ip) - Implementation of Device.IP of the TR-181 datamodel
 - [netdev-plugin](https://gitlab.com/soft.at.home/plugins/netdev) - NetDev monitors the operating system's network devices
 - [netmodel](https://gitlab.com/soft.at.home/plugins/netmodel) - Network Model plugin
