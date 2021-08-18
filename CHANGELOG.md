@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.8.1 - 2021-08-18(13:48:40 +0000)
+
+### Fixes
+
+- [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules): [libfwrules] Pipeline doesn't stop when memory leaks are detected
+
+### Changes
+
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Add child object instances directly too root without use of `libamxb`. Cleanup IPv4 and IPv6 routes handling.
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): Firewall configuration example
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Update changelog style
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Create IPv6 Forwarding event based data population
+
 ## Release v0.8.0 - 2021-08-16(12:13:19 +0000)
 
 ### New
