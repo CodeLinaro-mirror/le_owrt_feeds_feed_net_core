@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.8.2 - 2021-08-20(14:15:34 +0000)
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): policy does not always result in ip(6)tables rules
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): for_each inception is not allowed because of local variable shadowing
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): Index of deletion too big
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Update ubus when route object is removed from DM
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): fix amxd_object_for_each nesting shadowing
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): fix amxd_object_for_each nesting shadowing
+
 ## Release v0.8.1 - 2021-08-18(13:48:40 +0000)
 
 ### Fixes
