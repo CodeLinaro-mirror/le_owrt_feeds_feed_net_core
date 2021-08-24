@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.9.0 - 2021-08-24(09:58:48 +0000)
+
+### New
+
+- [dhcpv6s-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6s): odl: add defaults directory
+
+### Fixes
+
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): Align time-manager with latest amx libraries
+
+### Other
+
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): Correct changelog
+
 ## Release v0.8.2 - 2021-08-20(14:15:34 +0000)
 
 ### Fixes
