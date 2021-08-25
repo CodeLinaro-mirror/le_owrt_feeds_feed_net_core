@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.0 - 2021-08-25(06:59:50 +0000)
+
+### New
+
+- [wan-manager](https://gitlab.com/soft.at.home/plugins/wan-manager): Component added
+- [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging): Configure bridges using UCI and netifd
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): open/close firewall port for ntp
+
+### Fixes
+
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): open/close firewall port for ntp
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): libfwinterface misidentifies rules as duplicates
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): missing default policies
+
 ## Release v0.9.0 - 2021-08-24(09:58:48 +0000)
 
 ### New
