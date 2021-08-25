@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.1 - 2021-08-25(16:34:46 +0000)
+
+### Fixes
+
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): Update DM accordingly to initially populated objects
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): Avoid spurious lease events, keep only the most recent
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): fix status displayed in Pool, LeaseTime
+
+### Changes
+
+- [netdev-plugin](https://gitlab.com/soft.at.home/plugins/netdev): redefine startup order
+
+### Other
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): update license
+
 ## Release v0.10.0 - 2021-08-25(06:59:50 +0000)
 
 ### New
