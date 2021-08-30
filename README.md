@@ -8,6 +8,7 @@ Feed_net_core includes the following components:
 
 ### Libraries
 
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions) - Library to parse and evaluate the binary data of DHCP options
 - [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface) - A library providing interfaces between lib_fwrules and netfilter
 - [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules) - A library to store ordered firewall rules
 - [libnetmodel](https://gitlab.com/soft.at.home/libraries/libnetmodel) - NetModel client library
@@ -29,12 +30,6 @@ Feed_net_core includes the following components:
 - [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging) - Implementation of Device.Bridging of the TR-181 datamodel
 - [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall) - TR181 firewall manager
 - [wan-manager](https://gitlab.com/soft.at.home/plugins/wan-manager) - WAN Manager
-
-### Other
-
-These components are not managed by SoftAtHome.
-
-- libdhcpoption
 
 ## How to add feed_net_core to your OpenWrt build
 

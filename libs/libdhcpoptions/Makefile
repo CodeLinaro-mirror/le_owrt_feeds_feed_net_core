@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=libdhcpoption
+PKG_NAME:=libdhcpoptions
 PKG_VERSION:=v0.1.1
 SHORT_DESCRIPTION:=Library to parse and evaluate the binary data of DHCP options
 
-PKG_SOURCE:=libdhcpoption-v0.1.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libdhcpoption/-/archive/v0.1.1
-PKG_HASH:=skip
-PKG_BUILD_DIR:=$(BUILD_DIR)/libdhcpoption-v0.1.1
+PKG_SOURCE:=libdhcpoptions-v0.1.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libdhcpoptions/-/archive/v0.1.1
+PKG_HASH:=b98428329e33cd24d967abd125831ac839e6d6d9943d809d87222ad714328e26
+PKG_BUILD_DIR:=$(BUILD_DIR)/libdhcpoptions-v0.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -20,7 +20,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Libraries
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/soft.at.home/libraries/libdhcpoption
+  URL:=https://gitlab.com/soft.at.home/libraries/libdhcpoptions
   DEPENDS += +libamxc
   MENU:=1
 endef
