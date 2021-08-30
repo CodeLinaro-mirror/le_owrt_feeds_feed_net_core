@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.11.0 - 2021-08-30(14:51:06 +0000)
+
+### New
+
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): Component added
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging): port status will be Error is the NetDev interface does not yet exist
+
+### Changes
+
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Redefine startup order
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): add defaults directory
+
 ## Release v0.10.1 - 2021-08-25(16:34:46 +0000)
 
 ### Fixes
