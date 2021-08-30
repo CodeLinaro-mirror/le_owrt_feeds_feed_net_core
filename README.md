@@ -30,6 +30,12 @@ Feed_net_core includes the following components:
 - [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall) - TR181 firewall manager
 - [wan-manager](https://gitlab.com/soft.at.home/plugins/wan-manager) - WAN Manager
 
+### Other
+
+These components are not managed by SoftAtHome.
+
+- libdhcpoption
+
 ## How to add feed_net_core to your OpenWrt build
 
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
