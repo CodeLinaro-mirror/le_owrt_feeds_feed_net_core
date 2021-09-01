@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.11.1 - 2021-09-01(13:54:18 +0000)
+
+### Fixes
+
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): Add debian packages
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): change name
+
+### Other
+
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): [CI] Disable gitlab pages job
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): [CI] Disable test job
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): [CI] Enable package generation job
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): Component '.so' should be versioned
+
 ## Release v0.11.0 - 2021-08-30(14:51:06 +0000)
 
 ### New
