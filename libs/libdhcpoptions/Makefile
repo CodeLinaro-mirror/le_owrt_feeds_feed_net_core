@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Library to parse and evaluate the binary data of DHCP options
 
 PKG_SOURCE:=libdhcpoptions-v0.1.4.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libdhcpoptions/-/archive/v0.1.4
-PKG_HASH:=skip
+PKG_HASH:=885e4782abecd13d139f710ebc197e2689b640a79b47cb5d9f7b76c96e142272
 PKG_BUILD_DIR:=$(BUILD_DIR)/libdhcpoptions-v0.1.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
