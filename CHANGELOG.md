@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.11.2 - 2021-09-03(15:54:35 +0000)
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging): Disable bridges instead of removing them from the uci config
+
 ## Release v0.11.1 - 2021-09-01(13:54:18 +0000)
 
 ### Fixes
