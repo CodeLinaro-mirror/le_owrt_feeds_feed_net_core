@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.12.0 - 2021-09-07(19:50:53 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): implement NAT.InterfaceSetting to support NAT on the WAN interface
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): default policy of built in chains INPUT and FORWARD must be DROP
+- [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging): Create initial ioctl implementation
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging): UCI doesn't accept dashes in the names
+- [netdev-plugin](https://gitlab.com/soft.at.home/plugins/netdev): PCF-288: [Netdev] crashes when doing a /etc/init.d/network restart
+
+### Other
+
+- [libfwinterface](https://gitlab.com/soft.at.home/libraries/libfwinterface): implement policy masquerade
+
 ## Release v0.11.2 - 2021-09-03(15:54:35 +0000)
 
 ### Fixes
