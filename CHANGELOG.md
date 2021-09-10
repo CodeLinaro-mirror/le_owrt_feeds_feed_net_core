@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.0 - 2021-09-10(13:47:38 +0000)
+
+### New
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): Do not exit the plugin if dnsmasq is not found
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): Implement handling of "Interface" parameter to integrate with other plugins
+
+### Fixes
+
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): fix segfault on non existing IP.Interface object
+- [dhcpv4-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4): fix protovalue being NULL
+
 ## Release v0.12.0 - 2021-09-07(19:50:53 +0000)
 
 ### New
