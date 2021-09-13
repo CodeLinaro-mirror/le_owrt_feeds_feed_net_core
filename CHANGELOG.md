@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.1 - 2021-09-13(15:06:16 +0000)
+
+### Other
+
+- [libnetmodel](https://gitlab.com/soft.at.home/libraries/libnetmodel): [library NetModel] Add open query functions
+- [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules): Issue: soft.at.home/libraries/libfwrules#7 delete fails because index is too big
+
 ## Release v0.13.0 - 2021-09-10(13:47:38 +0000)
 
 ### New
