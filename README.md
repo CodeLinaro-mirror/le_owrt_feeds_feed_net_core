@@ -28,14 +28,9 @@ Feed_net_core includes the following components:
 - [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing) - Implementation of Device.Routing of the TR-181 datamodel
 - [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time) - TR181 Time plugin
 - [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging) - Implementation of Device.Bridging of the TR-181 datamodel
+- [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device) - TR-181 compatible Device plugin
 - [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall) - TR181 firewall manager
 - [wan-manager](https://gitlab.com/soft.at.home/plugins/wan-manager) - WAN Manager
-
-### Other
-
-These components are not managed by SoftAtHome.
-
-- tr181-device
 
 ## How to add feed_net_core to your OpenWrt build
 

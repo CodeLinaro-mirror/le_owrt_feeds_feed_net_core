@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=TR-181 compatible Device plugin
 
 PKG_SOURCE:=tr181-device-v0.0.2.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-device/-/archive/v0.0.2
-PKG_HASH:=skip
+PKG_HASH:=158766fc4bc94b76b4caa2b3954233f85179bff968e13f6a1b647ba4dfd7e13a
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-device-v0.0.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
