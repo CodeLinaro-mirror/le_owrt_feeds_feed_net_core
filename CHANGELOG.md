@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.2 - 2021-09-14(16:24:13 +0000)
+
+### Fixes
+
+- [mod-dmext](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmext): [amxc] add ifdef around when_null_x, when_str_empty_x
+- [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules): cannot fetch new default rule after calling fw_folder_delete_rules
+- [libdhcpoptions](https://gitlab.com/soft.at.home/libraries/libdhcpoptions): Add version to `.so` file
+
 ## Release v0.13.1 - 2021-09-13(15:06:16 +0000)
 
 ### Other
