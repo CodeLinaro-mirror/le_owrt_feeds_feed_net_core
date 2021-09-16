@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.14.0 - 2021-09-16(14:54:34 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): implement Firewall.X_Prpl_DMZ
+- [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device): [tr181-Device] add extra documentation to odl
+- [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device): [GMAP-CLIENT] implement proxy, reboot, factoryreset functions
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): LAN device cannot fetch webpage
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): chain 'INPUT_Services' has no references in table 'nat'
+- [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device): [TR181-Device] add sahtrace param
+- [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device): [TR181-Device] add sahtrace param
+
 ## Release v0.13.2 - 2021-09-14(16:24:13 +0000)
 
 ### Fixes
