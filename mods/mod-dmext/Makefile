@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Data model extension module
 
 PKG_SOURCE:=mod-dmext-v0.1.4.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmext/-/archive/v0.1.4
-PKG_HASH:=c7f8e0ff5a1dc443eec8bb28372e3b53bc4758f4ebd2843800d25cb20260c451
+PKG_HASH:=61b950143199999e9adf5a4e10faf050af61d79936366d7fd9a20c2eba8d9674
 PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmext-v0.1.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
