@@ -29,6 +29,7 @@ Feed_net_core includes the following components:
 - [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time) - TR181 Time plugin
 - [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging) - Implementation of Device.Bridging of the TR-181 datamodel
 - [tr181-device](https://gitlab.com/soft.at.home/plugins/tr181-device) - TR-181 compatible Device plugin
+- [tr181-dhcpv6client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6client) - TR-181 compatible DHCPV6 client
 - [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall) - TR181 firewall manager
 - [wan-manager](https://gitlab.com/soft.at.home/plugins/wan-manager) - TR-181 compatible plugin for advanced WAN mode configuration
 
