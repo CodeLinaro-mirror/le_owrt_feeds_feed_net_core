@@ -16,6 +16,7 @@ Feed_net_core includes the following components:
 ### Modules
 
 - [mod-dmext](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmext) - Data model extension module
+- [mod-dmstats](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmstats) - Reusable stats module
 
 ### Plugins
 
