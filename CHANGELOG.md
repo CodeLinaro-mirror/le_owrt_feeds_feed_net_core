@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.15.0 - 2021-09-17(14:26:53 +0000)
+
+### New
+
+- [tr181-dhcpv6client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6client): Component added
+- [ethernet-manager](https://gitlab.com/soft.at.home/plugins/tr181-ethernet): Component added
+- [mod-dmstats](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmstats): Component added
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): setService's argument "interface" should support 'Device.IP.Interface.{i}.' paths
+
 ## Release v0.14.0 - 2021-09-16(14:54:34 +0000)
 
 ### New
