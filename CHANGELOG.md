@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.16.0 - 2021-09-22(14:05:03 +0000)
+
+### New
+
+- [libfwrules](https://gitlab.com/soft.at.home/libraries/libfwrules): match rules by connection state
+
 ## Release v0.15.0 - 2021-09-17(14:26:53 +0000)
 
 ### New
