@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=A library to store ordered firewall rules
 
 PKG_SOURCE:=libfwrules-v1.1.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libfwrules/-/archive/v1.1.1
-PKG_HASH:=skip
+PKG_HASH:=c3d8893c4029cbbc008a8dff6145f51029c4df3051593155de4206079aac1161
 PKG_BUILD_DIR:=$(BUILD_DIR)/libfwrules-v1.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
