@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.0 - 2021-09-27(21:14:37 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): implement Firewall.X_Prpl_Pinhole
+- [tr181-dhcpv4client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4client): Component added
+
 ## Release v0.16.0 - 2021-09-22(14:05:03 +0000)
 
 ### New
