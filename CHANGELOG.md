@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.18.0 - 2021-09-30(16:27:39 +0000)
+
+### New
+
+- [tr181-usermanagement](https://gitlab.com/soft.at.home/plugins/tr181-usermanagement): Component added
+- [pcm-manager](https://gitlab.com/soft.at.home/plugins/tr181-pcm): Component added
+
 ## Release v0.17.0 - 2021-09-27(21:14:37 +0000)
 
 ### New
