@@ -27,6 +27,7 @@ Feed_net_core includes the following components:
 - [ip-manager](https://gitlab.com/soft.at.home/plugins/tr181-ip) - Implementation of Device.IP of the TR-181 datamodel
 - [netdev-plugin](https://gitlab.com/soft.at.home/plugins/netdev) - NetDev monitors the operating system's network devices
 - [netmodel](https://gitlab.com/soft.at.home/plugins/netmodel) - Network Model plugin
+- [pcm-manager](https://gitlab.com/soft.at.home/plugins/tr181-pcm) - Upgrade Persistent Configuration Manager
 - [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing) - Implementation of Device.Routing of the TR-181 datamodel
 - [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time) - TR181 Time plugin
 - [tr181-bridging](https://gitlab.com/soft.at.home/plugins/tr181-bridging) - Implementation of Device.Bridging of the TR-181 datamodel
