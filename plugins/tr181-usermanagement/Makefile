@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=tr181 user management plugin
 
 PKG_SOURCE:=tr181-usermanagement-v0.1.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-usermanagement/-/archive/v0.1.0
-PKG_HASH:=skip
+PKG_HASH:=a6cd2d5708bdc878617b6f56c5b5fc2a03ed0ead71c11e3295eef7708002d347
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-usermanagement-v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
