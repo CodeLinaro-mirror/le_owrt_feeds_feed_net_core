@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.19.0 - 2021-10-06(14:55:29 +0000)
+
+### New
+
+- [mod-vlan-ioctl](https://gitlab.com/soft.at.home/ambiorix/modules/mod-vlan-ioctl): Component added
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4client): Building modules in unit test
+- [tr181-dhcpv4client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4client):  Firewall Support
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): [Time]Time plugin sometimes does not start
+
+### Other
+
+- [tr181-dhcpv4client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4client): Opensource component
+
 ## Release v0.18.0 - 2021-09-30(16:27:39 +0000)
 
 ### New
