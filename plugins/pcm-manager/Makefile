@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=pcm-manager
-PKG_VERSION:=v0.1.0
+PKG_VERSION:=v0.2.0
 SHORT_DESCRIPTION:=Upgrade Persistent Configuration Manager
 
-PKG_SOURCE:=tr181-pcm-v0.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-pcm/-/archive/v0.1.0
-PKG_HASH:=d7663ea40ff0d416532f619922c1b8e408bf04da12968ef07abd659e59cb4638
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-pcm-v0.1.0
+PKG_SOURCE:=tr181-pcm-v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-pcm/-/archive/v0.2.0
+PKG_HASH:=7862984242faaac36d6d0fb787a00dfa2bc75751a52ceb692ce7961b36e3a18c
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-pcm-v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,6 +26,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxd
   DEPENDS += +libamxo
   DEPENDS += +amxrt
+  DEPENDS += +libsahtrace
   MENU:=1
 endef
 
