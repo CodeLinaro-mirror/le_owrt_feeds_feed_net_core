@@ -8,6 +8,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.20.0 - 2021-10-11(20:04:31 +0000)
+
+### New
+
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Implement `mod-routing-uci` logic
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Create `mod-routing-lin` and define controller interface
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Implement `mod-routing-lin` logic
+- [pcm-manager](https://gitlab.com/soft.at.home/plugins/tr181-pcm): Add initial registration support + register pcm against itself
+- [pcm-manager](https://gitlab.com/soft.at.home/plugins/tr181-pcm): Add PersistentConfiguration datamodel
+- [dhcpv6s-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6s): integrate with firewall
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv4client): tr181 DHCP Client set start up order to 27
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Add missing deps in .gitlab-ci.yml
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Enable parameter not in sync with status
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Remove forwarding instance the netlink says the route is gone
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): reset dynamic information when forwarding is set static
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Enable not in the right state for automatic detected routes
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): ODL save file issue
+- [routing-manager](https://gitlab.com/soft.at.home/plugins/tr181-routing): Routing manager does not remove initial IPv\*Forwarding instances
+
+### Changes
+
+- [ip-manager](https://gitlab.com/soft.at.home/plugins/tr181-ip): [TR181 IP] Use amx transactions iso amxd_object_emit_changed
+- [dhcpv6s-manager](https://gitlab.com/soft.at.home/plugins/tr181-dhcpv6s): accept multiple lease ips
+
 ## Release v0.19.0 - 2021-10-06(14:55:29 +0000)
 
 ### New
