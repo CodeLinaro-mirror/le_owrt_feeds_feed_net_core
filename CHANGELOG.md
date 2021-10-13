@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.0 - 2021-10-13(15:14:19 +0000)
+
+### Breaking
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): dhcp(v6) default configuration can be removed
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/soft.at.home/plugins/tr181-firewall): NAT.InterfaceSetting status is error
+- [time-manager](https://gitlab.com/soft.at.home/plugins/tr181-time): set start up order to 30
+
 ## Release v0.20.0 - 2021-10-11(20:04:31 +0000)
 
 ### New
