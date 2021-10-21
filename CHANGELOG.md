@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.1.0 - 2021-10-21(15:08:46 +0000)
+
+### New
+
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): Component added
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Fill in Device.Ethernet.Link.{i}. part
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Create support for VLANTerminations
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): use 'valid' value from lease
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): set start up order to 22
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Fetch only objects, skip templates provided by latest libamxb
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): set Client and subobjects as read-only
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): fw_folder_fetch_default_rule failure
+
 ## Release v1.0.0 - 2021-10-13(15:14:19 +0000)
 
 ### Breaking
