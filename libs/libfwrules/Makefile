@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libfwrules
-PKG_VERSION:=v1.1.2
+PKG_VERSION:=v1.2.0
 SHORT_DESCRIPTION:=A library to store ordered firewall rules
 
-PKG_SOURCE:=libfwrules-v1.1.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/libraries/libfwrules/-/archive/v1.1.2
-PKG_HASH:=c1b8e72ed81f85d14bd040dec1ce85e158c91601f2c1baabc3e48944f8a3cbe2
-PKG_BUILD_DIR:=$(BUILD_DIR)/libfwrules-v1.1.2
+PKG_SOURCE:=libfwrules-v1.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules/-/archive/v1.2.0
+PKG_HASH:=786efe7c2b2b426c14f7af257868f24aa96c4499566d5d13d8cf9a3d4ea42c17
+PKG_BUILD_DIR:=$(BUILD_DIR)/libfwrules-v1.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -20,7 +20,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Libraries
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/soft.at.home/libraries/libfwrules
+  URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules
   DEPENDS += +libamxc
   DEPENDS += +libsahtrace
   MENU:=1
