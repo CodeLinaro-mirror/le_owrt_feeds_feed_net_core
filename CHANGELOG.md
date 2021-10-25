@@ -8,6 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.2.0 - 2021-10-25(18:51:17 +0000)
+
+### New
+
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): [TR181-DHCPv6 Client] use common datamodel with DHCPv6 server
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): support target NFQUEUE
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): support target NFQUEUE
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): use common datamodel with DHCPv4 server
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [TR181-DHCPv6 Server] use common datamodel with DHCPv6 client
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): firewall: open port when being configured from uci
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4):  use common datamodel with DHCPv4 client
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): update objects with read-only
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): emit events on Status change
+
+### Changes
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): [NetModel] Interface path must start with "Device."
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): enable logging
+
 ## Release v1.1.0 - 2021-10-21(15:08:46 +0000)
 
 ### New
