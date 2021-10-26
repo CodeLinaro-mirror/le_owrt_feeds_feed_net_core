@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.3.0 - 2021-10-26(16:38:56 +0000)
+
+### New
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Add a new protected parameter containing the wifi-iface section name
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Generate event when changing Status, ..., in datamodel
+
 ## Release v1.2.0 - 2021-10-25(18:51:17 +0000)
 
 ### New
