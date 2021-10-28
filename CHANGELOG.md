@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.4.0 - 2021-10-28(13:47:17 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): allow rules to match source MAC address
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Send events when (un)linking interfaces
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [TR181 IP manager] Manage a single Static IPv4Address on a fixed lan interface
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Add mod_vlan_uci as an optional VLANController
+- [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/ambiorix/modules/mod-vlan-uci): Component added
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): coverity reports DEADCODE
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Add init script
+
+### Other
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): [BAF] add support for amx docgen
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): [BAF] add support for amx docgen
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Fix unit tests
+
 ## Release v1.3.0 - 2021-10-26(16:38:56 +0000)
 
 ### New
