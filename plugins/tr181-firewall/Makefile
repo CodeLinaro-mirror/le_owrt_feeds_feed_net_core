@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-firewall
-PKG_VERSION:=v2.0.0
+PKG_VERSION:=v2.0.1
 SHORT_DESCRIPTION:=TR181 firewall manager
 
-PKG_SOURCE:=tr181-firewall-v2.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-firewall/-/archive/v2.0.0
-PKG_HASH:=6cdaf317f43a8dfc52e605b91c2351d5539978645d2b1d21ce889b6bc0f11d81
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v2.0.0
+PKG_SOURCE:=tr181-firewall-v2.0.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v2.0.1
+PKG_HASH:=8892d610a93d5a9311d8de342fe838d194a6b679a9ec4e56b36e150112e1bc92
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v2.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -27,7 +27,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/soft.at.home/plugins/tr181-firewall
+  URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
