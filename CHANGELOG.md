@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.5.0 - 2021-11-02(16:47:31 +0000)
+
+### New
+
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Generate event when updating Status, SourceAddress of server in datamodel
+
+### Fixes
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): fix applying read only on Status
+
+### Changes
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): firewall: include in tests, limit max instances
+
 ## Release v1.4.0 - 2021-10-28(13:47:17 +0000)
 
 ### New
