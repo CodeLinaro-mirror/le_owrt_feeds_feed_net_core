@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=time-manager
-PKG_VERSION:=v1.1.5
+PKG_VERSION:=v1.2.0
 SHORT_DESCRIPTION:=TR181 Time plugin
 
-PKG_SOURCE:=tr181-time-v1.1.5.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/plugins/tr181-time/-/archive/v1.1.5
-PKG_HASH:=6afd5e432bf880c95f49a16f6bcc304f3adb9d5d9241ae3539a03f0f1229a056
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-time-v1.1.5
+PKG_SOURCE:=tr181-time-v1.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time/-/archive/v1.2.0
+PKG_HASH:=bf68298b96e39703a191643df815d13c2ca45002e6def7b2b53e41fef4efee64
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-time-v1.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -27,7 +27,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/soft.at.home/plugins/tr181-time
+  URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
