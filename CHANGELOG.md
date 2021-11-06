@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.6.0 - 2021-11-06(21:22:43 +0000)
+
+### New
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [tr181-bridging] add guest config to bridging manager
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] add guest config
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [tr181-dhcpv4] add guest config
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [lib_fwrules] Support for ordered rules
+
+### Fixes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Time.CurrentLocalTime is always displayed in UTC time zone
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): fix writing pool to UCI
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): fix modifying Active after applying read-only
+
 ## Release v1.5.0 - 2021-11-02(16:47:31 +0000)
 
 ### New
