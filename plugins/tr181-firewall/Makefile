@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-firewall
-PKG_VERSION:=v2.1.0
+PKG_VERSION:=v2.3.2
 SHORT_DESCRIPTION:=TR181 firewall manager
 
-PKG_SOURCE:=tr181-firewall-v2.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v2.1.0
-PKG_HASH:=67d1c07009d80ccd3c388ff998a93a656c8efcb94ca4e617ac720c1cf01c0606
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v2.1.0
+PKG_SOURCE:=tr181-firewall-v2.3.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v2.3.2
+PKG_HASH:=af8ad3b0d3949ef9c4c77d5e83f4910c610cfbc427405d38e358d25501219389
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v2.3.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -39,6 +39,8 @@ define Package/$(PKG_NAME)
   DEPENDS += +libfwrules
   DEPENDS += +libfwinterface
   DEPENDS += +iptables
+  DEPENDS += +libmnl
+  DEPENDS += +libnetfilter-queue
   DEPENDS += +libip4tc
   DEPENDS += +libip6tc
   DEPENDS += +libxtables
