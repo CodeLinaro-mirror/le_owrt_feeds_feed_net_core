@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.8.1 - 2021-11-15(18:01:36 +0000)
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): ipv6, attempt to add chain to (not existing) table nat
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): The Firewall level must be configurable in Medium Mode
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Missing mod-sahtrace dependecy in some components
+
 ## Release v1.8.0 - 2021-11-12(15:45:46 +0000)
 
 ### New
