@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.9.0 - 2021-11-16(19:05:49 +0000)
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [IPManager] Provide (protected) API to set an IPv4 Address instance
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Missing mod-sahtrace dependecy in some components
+
+### Changes
+
+- [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci): Move vlan modules from ambiorix folder to core on gitlab.com
+- [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl): Move vlan modules from ambiorix folder to core on gitlab.com
+
+### Other
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Register on start event
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [CI] Disable g++ compilation
+
 ## Release v1.8.1 - 2021-11-15(18:01:36 +0000)
 
 ### Fixes
