@@ -15,8 +15,8 @@ Feed_net_core includes the following components:
 
 ### Modules
 
-- [mod-dmext](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmext) - Data model extension module
-- [mod-dmstats](https://gitlab.com/soft.at.home/ambiorix/modules/mod-dmstats) - Reusable stats module
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext) - Data model extension module
+- [mod-dmstats](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats) - Reusable stats module
 - [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl) - SoC module to help handling vlans
 - [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci) - SoC module to help handling vlans
 
