@@ -37,6 +37,7 @@ Feed_net_core includes the following components:
 - [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client) - TR-181 compatible DHCPv4 client
 - [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client) - TR-181 compatible DHCPv6 client
 - [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall) - TR181 firewall manager
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos) - TR-181 QoS model plugin
 - [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement) - tr181 user management plugin
 - [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing) - WAN Autosensing
 - [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager) - TR-181 compatible plugin for advanced WAN mode configuration
