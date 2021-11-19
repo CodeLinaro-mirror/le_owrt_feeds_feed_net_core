@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.10.0 - 2021-11-19(16:12:00 +0000)
+
+### New
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Component added
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): fix filename typo guest default odl
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): , PCF-405 Disable static routes + enable writing functionality
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): [NetDev] resolve netdev crash when adding / deleting devices at a high rate (> 50/s)
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): fix pool update action
+
+### Changes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [TR181-usermanagement] Always map users to Linux
+
 ## Release v1.9.0 - 2021-11-16(19:05:49 +0000)
 
 ### New
