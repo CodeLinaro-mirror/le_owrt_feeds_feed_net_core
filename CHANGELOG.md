@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.11.0 - 2021-11-23(17:14:37 +0000)
+
+### New
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Use mod_netmodel to populate NetModel with the Port instances
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): mod_netmodel populate netmodel hierarchy (Device.IP.)
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Use mod_netmodel to populate NetModel with the Ethernet instances
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Add mod-netmodel as a dependency
+
+### Other
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [ACL] Usermanagement plugin must provide default Role configuration
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [ACL] The TR181 Firewall manager must have a default ACL configuration
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [ACL] The TR181 Firewall manager must have a default ACL configuration
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Implementation of unit tests (using cmocka)
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): [ACL] The EthernetManager must have default ACLS files configured
+
 ## Release v1.10.0 - 2021-11-19(16:12:00 +0000)
 
 ### New
