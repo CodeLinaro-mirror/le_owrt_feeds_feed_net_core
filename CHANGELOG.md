@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.12.0 - 2021-11-24(16:26:05 +0000)
+
+### New
+
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca): Component added
+
+### Changes
+
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): enable dhcpv6 guest pool by default
+
+### Other
+
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): [ACL] The Device plugin must have a default ACL configuration
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [ACL] The TR-181 bridging manager must have default acl files configured
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [ACL] The Routing manager must have default ACL files configured
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [ACL] The DeviceInformation plugin needs to have a default ACL configuration
+
 ## Release v1.11.0 - 2021-11-23(17:14:37 +0000)
 
 ### New
