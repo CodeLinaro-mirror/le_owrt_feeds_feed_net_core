@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=moca plugin
 
 PKG_SOURCE:=tr181-moca-v0.1.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/v0.1.0
-PKG_HASH:=skip
+PKG_HASH:=a3f6f5e280f7810fbfbc9032e2bd60111be79b65b0011cfa391f0c8a108b262a
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
