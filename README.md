@@ -27,6 +27,7 @@ Feed_net_core includes the following components:
 - [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s) - Implementation of Device.DHCPv6.Server. object of the TR-181 datamodel
 - [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet) - Ethernet plugin
 - [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip) - Implementation of Device.IP of the TR-181 datamodel
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca) - moca plugin
 - [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev) - NetDev monitors the operating system's network devices
 - [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel) - Network Model plugin
 - [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm) - Upgrade Persistent Configuration Manager
