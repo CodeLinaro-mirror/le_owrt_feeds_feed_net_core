@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.13.0 - 2021-11-25(16:17:56 +0000)
+
+### New
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): Component added
+
+### Fixes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [TR181 Usermanagement] Don't fail on nonexistent groups
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): increase dnsmasq timeout and make it configurable
+
+### Changes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Add first unit tests
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Use TR181 path in parameter Interface of datamodel
+
+### Other
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): [ACL] Add default ACL file for the QoS Manager
+
 ## Release v1.12.0 - 2021-11-24(16:26:05 +0000)
 
 ### New
