@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.15.0 - 2021-11-30(20:47:37 +0000)
+
+### New
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Update the ipv4 instances in ip-manager
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Implement pcm_json mod (soc)
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Component added
+
+### Fixes
+
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Cleanup of DM + implementation of missing functions
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): variant cleanup
+
+### Other
+
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): [CI] Disable g++ compilation
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): [CI] Update dependencies
+
 ## Release v1.14.0 - 2021-11-30(08:07:45 +0000)
 
 ### New
