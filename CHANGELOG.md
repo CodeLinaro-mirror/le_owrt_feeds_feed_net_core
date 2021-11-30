@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.14.0 - 2021-11-30(08:07:45 +0000)
+
+### New
+
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Component added
+
+### Fixes
+
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca): Fix loading of datamodel
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Apply correct default configuration for a guest network
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Apply correct default configuration for a guest network
+
+### Changes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): only reload network for static addresses
+
 ## Release v1.13.0 - 2021-11-25(16:17:56 +0000)
 
 ### New
