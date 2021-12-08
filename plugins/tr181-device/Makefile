@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-device
-PKG_VERSION:=v0.3.1
+PKG_VERSION:=v0.3.2
 SHORT_DESCRIPTION:=TR-181 compatible Device plugin
 
-PKG_SOURCE:=tr181-device-v0.3.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device/-/archive/v0.3.1
-PKG_HASH:=da2aae8b9a47bf033187fad251c90bc99e3458a65756c8eebb7e9952bf37481a
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-device-v0.3.1
+PKG_SOURCE:=tr181-device-v0.3.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device/-/archive/v0.3.2
+PKG_HASH:=f512713cf75c6ad162e52d22a8dd3af4ddf0cf404177b0b0524a494e78885e02
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-device-v0.3.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -35,6 +35,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libsahtrace
   DEPENDS += +libamxo
   DEPENDS += +mod-dmext
+  DEPENDS += +mod-dmproxy
   MENU:=1
 endef
 
