@@ -8,6 +8,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.16.0 - 2021-12-09(17:15:54 +0000)
+
+### New
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): mod-ra-uci: initial commit
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): Add SendBootEvent function to the tr181-device component
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): set flag "netdev" on NetModel interfaces
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): Component added
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Implement reference following to local object
+
+### Fixes
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): fix loading defaults
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): update changes of ReqOption/SentOption to uci
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): [amx][NetModel] Handle events from entry point events before sending app:start
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Fix memory leaks
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): Fix tests subscription handling
+
+### Changes
+
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): Use module mod-dmproxy
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): [amx][NetModel] Add guest interface to defaults
+
+### Other
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): Skip check of ci jobs
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): [CI] Add missing dependency for libdhcpoptions
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [ACL] The IP Manager must have default ACL files configured
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Move component from ambiorix to core on gitlab.com
+
 ## Release v1.15.0 - 2021-11-30(20:47:37 +0000)
 
 ### New
