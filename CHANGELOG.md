@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.17.0 - 2021-12-11(11:05:44 +0000)
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Implement IPv6Address population
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add validator for IPv6 prefixes
+
+### Fixes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Use interface name instead of device name for chronyd
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): tr181-qos: Make controller and supportedControllers parameter visible in dm
+
 ## Release v1.16.0 - 2021-12-09(17:15:54 +0000)
 
 ### New
