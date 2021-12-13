@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.17.1 - 2021-12-13(22:11:42 +0000)
+
+### Fixes
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): notify status change before triggering dnsmasq
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): node: Adapt nodes default config and make children and parents not protected.
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): nodes: Use mod_dmext
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Plugins should only start when wan is up
+
 ## Release v1.17.0 - 2021-12-11(11:05:44 +0000)
 
 ### New
