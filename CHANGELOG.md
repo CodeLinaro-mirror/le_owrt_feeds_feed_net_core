@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.18.0 - 2021-12-16(18:06:47 +0000)
+
+### New
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): queuestats: unit tests
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Implement IP address queries
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): Add multi object support to mod_pcm_svc
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): Add IP address query functions
+- [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions): Added string to binary conversion for use in DHCPv4 client
+
+### Other
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - Adding unit tests for queue stats
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): Add documentation generation
+
 ## Release v1.17.1 - 2021-12-13(22:11:42 +0000)
 
 ### Fixes
