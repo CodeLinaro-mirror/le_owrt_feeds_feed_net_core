@@ -8,6 +8,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v2.0.0 - 2022-01-07(17:10:54 +0000)
+
+### Breaking
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): rename DMZ parameter SourceInterface to Interface
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Component added
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Integrate with NetDev
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Integrate with tr181-dhcpv4client and tr181-ethernet-manager
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): Automatic interface sensing data model
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Add invalid passwords
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [TR181 Usermanagement] Add private home directory parameter to Users.User
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [TR181 Usermanagement] Add build option for SHA512
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): subscribe to ipv6prefixes
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): use libnetmodel to translate the TR181 interface path to the interface name
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Support SentOption
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): retrieve requested options from dhcpv4 client (udhcpc)
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): pcm manager should use mod_pcm_scv for backuping itself
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): create mib_ethernet
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Component added
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Set IPv6 address in Linux
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Support for IP.Interface.Enable and IP.Interface.IPv4Enable
+
+### Fixes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [TR181 Usermanagement] Creating user on GL-B1300 wipes /etc/shadow
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Remove dictionary
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): implement ip client and ip mib
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca): Stats must not be persistent
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): mod_pcm_svc should not use printfs
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): [folder] Cleanup unused rules when invoking fw_folder_delete
+
+### Changes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Add event and action handler unit tests
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): license: change to BSD-2-Clause-Patent license
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Use BSD-2-Clause-Patent license
+
+### Other
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - Use BSD-2-Clause-Patent license
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [CI] Add libnetmodel as build dependency
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Use BSD-2-Clause-Patent license
+
 ## Release v1.18.0 - 2021-12-16(18:06:47 +0000)
 
 ### New
