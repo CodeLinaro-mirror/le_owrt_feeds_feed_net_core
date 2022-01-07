@@ -48,6 +48,10 @@ Feed_net_core includes the following components:
 - [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing) - WAN Autosensing
 - [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager) - TR-181 compatible plugin for advanced WAN mode configuration
 
+### Utilities
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator) - Odl generator using ucode.
+
 ## How to add feed_net_core to your OpenWrt build
 
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
