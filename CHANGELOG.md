@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v2.1.0 - 2022-01-11(20:12:39 +0000)
+
+### New
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Add default file matching hwg config
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Create DHCPv6 Client mapping in NetModel
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Retrieve and RequestedOptions
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Create DHCPv4 Client mapping in NetModel
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Create DHCPv6 Client mapping in NetModel
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Create DHCPv4 Client mapping in NetModel
+
+### Changes
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): implement ip client and ip mib
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): create mib_ethernet
+
 ## Release v2.0.0 - 2022-01-07(17:10:54 +0000)
 
 ### Breaking
