@@ -8,6 +8,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v2.2.0 - 2022-01-14(21:25:50 +0000)
+
+### New
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Support queries on TR181 paths that are not yet present
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): IP client startup does not always work properly
+
+### Fixes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Renamed bridging guest default odl to align wth main TR181 bridging manager
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): test coverage in unit test
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Use default flags
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Ensure backup path exist on boot
+
+### Changes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Aligning odl templates according to changes in ip-manager v1.10.0
+
+### Other
+
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Document code
+
 ## Release v2.1.0 - 2022-01-11(20:12:39 +0000)
 
 ### New
