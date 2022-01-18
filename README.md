@@ -9,7 +9,7 @@ Feed_net_core includes the following components:
 ### Libraries
 
 - [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions) - Library to parse and evaluate the binary data of DHCP options
-- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between lib_fwrules and netfilter
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
 - [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel) - NetModel client library
 

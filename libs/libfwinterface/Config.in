@@ -12,14 +12,14 @@ config SAH_LIB_FWINTERFACE
     default n
 
 choice
-    prompt "Choose the interface to use between lib_fwrules and netfilter"
+    prompt "Choose the interface to use between libfwrules and netfilter"
     default SAH_LIB_FWINTERFACE_INTERFACE_IPTC
 
 config SAH_LIB_FWINTERFACE_INTERFACE_DUMMY
     bool "Dummy interface. Does nothing"
 
 config SAH_LIB_FWINTERFACE_INTERFACE_IPTC
-    bool "Use lib_iptc as the interface"
+    bool "Use libiptc as the interface"
 
 endchoice
 

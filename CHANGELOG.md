@@ -347,7 +347,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [tr181-bridging] add guest config to bridging manager
 - [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] add guest config
 - [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [tr181-dhcpv4] add guest config
-- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [lib_fwrules] Support for ordered rules
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Support for ordered rules
 
 ### Fixes
 
