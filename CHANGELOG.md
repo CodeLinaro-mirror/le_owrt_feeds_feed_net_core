@@ -8,6 +8,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v2.3.0 - 2022-01-21(19:21:56 +0000)
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Add wireless interfaces support including guest virtual access points
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Reload Trigger
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): expand libnetmodel for mibs/netmodel-clients
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): Support queries on TR181 paths that are not yet present
+
+### Fixes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Aligning odl templates according to changes in ip-manager v1.11.0
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Fix some potential null ptr dereference issues
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Fix memory leaks
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): IPv4/6 Enable and some other small features need fixing
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Remove X_PRPL prefixes
+
+### Other
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Add support for RouterInformation
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Add unit tests
+
 ## Release v2.2.0 - 2022-01-14(21:25:50 +0000)
 
 ### New
