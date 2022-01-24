@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=multisettings
-PKG_VERSION:=v0.2.0
+PKG_VERSION:=v0.3.0
 SHORT_DESCRIPTION:=multisettings plugin
 
-PKG_SOURCE:=multisettings-v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/multisettings/-/archive/v0.2.0
-PKG_HASH:=da57ce34b6be026600e44ce7531fbc65d5352884d4305f7292f1835d3b26ea51
-PKG_BUILD_DIR:=$(BUILD_DIR)/multisettings-v0.2.0
+PKG_SOURCE:=multisettings-v0.3.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/multisettings/-/archive/v0.3.0
+PKG_HASH:=29b1e625b189902fabf6532f48c57b580301d2899cf98cf36c5fd67d6a1fdc2e
+PKG_BUILD_DIR:=$(BUILD_DIR)/multisettings-v0.3.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
