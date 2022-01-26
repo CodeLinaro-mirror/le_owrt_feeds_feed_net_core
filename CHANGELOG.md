@@ -8,6 +8,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v2.4.0 - 2022-01-26(12:56:40 +0000)
+
+### New
+
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Restart impacted modules when profile is found
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): Add a parameter to configure detection at each boot
+
+### Fixes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Align with ip-manager v1.11.1
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): parameters not synced after reboot
+
+### Changes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Component downstepped from v3.0.0 to v2.3.5
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Integrate support for bridging in NetModel
+
+### Other
+
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Change documentation path
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+
 ## Release v2.3.0 - 2022-01-21(19:21:56 +0000)
 
 ### New
