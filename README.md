@@ -11,7 +11,6 @@ Feed_net_core includes the following components:
 - [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions) - Library to parse and evaluate the binary data of DHCP options
 - [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
-- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel) - NetModel client library
 
 ### Modules
 
@@ -33,7 +32,6 @@ Feed_net_core includes the following components:
 - [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca) - moca plugin
 - [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings) - multisettings plugin
 - [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev) - NetDev monitors the operating system's network devices
-- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel) - Network Model plugin
 - [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm) - Upgrade Persistent Configuration Manager
 - [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing) - Implementation of Device.Routing of the TR-181 datamodel
 - [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time) - TR181 Time plugin
