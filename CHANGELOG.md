@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v3.0.0 - 2022-01-28(19:52:27 +0000)
+
+### Removed
+
+- [netmodel](https://gitlab.com/prpl-foundation/components/core/plugins/netmodel): Component removed
+- [libnetmodel](https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel): Component removed
+
+### Fixes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Only use index paths when opening NetModel queries
+
+### Changes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Component downstepped from v0.6.0 to v0.5.0
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Component downstepped from v1.3.5 to v1.3.0
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Component downstepped from v1.3.2 to v1.3.0
+
 ## Release v2.4.0 - 2022-01-26(12:56:40 +0000)
 
 ### New
