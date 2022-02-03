@@ -8,6 +8,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v4.0.0 - 2022-02-03(20:12:57 +0000)
+
+### Breaking
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): rename DMZ parameter SourceInterface to Interface
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): [Libfwrules] add mask to mark
+
+### New
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): use libnetmodel to translate the TR181 interface path to the interface name
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): ADDRESSES, PREFIXES environment vars from odhcp6c to multi instance ReceivedOptions
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Add extra router advertisement parameters
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Add bridge mib with STP object to NetDev.Link when Kind == "bridge"
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): mod_pcm_svc shout support restore on register and auto sync ctrl
+
+### Fixes
+
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): [folder] Cleanup unused rules when invoking fw_folder_delete
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] move classificationkey to queuekey and add interface parameter to scheduler
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Integrate support for bridging in NetModel
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Use BSD-2-Clause-Patent license
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [CI] Add libnetmodel as build dependency
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Document Data Model (odl files)
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Change documentation path
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Use BSD-2-Clause-Patent license
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): [CI] Fix BUILD_DEPS for debian bullseye
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): move ClassificationKey to queues and add interface parameter to scheduler
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+
 ## Release v3.0.0 - 2022-01-28(19:52:27 +0000)
 
 ### Removed
