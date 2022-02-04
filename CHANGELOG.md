@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v4.1.0 - 2022-02-04(15:18:27 +0000)
+
+### New
+
+- [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions): [lib DHCPOptions] Add parsing code for router advertisement options
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] Startup order does not work
+
 ## Release v4.0.0 - 2022-02-03(20:12:57 +0000)
 
 ### Breaking
