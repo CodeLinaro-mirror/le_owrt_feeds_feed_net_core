@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dmproxy
-PKG_VERSION:=v0.1.0
+PKG_VERSION:=v0.1.2
 SHORT_DESCRIPTION:=Data model object proxy
 
-PKG_SOURCE:=mod-dmproxy-v0.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy/-/archive/v0.1.0
-PKG_HASH:=63b5bb4c8c664d9f907969e5778b892eb904d91baada8ecc0e470a35cb12e255
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmproxy-v0.1.0
+PKG_SOURCE:=mod-dmproxy-v0.1.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy/-/archive/v0.1.2
+PKG_HASH:=94595fe8a508f3e588dc4b0a708da2efda3802b401c4f731615f391ff69511ff
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmproxy-v0.1.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
