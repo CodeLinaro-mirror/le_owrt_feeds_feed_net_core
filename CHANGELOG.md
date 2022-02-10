@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v4.3.0 - 2022-02-10(20:54:42 +0000)
+
+### New
+
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): - Add matches trigger and some unit test
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Segmentation faults in Addr, Neigh, Route and Link handlers
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [prpl][qos] After a save(), the QoS plugin does not start anymore
+
 ## Release v4.1.0 - 2022-02-04(15:18:27 +0000)
 
 ### New
