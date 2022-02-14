@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-firewall
-PKG_VERSION:=v3.0.1
+PKG_VERSION:=v3.1.0
 SHORT_DESCRIPTION:=TR181 firewall manager
 
-PKG_SOURCE:=tr181-firewall-v3.0.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v3.0.1
-PKG_HASH:=31c78d07477529d4683fe4522ac13384bca804c65026ad1452efa8e2c50d9b17
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v3.0.1
+PKG_SOURCE:=tr181-firewall-v3.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v3.1.0
+PKG_HASH:=d5e041a88a882e7edfb63fab360039aa73b99d0a65128dd4e38e8951702690a1
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v3.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -50,6 +50,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +kmod-nf-conntrack6
   DEPENDS += +kmod-ipt-nat
   DEPENDS += +kmod-ipt-nfqueue
+  DEPENDS += +mod-pcm-svc
   MENU:=1
 endef
 
