@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v4.4.0 - 2022-02-14(20:57:50 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Definition of Upgrade Persistent NAT(PortMapping) Configuration
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Definition of Upgrade Persistent Firewall Configuration
+
+### Fixes
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Routing] parse option 3, decrease index counter
+
 ## Release v4.3.0 - 2022-02-10(20:54:42 +0000)
 
 ### New
