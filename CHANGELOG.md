@@ -8,6 +8,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.0.0 - 2022-02-18(15:47:07 +0000)
+
+### Breaking
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): bad prefix "X_Prpl_" for vendor specific objects
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): It must be possible to set an IPv6 Address using the linux low level API
+
+### Fixes
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Fix enable param + other small issues
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): IP-manager build fails on rpi3 build
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): only the NetDev client should synchronize NetDevName
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Loopback status unkown when link is up
+
+### Changes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Rework variants for tc module
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): It should be possible to set multiple IPv4Addresses
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Use mod-ipm-netlink for IPAddresses the UCI module can't set
+
 ## Release v4.4.0 - 2022-02-14(20:57:50 +0000)
 
 ### New
