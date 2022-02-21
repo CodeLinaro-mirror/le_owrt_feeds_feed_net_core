@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.1.0 - 2022-02-21(16:15:44 +0000)
+
+### New
+
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): Component added
+- [libqosmod](https://gitlab.com/prpl-foundation/components/core/libraries/libqosmod): Component added
+
+### Changes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): add a default rule to allow ssh
+
 ## Release v5.0.0 - 2022-02-18(15:47:07 +0000)
 
 ### Breaking
