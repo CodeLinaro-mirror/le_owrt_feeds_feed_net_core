@@ -1,10 +1,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-qos-tc
-PKG_VERSION:=v1.0.0
+PKG_VERSION:=v1.0.1
 SHORT_DESCRIPTION:=Linux tc QoS Implementation
 
+PKG_SOURCE:=mod-qos-tc-v1.0.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v1.0.1
+PKG_HASH:=280db9104cae17a6ecf32ef03a579778b305ca01c9af56c558203fe2f248af7e
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v1.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
+PKG_LICENSE:=BSD-2-Clause-Patent
+PKG_LICENSE_FILES:=LICENSE
 
 PKG_RELEASE:=1
 
@@ -14,6 +20,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
+  URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc
   DEPENDS += +libamxc
   DEPENDS += +libamxm
   DEPENDS += +libnl-core
