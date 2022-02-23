@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.1.2 - 2022-02-23(17:14:38 +0000)
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [automated testing] not clear when the system is done initializing
+
 ## Release v5.1.1 - 2022-02-22(15:07:19 +0000)
 
 ## Release v5.1.0 - 2022-02-21(16:15:44 +0000)
