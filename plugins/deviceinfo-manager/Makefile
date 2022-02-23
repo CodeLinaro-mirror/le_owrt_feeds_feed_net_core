@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=deviceinfo-manager
-PKG_VERSION:=v1.0.3
+PKG_VERSION:=v1.0.4
 SHORT_DESCRIPTION:=TR-181 compatible DeviceInfo plugin
 
-PKG_SOURCE:=tr181-deviceinfo-v1.0.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo/-/archive/v1.0.3
-PKG_HASH:=a84b5343d70f9abdee3da0880eec167203ea265981e462f1f108de76e65c1575
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-deviceinfo-v1.0.3
+PKG_SOURCE:=tr181-deviceinfo-v1.0.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo/-/archive/v1.0.4
+PKG_HASH:=f567a0b5a46bb32953ec68113b8a85642488edcaed8a68029c804e474f61c658
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-deviceinfo-v1.0.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,6 +19,7 @@ PKG_RELEASE:=1
 define SAHInit/Install
 	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
 	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/S$(CONFIG_SAH_AMX_TR181_DEVICEINFO_ORDER)$(COMPONENT)
+	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/Z_sysinit_done ${PKG_INSTALL_DIR}/etc/rc.d/S99Z_sysinit_done
 endef
 
 include $(INCLUDE_DIR)/package.mk
