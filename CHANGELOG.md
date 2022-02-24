@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.2.0 - 2022-02-24(20:34:17 +0000)
+
+### New
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Add an Alias parameter Link
+
+### Fixes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] QueueKey must be used as queue identifier
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): crash when portmapping is deleted
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Segfault when interface no longer exists when event is handled
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): - component crashes at startup
+
 ## Release v5.1.2 - 2022-02-23(17:14:38 +0000)
 
 ### Other
