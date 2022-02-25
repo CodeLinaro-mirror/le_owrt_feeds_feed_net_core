@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.2.1 - 2022-02-25(10:44:05 +0000)
+
+### Other
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Update documentation
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Update documentation
+
 ## Release v5.2.0 - 2022-02-24(20:34:17 +0000)
 
 ### New
