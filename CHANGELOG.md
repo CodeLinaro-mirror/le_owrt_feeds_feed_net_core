@@ -8,6 +8,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.3.0 - 2022-02-25(14:06:49 +0000)
+
+### New
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Add default file matching hwg config
+
+### Other
+
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Enable core dumps by default
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Enable core dumps by default
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): Enable core dumps by default
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Enable core dumps by default
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Enable core dumps by default
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Enable core dumps by default
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): Enable core dumps by default
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Enable core dumps by default
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Enable core dumps by default
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Enable core dumps by default
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): Enable core dumps by default
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca): Enable core dumps by default
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Enable core dumps by default
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Enable core dumps by default
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): Enable core dumps by default
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): Enable core dumps by default
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Enable core dumps by default
+
 ## Release v5.2.1 - 2022-02-25(10:44:05 +0000)
 
 ### Other
