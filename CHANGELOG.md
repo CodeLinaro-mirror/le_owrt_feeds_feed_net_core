@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.3.1 - 2022-02-26(08:50:51 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Stats no longer work
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): - [prpl][qos][tc] Invalid free of variants
+
 ## Release v5.3.0 - 2022-02-25(14:06:49 +0000)
 
 ### New
