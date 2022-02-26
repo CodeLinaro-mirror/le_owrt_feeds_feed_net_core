@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-qos-tc
-PKG_VERSION:=v1.0.1
+PKG_VERSION:=v1.0.2
 SHORT_DESCRIPTION:=Linux tc QoS Implementation
 
-PKG_SOURCE:=mod-qos-tc-v1.0.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v1.0.1
-PKG_HASH:=280db9104cae17a6ecf32ef03a579778b305ca01c9af56c558203fe2f248af7e
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v1.0.1
+PKG_SOURCE:=mod-qos-tc-v1.0.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v1.0.2
+PKG_HASH:=56e69e22aff5f49f7c91903041d4c537df9ef4822ebe9dccb1c077e389a1db66
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v1.0.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
