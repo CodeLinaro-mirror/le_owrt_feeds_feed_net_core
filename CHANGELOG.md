@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.3.2 - 2022-02-27(09:11:50 +0000)
+
+### Other
+
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): [TR181-ethernet] Apply proper default values
+
 ## Release v5.3.1 - 2022-02-26(08:50:51 +0000)
 
 ### Fixes
