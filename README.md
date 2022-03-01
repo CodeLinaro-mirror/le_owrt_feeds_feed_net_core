@@ -12,6 +12,7 @@ Feed_net_core includes the following components:
 - [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
 - [libqosmod](https://gitlab.com/prpl-foundation/components/core/libraries/libqosmod) - A library for the qos modules
+- [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx) - Ambiorix module to configure the tr181-firewall
 
 ### Modules
 
