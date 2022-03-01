@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.4.0 - 2022-03-01(16:01:13 +0000)
+
+### New
+
+- [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx): Component added
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Make NetLink history bigger
+
+### Other
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [TR181-ethernet] Apply proper default values
+
 ## Release v5.3.2 - 2022-02-27(09:11:50 +0000)
 
 ### Other
