@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libfwinterface
 PKG_VERSION:=v1.3.4
-SHORT_DESCRIPTION:=A library providing interfaces between libfwrules and netfilter
+SHORT_DESCRIPTION:=A library providing interfaces between lib_fwrules and netfilter
 
 PKG_SOURCE:=libfwinterface-v1.3.4.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface/-/archive/v1.3.4
@@ -30,7 +30,7 @@ define Package/$(PKG_NAME)
 endef
 
 define Package/$(PKG_NAME)/description
-	A library providing interfaces between libfwrules and netfilter
+	A library providing interfaces between lib_fwrules and netfilter
 endef
 
 define Build/Compile
