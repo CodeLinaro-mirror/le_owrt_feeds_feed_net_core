@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.4.1 - 2022-03-03(12:21:04 +0000)
+
+### Fixes
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): Remove IP flags from netmodel queries to get netdevname
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Remove IP flags from netmodel queries to get netdevname
+
 ## Release v5.4.0 - 2022-03-01(16:01:13 +0000)
 
 ### New
