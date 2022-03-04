@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.5.0 - 2022-03-04(07:14:08 +0000)
+
+### New
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [CONFIG] add lcm interface to config
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [CONFIG] add lcm interface to config
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): [CONFIG] add lcm interface to config
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [CONFIG] add lcm interface to config
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [CONFIG] add lcm interface to config
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [CONFIG] add lcm interface to config
+
 ## Release v5.4.1 - 2022-03-03(12:21:04 +0000)
 
 ### Fixes
