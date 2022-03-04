@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.6.0 - 2022-03-04(16:18:54 +0000)
+
+### New
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Rework environment script to handle more devices
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Create NetModel query for DHCP
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR-181][Routing]handle forwarding routes correctly
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Possible segfault do to not allocated timestamps
+
 ## Release v5.5.0 - 2022-03-04(07:14:08 +0000)
 
 ### New
