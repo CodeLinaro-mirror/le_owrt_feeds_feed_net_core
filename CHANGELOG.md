@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.6.1 - 2022-03-07(16:03:27 +0000)
+
+### Fixes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [DeviceInfo] Persistent parameters are not persistent
+
+### Changes
+
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Interface parameter change is not taken into account, use of netmodel
+
 ## Release v5.6.0 - 2022-03-04(16:18:54 +0000)
 
 ### New
