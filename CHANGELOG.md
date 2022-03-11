@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.7.1 - 2022-03-11(18:52:43 +0000)
+
+### Other
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Use NetModel to listen on Interface changes
+
 ## Release v5.7.0 - 2022-03-11(10:31:22 +0000)
 
 ### New
