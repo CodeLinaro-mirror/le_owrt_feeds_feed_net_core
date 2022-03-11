@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.7.0 - 2022-03-11(10:31:22 +0000)
+
+### New
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR-181][Routing] allow router advertisement message
+
+### Fixes
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Disable lcm bridge
+
+### Other
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Routing] add unit test for the ipvforwarding obj
+
 ## Release v5.6.1 - 2022-03-07(16:03:27 +0000)
 
 ### Fixes
