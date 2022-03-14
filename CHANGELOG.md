@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.7.3 - 2022-03-14(18:16:29 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Memory leak, bridge_stpstate_converter not destroyed
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): After de ethernet cable is removed/interface goes down,...
+
 ## Release v5.7.2 - 2022-03-14(09:16:46 +0000)
 
 ## Release v5.7.1 - 2022-03-11(18:52:43 +0000)
