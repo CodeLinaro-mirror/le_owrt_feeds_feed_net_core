@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.8.0 - 2022-03-15(11:09:01 +0000)
+
+### New
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Add NetLink message counters
+
 ## Release v5.7.3 - 2022-03-14(18:16:29 +0000)
 
 ### Fixes
