@@ -8,6 +8,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v5.9.0 - 2022-03-17(15:38:04 +0000)
+
+### New
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [amx][firewall] Add a debug script for deviceInfo
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Add an Alias parameter to Link
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [getDebugInformation] Install a getdebug information script in the prplOS
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [amx][firewall] Add a debug script for the firewall
+
+### Fixes
+
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Change NetDev subscription from Name to Alias based
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Change NetDev subscription from Name to Alias based
+
+### Changes
+
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Let NetDev report the lo interface status as up when it is unknown
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Let NetDev report the lo interface status as up when it is unknown
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): implement iprouter client and iprouter mib
+
+### Other
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [DHCPv4Server] Improve logging
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Routing] add unit tests that override some of the stand alone tests
+
 ## Release v5.8.1 - 2022-03-15(15:40:35 +0000)
 
 ## Release v5.8.0 - 2022-03-15(11:09:01 +0000)
