@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.0.0 - 2022-03-18(19:44:48 +0000)
+
+### Breaking
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): The Time plugin does not configure the firewall correctly.
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [getDebugInformation] Install a getdebug information script in the prplOS
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Status not working
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Make LowerLayers persistent
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): DHCP Option 61 Support
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Crash at boot detected
+
+### Changes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): use defaults.d directory for default ODL files
+
 ## Release v5.9.0 - 2022-03-17(15:38:04 +0000)
 
 ### New
