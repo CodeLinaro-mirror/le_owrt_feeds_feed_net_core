@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.1.0 - 2022-03-21(14:30:14 +0000)
+
+### New
+
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca): [MoCa] [debug] It must be possible to gather specific MoCa debug information.
+
 ## Release v6.0.0 - 2022-03-18(19:44:48 +0000)
 
 ### Breaking
