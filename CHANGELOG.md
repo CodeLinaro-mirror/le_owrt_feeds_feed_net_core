@@ -8,6 +8,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.2.2 - 2022-03-24(17:41:20 +0000)
+
+### Changes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [GetDebugInformation] Add data model debuginfo in component services
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [GetDebugInformation] Add data model debuginfo in component services
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [GetDebugInformation] Add data model debuginfo in component services
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): [GetDebugInformation] Add data model debuginfo in component services
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [GetDebugInformation] Add data model debuginfo in component services
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): [GetDebugInformation] Add data model debuginfo in component services
+- [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm): [GetDebugInformation] Add data model debuginfo in component services
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [GetDebugInformation] Add data model debuginfo in component services
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [GetDebugInformation] Add data model debuginfo in component services
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): [GetDebugInformation] Add data model debuginfo in component services
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): [GetDebugInformation] Add data model debuginfo in component services
+
 ## Release v6.2.1 - 2022-03-24(09:23:24 +0000)
 
 ### Changes
