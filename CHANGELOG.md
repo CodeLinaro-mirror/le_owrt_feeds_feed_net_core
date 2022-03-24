@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.2.3 - 2022-03-24(19:48:24 +0000)
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Wrong Status of DHCP IPv4Address
+
 ## Release v6.2.2 - 2022-03-24(17:41:20 +0000)
 
 ### Changes
