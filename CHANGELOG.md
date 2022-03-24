@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.2.1 - 2022-03-24(09:23:24 +0000)
+
+### Changes
+
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): [amx][WANAutosensing] [WANManager] Use proper vendor extension prefix
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Issue:  HOP-1208  [WAN-Manager] WAN Manager cleanup
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): [amx][WANAutosensing] [WANManager] Use proper vendor extension prefix
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [automated testing] not clear when the system is done initializing
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): Enable core dumps by default
+
 ## Release v6.2.0 - 2022-03-22(09:08:07 +0000)
 
 ### New
