@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.3.0 - 2022-03-26(07:11:47 +0000)
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Add templating for qos manager to handle various wan interfaces
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): possible crash when removing Links
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Link entries are not deleted fast enough
+
+### Changes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): [GetDebugInformation] Add data model debuginfo in component services
+
 ## Release v6.2.3 - 2022-03-24(19:48:24 +0000)
 
 ### Fixes
