@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.4.0 - 2022-03-28(16:43:55 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): add lcm interface to config
+
 ## Release v6.3.0 - 2022-03-26(07:11:47 +0000)
 
 ### New
