@@ -1,6 +1,6 @@
 # Feed_net_core
 
-SoftAtHome feed of Openwrt packages for networking components.
+SoftAtHome feed of Openwrt packages for networking components. This branch includes the components delivered to prpl.
 
 ## Included components
 
@@ -12,7 +12,6 @@ Feed_net_core includes the following components:
 - [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
 - [libqosmod](https://gitlab.com/prpl-foundation/components/core/libraries/libqosmod) - A library for the qos modules
-- [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx) - Ambiorix module to configure the tr181-firewall
 
 ### Modules
 
@@ -20,7 +19,6 @@ Feed_net_core includes the following components:
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy) - Data model object proxy
 - [mod-dmstats](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats) - Reusable stats module
 - [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc) - Upgrade Persistent Configuration Manager service module
-- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc) - Linux tc QoS Implementation
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace) - Module for sahtrace logging
 - [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl) - SoC module to help handling vlans
 - [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci) - SoC module to help handling vlans
