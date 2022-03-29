@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v0.0.3 - 2022-03-29(07:49:17 +0000)
+
+### Changes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Component downstepped from v1.2.2 to v1.0.3
+
 ## Release proj_prpl_v0.0.2 - 2022-03-28(15:14:22 +0000)
 
 ### Changes
