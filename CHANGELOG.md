@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v0.0.4 - 2022-03-29(09:02:58 +0000)
+
+### Changes
+
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): Component downstepped from v0.3.0 to v0.2.1
+
 ## Release proj_prpl_v0.0.3 - 2022-03-29(07:49:17 +0000)
 
 ### Changes
