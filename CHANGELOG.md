@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.4.1 - 2022-03-29(15:18:09 +0000)
+
+### Fixes
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): RAPlugin must configure the Firewall
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [tr181-deviceinfo] Cannot override DeviceInfo.Description
+
 ## Release v6.4.0 - 2022-03-28(16:43:55 +0000)
 
 ### New
