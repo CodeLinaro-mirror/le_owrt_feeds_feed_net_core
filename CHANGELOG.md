@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.4.2 - 2022-03-29(17:04:35 +0000)
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): [TR181 DHCPv4Client] Config update failed
+
 ## Release v6.4.1 - 2022-03-29(15:18:09 +0000)
 
 ### Fixes
