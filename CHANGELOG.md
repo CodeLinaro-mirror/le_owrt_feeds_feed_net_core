@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.5.0 - 2022-04-01(12:31:37 +0000)
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Set IPv6 address/prefix status
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): The loopback interface must be marked with the netdev flag.
+
 ## Release v6.4.2 - 2022-03-29(17:04:35 +0000)
 
 ### Fixes
