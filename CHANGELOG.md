@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.5.2 - 2022-04-05(10:31:41 +0000)
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): LastChange parameters doesn't reset when the status changes
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): [TR181 DHCPv4Client] Fix DHCP client
+
 ## Release v6.5.1 - 2022-04-01(15:02:58 +0000)
 
 ## Release v6.5.0 - 2022-04-01(12:31:37 +0000)
