@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.5.3 - 2022-04-06(10:06:09 +0000)
+
+### Fixes
+
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Switch between modes failing
+
 ## Release v6.5.2 - 2022-04-05(10:31:41 +0000)
 
 ### Fixes
