@@ -19,6 +19,7 @@ Feed_net_core includes the following components:
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy) - Data model object proxy
 - [mod-dmstats](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats) - Reusable stats module
 - [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc) - Upgrade Persistent Configuration Manager service module
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc) - Linux tc QoS Implementation
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace) - Module for sahtrace logging
 - [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl) - SoC module to help handling vlans
 - [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci) - SoC module to help handling vlans
