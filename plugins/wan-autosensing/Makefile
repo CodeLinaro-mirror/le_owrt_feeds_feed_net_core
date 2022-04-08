@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=wan-autosensing
-PKG_VERSION:=v0.2.3
+PKG_VERSION:=v0.2.4
 SHORT_DESCRIPTION:=WAN Autosensing
 
-PKG_SOURCE:=wan-autosensing-v0.2.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing/-/archive/v0.2.3
-PKG_HASH:=3ca3a57fbc29f99ea33cffafdf1669409b14b97a6d8da44ff9b17b3ca507e276
-PKG_BUILD_DIR:=$(BUILD_DIR)/wan-autosensing-v0.2.3
+PKG_SOURCE:=wan-autosensing-v0.2.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing/-/archive/v0.2.4
+PKG_HASH:=1ad6ba40bee904d25e9ed34a2b5fbd1f66aa2302592cbde69e494f7831312bc7
+PKG_BUILD_DIR:=$(BUILD_DIR)/wan-autosensing-v0.2.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
