@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.5.4 - 2022-04-09(06:29:55 +0000)
+
+### Fixes
+
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): Boot event must contain exclamation mark
+
+### Changes
+
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): Enable basic lan connectivity on LLA config
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Enable basic lan connectivity on LLA config
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): Align defaults with latest WANManager
+
 ## Release v6.5.3 - 2022-04-06(10:06:09 +0000)
 
 ### Fixes
