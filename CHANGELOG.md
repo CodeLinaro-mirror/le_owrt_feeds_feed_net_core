@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.6.0 - 2022-04-14(13:42:09 +0000)
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): expose IPv6Addresses which is triggered by a routerAdvertisement negotation
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): DHCPv4 Address should come from NetModel query
+- [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl): Vlan Interfaces are not up after creation
+
+### Changes
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Make the Interface path prefixed
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): Make the Interface path prefixed
+
+### Other
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): Remove the calls to IP-manager to set and remove IP
+
 ## Release v6.5.4 - 2022-04-09(06:29:55 +0000)
 
 ### Fixes
