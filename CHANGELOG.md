@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.6.1 - 2022-04-19(14:19:25 +0000)
+
+### Fixes
+
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): Design add/delete handlers
+
+### Changes
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [Ethernet Manager] Vlan Interfaces are not up after creation
+
 ## Release v6.6.0 - 2022-04-14(13:42:09 +0000)
 
 ### New
