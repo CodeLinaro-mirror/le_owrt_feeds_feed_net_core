@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.7.0 - 2022-04-21(15:25:42 +0000)
+
+### New
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [tr181][RouterAdvertisement] startup should override the uci variables
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [TR181][RouterAdvertisement] The RAplugin must listen on asynchronous (interface) events
+
+### Changes
+
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Use netmodel Query to listen on LowerLayer updates
+
 ## Release v6.6.1 - 2022-04-19(14:19:25 +0000)
 
 ### Fixes
