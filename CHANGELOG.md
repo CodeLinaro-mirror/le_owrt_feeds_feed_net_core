@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.7.1 - 2022-04-25(14:57:32 +0000)
+
+### Fixes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [tr181-debuginformation] upgrade ps utilisation
+
+### Changes
+
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [tr181][RouterAdvertisement] add unit tests
+
 ## Release v6.7.0 - 2022-04-21(15:25:42 +0000)
 
 ### New
