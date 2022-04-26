@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.7.2 - 2022-04-26(10:04:53 +0000)
+
+### Changes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Use libipat functions to create IPv6 Addresses
+
 ## Release v6.7.1 - 2022-04-25(14:57:32 +0000)
 
 ### Fixes
