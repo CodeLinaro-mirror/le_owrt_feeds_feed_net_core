@@ -8,6 +8,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v1.0.0 - 2022-04-27(13:43:28 +0000)
+
+### Breaking
+
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): [Libfwrules] add mask to mark
+
+### New
+
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): Component added
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Update templates to be compatible with tr181-qos v1.1.9
+
+### Fixes
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): RAPlugin must configure the Firewall
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): [folder] Cleanup unused rules when invoking fw_folder_delete
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] QueueKey must be used as queue identifier
+
+### Changes
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Use BSD-2-Clause-Patent license
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): [GetDebugInformation] Add data model debuginfo in component services
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] move classificationkey to queuekey and add interface parameter to scheduler
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Rework variants for tc module
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] Startup order does not work
+
+### Other
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Document code
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): move ClassificationKey to queues and add interface parameter to scheduler
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): [CI] Fix BUILD_DEPS for debian bullseye
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Use BSD-2-Clause-Patent license
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): - [libfwrules] Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Document code
+- [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules): Change documentation path
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Update documentation
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Update documentation
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Document code
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Document code
+
 ## Release proj_prpl_v0.0.4 - 2022-03-29(09:02:58 +0000)
 
 ### Changes
