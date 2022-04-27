@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.7.3 - 2022-04-27(07:36:56 +0000)
+
+### Fixes
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Routing]add netmodel query to first check if the ip is set
+
 ## Release v6.7.2 - 2022-04-26(10:04:53 +0000)
 
 ### Changes
