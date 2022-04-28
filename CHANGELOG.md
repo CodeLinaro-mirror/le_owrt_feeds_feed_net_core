@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v6.8.0 - 2022-04-28(11:43:42 +0000)
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Update templates to be compatible with tr181-qos v1.1.9
+
+### Changes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): set default ULA prefix
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): udhcpc should call the tr181-dhcpv4client script
+
 ## Release v6.7.3 - 2022-04-27(07:36:56 +0000)
 
 ### Fixes
