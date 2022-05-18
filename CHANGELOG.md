@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v1.0.1 - 2022-05-18(09:21:48 +0000)
+
+### Fixes
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [prpl][qos] After a save(), the QoS plugin does not start anymore
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): - [mod-qos-tc] HTB shaping rate is set incorrectly
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Update rate limits for tr181-qos
+
 ## Release proj_prpl_v1.0.0 - 2022-04-27(13:43:28 +0000)
 
 ### Breaking
