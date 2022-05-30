@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v1.0.2 - 2022-05-30(11:39:53 +0000)
+
+### Fixes
+
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Set realistic shaping rates for the default configuration
+
 ## Release proj_prpl_v1.0.1 - 2022-05-18(09:21:48 +0000)
 
 ### Fixes
