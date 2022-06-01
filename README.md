@@ -43,7 +43,10 @@ Feed_net_core includes the following components:
 - [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device) - TR-181 compatible Device plugin
 - [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client) - TR-181 compatible DHCPv4 client
 - [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client) - TR-181 compatible DHCPv6 client
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns) - dns plugin
 - [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall) - TR181 firewall manager
+- [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery) - TR-181 compatible neighbordiscovery plugin
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp) - TR-181 compatible PPP plugin
 - [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos) - TR-181 QoS model plugin
 - [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement) - Implementation of Device.RouterAdvertisement object of the TR-181 datamodel
 - [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement) - tr181 user management plugin
