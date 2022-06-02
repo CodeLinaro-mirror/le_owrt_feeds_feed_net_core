@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v1.1.0 - 2022-06-02(10:12:48 +0000)
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Add cwmp_plugin template and add port for cwmpd_conn_req in firewall
+
 ## Release proj_prpl_v1.0.3 - 2022-05-30(11:43:32 +0000)
 
 ## Release proj_prpl_v1.0.2 - 2022-05-30(11:39:53 +0000)
