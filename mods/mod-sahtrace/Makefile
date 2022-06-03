@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-sahtrace
-PKG_VERSION:=v0.0.10
+PKG_VERSION:=v1.0.0
 SHORT_DESCRIPTION:=Module for sahtrace logging
 
-PKG_SOURCE:=mod-sahtrace-v0.0.10.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v0.0.10
-PKG_HASH:=5100122414ac07316584a90794033167877d9557a42dae70ca48b64b75fc933f
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v0.0.10
+PKG_SOURCE:=mod-sahtrace-v1.0.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v1.0.0
+PKG_HASH:=6d07bd9534fedd18b0566bc5e6af40019a2776c81ab1be5b7ca2cfc722bf8fae
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v1.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -24,6 +24,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxc
   DEPENDS += +libamxd
   DEPENDS += +libamxo
+  DEPENDS += +libamxj
   DEPENDS += +libsahtrace
   MENU:=1
 endef
