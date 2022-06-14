@@ -24,7 +24,7 @@ endef
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=amx
+  CATEGORY:=ambiorix
   SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall
@@ -66,6 +66,7 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	$(INSTALL_DIR) $(1)/etc/amx/tr181-firewall/defaults.d
 	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
