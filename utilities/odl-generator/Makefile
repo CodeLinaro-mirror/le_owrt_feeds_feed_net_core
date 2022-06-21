@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=odl-generator
-PKG_VERSION:=proj_prpl_M1-2022_v0.1.0
+PKG_VERSION:=proj_prpl_M1-2022_v0.2.0
 SHORT_DESCRIPTION:=Odl generator using ucode
 
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
