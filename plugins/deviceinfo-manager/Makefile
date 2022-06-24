@@ -37,6 +37,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxm
   DEPENDS += +libsahtrace
   DEPENDS += +mod-dmext
+  DEPENDS += +procps-ng
   DEPENDS += +procps-ng-ps
   MENU:=1
 endef
