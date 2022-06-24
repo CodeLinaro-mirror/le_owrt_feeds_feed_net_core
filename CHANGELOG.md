@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.5.0 - 2022-06-24(13:26:53 +0000)
+
+### New
+
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [tr181-dhcpv6s] Interface status listening
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [prpl][amx][pcm][dhcpv6server] Definition of Upgrade Persistent DHCPv6 Server Configuration
+
+### Fixes
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): [tr181-dhcpv4client] fials to load datamodel at startup
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [tr181-dhcpv4client] fials to load datamodel at startup
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): [tr181-dhcpv4client] fials to load datamodel at startup
+
+### Other
+
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [tr181-dhcpv6s] IPv6Prefix listening [add]
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [DHCPv6-manager] DNS servers should be forwarded to client. [add]
+
 ## Release proj_prpl_M1-2022_v0.4.1 - 2022-06-24(09:15:18 +0000)
 
 ## Release proj_prpl_M1-2022_v0.4.0 - 2022-06-22(19:16:31 +0000)
