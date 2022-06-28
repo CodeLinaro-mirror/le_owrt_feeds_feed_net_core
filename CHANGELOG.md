@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_v1.1.2 - 2022-06-28(07:00:49 +0000)
+
+### Fixes
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Check if subscription exists
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+### Other
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): mod dmproxy wrong path translation when destination is a parameter in Device.
+
 ## Release proj_prpl_v1.1.1 - 2022-06-14(14:07:15 +0000)
 
 ## Release proj_prpl_v1.1.0 - 2022-06-02(10:12:48 +0000)
