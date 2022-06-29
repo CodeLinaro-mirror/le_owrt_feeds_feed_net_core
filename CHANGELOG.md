@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.5.1 - 2022-06-29(08:04:59 +0000)
+
+### Fixes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): ManufacturerOUI must uses upper-case letters
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [dhcpv6s-manager] Firewall not creating rules for dhcpv6 server
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Should not pass NULL pointer to stat function
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Router] subscribe on a more specific path
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [TR181][Routing] Disable resolving the netdev name
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Add procps-ng as dependency
+- [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet): [amxrt] All amx plugins should start with the -D option
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [amxrt] All amx plugins should start with the -D option
+- [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings): [amxrt] All amx plugins should start with the -D option
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): [amxrt] All amx plugins should start with the -D option
+- [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery): [neighbourdiscovery]change netmodel query from netdev-up to netdev-bound
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): [amxrt] All amx plugins should start with the -D option
+- [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement): [amxrt] All amx plugins should start with the -D option
+
 ## Release proj_prpl_M1-2022_v0.5.0 - 2022-06-24(13:26:53 +0000)
 
 ### New
