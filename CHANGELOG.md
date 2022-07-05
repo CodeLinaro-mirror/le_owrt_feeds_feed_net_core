@@ -8,6 +8,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.5.2 - 2022-07-05(13:58:30 +0000)
+
+### Fixes
+
+- [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device): Fix device reboot to gracefully stop the system
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): [dhcpv6client] Not starting (Error_Misconfigured)
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): when bridge br-lan is down eth3 is used
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): after reboot default services are not loaded
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Index of insertion too big (ssh plugin)
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos][Regression] Queue.TrafficClasses values unexpectedly overwritten
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): [wan-autosensing] fix startup
+- [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing): [wan-autosensing] errors when DHCPv6client does not start
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): Startup after getting lowerlayer name
+
+### Changes
+
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): [tr181-ppp] Use a netdev subscription to track the status of the ppp interface and update the status
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [DeviceInfo] [FirmwareImage] The deviceinfo module must send a TransferComplete! event when the Downloading is finished.
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): Opensource component
+- [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery): Opensource component
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): Opensource component
+
 ## Release proj_prpl_M1-2022_v0.5.1 - 2022-06-29(08:04:59 +0000)
 
 ### Fixes
