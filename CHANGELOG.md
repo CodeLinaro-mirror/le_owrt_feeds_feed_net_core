@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.5.3 - 2022-07-07(13:55:16 +0000)
+
+### Fixes
+
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): LAN Client does not get IPv4 address on first boot
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): default ODL configures "mod-dns-unbound" but "mod-dns-uci" (dnsmasq) is used
+
+### Changes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Turn off import-dbg
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): split top level ODL
+
+### Other
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Opensource branch proj_prpl_M1-2022
+
 ## Release proj_prpl_M1-2022_v0.5.2 - 2022-07-05(13:58:30 +0000)
 
 ### Fixes
