@@ -63,7 +63,7 @@ Feed_net_core includes the following components:
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
 
 ```sh
-src-git feed_net_core git@gitlab.softathome.com:ext_dish/feeds/feed_net_core.git;main
+src-git feed_net_core git@gitlab.com:soft.at.home/buildsystems/openwrt/feed_net_core.git;main
 ```
 
 Add the packages to your OpenWrt instance with the following commands:
