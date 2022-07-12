@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=deviceinfo-manager
-PKG_VERSION:=v1.2.14
+PKG_VERSION:=v1.2.15
 SHORT_DESCRIPTION:=TR-181 compatible DeviceInfo plugin
 
-PKG_SOURCE:=tr181-deviceinfo-v1.2.14.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo/-/archive/v1.2.14
-PKG_HASH:=8a5b611f3dfb58cd007f6c8e2d8966238256eafabb7a56444b431108ff86c95f
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-deviceinfo-v1.2.14
+PKG_SOURCE:=tr181-deviceinfo-v1.2.15.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo/-/archive/v1.2.15
+PKG_HASH:=90c9497861cdb623087159055ec4c18995f4bcd8f049b8fa2180f5e3d63a83ff
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-deviceinfo-v1.2.15
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
