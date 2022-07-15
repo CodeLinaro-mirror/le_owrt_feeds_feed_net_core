@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-sahtrace
-PKG_VERSION:=v1.0.2
+PKG_VERSION:=v1.0.3
 SHORT_DESCRIPTION:=Module for sahtrace logging
 
-PKG_SOURCE:=mod-sahtrace-v1.0.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v1.0.2
-PKG_HASH:=b336f853b3c5224900b3ae88c0a9be977e2e4cffc457a7092e77bf20eaacd476
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v1.0.2
+PKG_SOURCE:=mod-sahtrace-v1.0.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v1.0.3
+PKG_HASH:=43f6dc5f3dc06cf578da8bc1855cd544716f03037279e52e8c8590371c011ee8
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v1.0.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
