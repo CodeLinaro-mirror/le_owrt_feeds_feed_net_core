@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.6.0 - 2022-07-18(07:57:34 +0000)
+
+### New
+
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): Issue:  HOP-1572 [tr181-ppp] Make module which configures ppp without netifd
+
+### Fixes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [tr181-DeviceInfo][async] The Download (and Activate) function in DeviceInfo must be marked as async
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): static ip address not working
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): CI code check warning: use after free
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Unit tests are failing
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Valgrind complains about uninitialized values
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): Make lowerlayers parameter writable
+- [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager): No dhcp v4 address on LAN
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): Need to scrub components.h on open source
+- [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging): [amxrt] All amx plugins should start with the -D option
+
 ## Release proj_prpl_M1-2022_v0.5.3 - 2022-07-07(13:55:16 +0000)
 
 ### Fixes
