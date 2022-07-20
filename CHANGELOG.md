@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.7.0 - 2022-07-20(15:11:56 +0000)
+
+### New
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Implement the stats object
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Some volatile data stays persistent if the IP-manager doesn't shutdown properly
+- [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery): [tr181-neighbordiscovery] allow icmpv6 packet on the firewall
+
+### Changes
+
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): [tr181-ppp] default ppp module should be uci iso direct
+
 ## Release proj_prpl_M1-2022_v0.6.0 - 2022-07-18(07:57:34 +0000)
 
 ### New
