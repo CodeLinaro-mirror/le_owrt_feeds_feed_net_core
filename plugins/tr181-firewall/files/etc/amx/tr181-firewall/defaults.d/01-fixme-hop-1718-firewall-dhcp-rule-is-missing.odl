@@ -1,0 +1,11 @@
+%populate {
+    object 'Firewall.X_PRPL-COM_Service' {
+        instance add(Alias=cpe-dhcpv4s-lan) {
+            parameter Protocol = "UDP";
+            parameter DestinationPort = "67";
+            parameter Interface = "Device.IP.Interface.3.";
+            parameter IPVersion = 4;
+            parameter Enable = 1;
+        }
+    }
+}
