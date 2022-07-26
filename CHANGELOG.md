@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.7.1 - 2022-07-26(14:59:49 +0000)
+
+### Fixes
+
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): dhcp rule missing
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): [tr181-ppp] Datamodel in error while the HGW got an IP from the the PPP server
+
+### Other
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): sysinit done optiona
+
 ## Release proj_prpl_M1-2022_v0.7.0 - 2022-07-20(15:11:56 +0000)
 
 ### New
