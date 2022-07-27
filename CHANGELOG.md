@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.7.2 - 2022-07-27(15:29:54 +0000)
+
+### Fixes
+
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): dhcpv4 client is stuck in DHCPStatus==Init
+
 ## Release proj_prpl_M1-2022_v0.7.1 - 2022-07-26(14:59:49 +0000)
 
 ### Fixes
