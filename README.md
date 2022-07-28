@@ -58,6 +58,12 @@ Feed_net_core includes the following components:
 
 - [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator) - Odl generator using ucode.
 
+### Other
+
+These components are not managed by SoftAtHome.
+
+- tr181-rest-api
+
 ## How to add feed_net_core to your OpenWrt build
 
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
