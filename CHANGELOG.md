@@ -8,6 +8,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.7.3 - 2022-08-04(13:36:46 +0000)
+
+### Fixes
+
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): sysinit done optional
+- [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo): [DeviceInfo][NEC WX3000HP] TR69 and LCM failing due to empty DeviceInfo.SerialNumber
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): DHCP v4/v6 managers started alongside clients
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4): dhcpv servers fails to create cpe-dhcpvXs-* firewall services on firstboot
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): [tr181-dhcpv6s] Rework odhcpd_poll_leases
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): DHCP v4/v6 managers started alongside clients
+- [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s): dhcpv servers fails to create cpe-dhcpvXs-* firewall services on firstboot
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Prefix is not reboot persistent for IPv6Addresses
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): DHCP v4/v6 managers started alongside clients
+- [tr181-dhcpv4client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client): dhcpv servers fails to create cpe-dhcpvXs-* firewall services on firstboot
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): DHCP v4/v6 managers started alongside clients
+- [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client): dhcpv servers fails to create cpe-dhcpvXs-* firewall services on firstboot
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): [tr181-ppp] fix installation path of direct module
+
+### Other
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] localtime not changing when timezone changes
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): [CDRouter][TOP 100 IPv6][DNS] Open firewall DNS ports on IPv6 address for Lan interface [FIX]
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [Default][IPv6] Add icmpv6 echo accept as default firewall rule
+
 ## Release proj_prpl_M1-2022_v0.7.2 - 2022-07-27(15:29:54 +0000)
 
 ### Fixes
