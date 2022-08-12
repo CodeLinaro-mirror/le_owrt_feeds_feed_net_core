@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=odl-generator
-PKG_VERSION:=proj_prpl_M1-2022_v0.2.1
+PKG_VERSION:=proj_prpl_M1-2022_v0.2.2
 SHORT_DESCRIPTION:=Odl generator using ucode
 
-PKG_SOURCE:=odl-generator-proj_prpl_M1-2022_v0.2.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/odl-generator/-/archive/proj_prpl_M1-2022_v0.2.1
-PKG_HASH:=7391d2cac08dcd08e35a8edec44fc7e8569a269c81f568b45be203c77dec5825
-PKG_BUILD_DIR:=$(BUILD_DIR)/odl-generator-proj_prpl_M1-2022_v0.2.1
+PKG_SOURCE:=odl-generator-proj_prpl_M1-2022_v0.2.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/odl-generator/-/archive/proj_prpl_M1-2022_v0.2.2
+PKG_HASH:=206866dfccf29231ab2afb9608199bea6cbd85dc03d73e383404362872dea741
+PKG_BUILD_DIR:=$(BUILD_DIR)/odl-generator-proj_prpl_M1-2022_v0.2.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -45,6 +45,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	if [ -d ./files ]; then \
+		$(CP) ./files/* $(1)/; \
+	fi
 	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
