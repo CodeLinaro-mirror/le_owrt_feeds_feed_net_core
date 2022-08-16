@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-sahtrace
-PKG_VERSION:=v1.0.3
+PKG_VERSION:=v1.0.4
 SHORT_DESCRIPTION:=Module for sahtrace logging
 
-PKG_SOURCE:=mod-sahtrace-v1.0.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v1.0.3
-PKG_HASH:=43f6dc5f3dc06cf578da8bc1855cd544716f03037279e52e8c8590371c011ee8
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v1.0.3
+PKG_SOURCE:=mod-sahtrace-v1.0.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace/-/archive/v1.0.4
+PKG_HASH:=870c0cd4391ac30804f796106f2e9172dcd914ad5021393cb3b1bd4aa39711d1
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-sahtrace-v1.0.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -49,6 +49,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	if [ -d ./files ]; then \
+		$(CP) ./files/* $(1)/; \
+	fi
 	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
