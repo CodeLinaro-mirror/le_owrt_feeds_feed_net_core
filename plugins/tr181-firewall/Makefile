@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-firewall
-PKG_VERSION:=v4.4.4
+PKG_VERSION:=v4.5.0
 SHORT_DESCRIPTION:=TR181 firewall manager
 
-PKG_SOURCE:=tr181-firewall-v4.4.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v4.4.4
-PKG_HASH:=7b339fc0b94633e5a59601351fd975a4a4a10a7ee3d98c95d8e603f35b53d244
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v4.4.4
+PKG_SOURCE:=tr181-firewall-v4.5.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall/-/archive/v4.5.0
+PKG_HASH:=0e8d9ae1949e8ab5d3ceb090f750a52b86b7a3e3342ac819bfca1b65ffa0a7ff
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-firewall-v4.5.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -68,6 +68,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	if [ -d ./files ]; then \
+		$(CP) ./files/* $(1)/; \
+	fi
 	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
