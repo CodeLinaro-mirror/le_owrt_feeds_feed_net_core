@@ -38,6 +38,7 @@ Feed_net_core includes the following components:
 - [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev) - NetDev monitors the operating system's network devices
 - [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm) - Upgrade Persistent Configuration Manager
 - [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing) - Implementation of Device.Routing of the TR-181 datamodel
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server) - Process Controller Data Model - dropbear
 - [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time) - TR181 Time plugin
 - [tr181-bridging](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging) - Implementation of Device.Bridging of the TR-181 datamodel
 - [tr181-device](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device) - TR-181 compatible Device plugin
