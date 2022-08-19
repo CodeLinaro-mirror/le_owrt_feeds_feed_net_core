@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v0.8.0 - 2022-08-19(13:00:52 +0000)
+
+### New
+
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): Component added
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): It must be possible to load additional iptables fragments files
+
+### Fixes
+
+- [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc): [PRPL DISH][DataModel] DHCPv4.Server.Pool.1.Client.1.IPv4Address.1.IPAddress doesn't get the new IP address
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): fix stability issue with pwhm amx
+- [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery): Add fw rule faster
+
+### Other
+
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): amx/mod_sahtrace does not select dynamically stderr or syslog
+- [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement): [tr181-usermanagement] Fix behavior for empty passwords
+
 ## Release proj_prpl_M1-2022_v0.7.3 - 2022-08-04(13:36:46 +0000)
 
 ### Fixes
