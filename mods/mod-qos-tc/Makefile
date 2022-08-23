@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Linux tc QoS Implementation
 
 PKG_SOURCE:=mod-qos-tc-v2.0.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v2.0.0
-PKG_HASH:=skip
+PKG_HASH:=7d9271786ec5b834320630330a986f58677dfa0ebad6af13649f07de539d3def
 PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v2.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
