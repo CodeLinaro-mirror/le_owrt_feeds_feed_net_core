@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-qos
-PKG_VERSION:=v1.1.11
+PKG_VERSION:=v2.0.1
 SHORT_DESCRIPTION:=TR-181 QoS model plugin
 
-PKG_SOURCE:=tr181-qos-v1.1.11.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos/-/archive/v1.1.11
-PKG_HASH:=54c7c8ba80b04e4e61eb12049493515fa99e848d7c8a8aeba0209c79b1f4ceb6
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-qos-v1.1.11
+PKG_SOURCE:=tr181-qos-v2.0.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos/-/archive/v2.0.1
+PKG_HASH:=e70e012675903f09a6604ab4bc3ad1b03be863c97eb23f4ba8bfc491378d1ac3
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-qos-v2.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -38,6 +38,8 @@ define Package/$(PKG_NAME)
   DEPENDS += +libfwrules
   DEPENDS += +libfwinterface
   DEPENDS += +libamxm
+  DEPENDS += +libqoscommon
+  DEPENDS += +libqosnode
   MENU:=1
 endef
 
@@ -63,6 +65,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	if [ -d ./files ]; then \
+		$(CP) ./files/* $(1)/; \
+	fi
 	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
