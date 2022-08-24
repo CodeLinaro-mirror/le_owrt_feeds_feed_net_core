@@ -13,7 +13,6 @@ Feed_net_core includes the following components:
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
 - [libipat](https://gitlab.com/prpl-foundation/components/core/libraries/libipat) - IP Address Tools
 - [libqoscommon](https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon) - A library for the qos common api
-- [libqosmod](https://gitlab.com/prpl-foundation/components/core/libraries/libqosmod) - A library for the qos modules
 - [libqosnode](https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode) - A library for the qos node api
 - [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx) - Ambiorix module to configure the tr181-firewall
 

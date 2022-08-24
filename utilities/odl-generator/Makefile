@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Odl generator using ucode
 
 PKG_SOURCE:=odl-generator-proj_prpl_M2-2022_v0.1.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/odl-generator/-/archive/proj_prpl_M2-2022_v0.1.1
-PKG_HASH:=skip
+PKG_HASH:=80426e4ee76441b39a9c335b3c5ec60f48367941e733575c6f01eb314740fcae
 PKG_BUILD_DIR:=$(BUILD_DIR)/odl-generator-proj_prpl_M2-2022_v0.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
