@@ -13,7 +13,6 @@ PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_RELEASE:=1
-PKG_BUILD_DEPENDS += libqosnode
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -29,6 +28,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libsahtrace
   DEPENDS += +kmod-sched
   DEPENDS += +kmod-sched-core
+  DEPENDS += +libqosnode
   MENU:=1
 endef
 
