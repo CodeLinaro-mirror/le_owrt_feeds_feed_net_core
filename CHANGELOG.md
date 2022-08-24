@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.0.1 - 2022-08-24(06:42:45 +0000)
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Issues with dm functions not using internal structure
+
 ## Release proj_prpl_M2-2022_v1.0.0 - 2022-08-23(19:02:38 +0000)
 
 ### Removed
