@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v1.0.1 - 2022-08-25(08:52:52 +0000)
+
+### Fixes
+
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): Buffer ppp script data in case the lowerlayer interface is still unknown
+
 ## Release proj_prpl_M1-2022_v1.0.0 - 2022-08-23(19:33:42 +0000)
 
 ### Removed
