@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.1.0 - 2022-08-29(16:35:34 +0000)
+
+### New
+
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl): Component added
+- [tr181-xpon](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon): Component added
+
+### Fixes
+
+- [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp): Buffer ppp script data in case the lowerlayer interface is still unknown
+
 ## Release proj_prpl_M2-2022_v1.0.1 - 2022-08-24(06:42:45 +0000)
 
 ### Fixes
