@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.2.0 - 2022-08-29(19:03:21 +0000)
+
+### New
+
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): Dynamic handling of network events (PPP)
+
+### Fixes
+
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): support multiple servers of DHCP/ppp/router-advertisement
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Add MSS rules for ppp interface traffic
+
 ## Release proj_prpl_M2-2022_v1.1.0 - 2022-08-29(16:35:34 +0000)
 
 ### New
