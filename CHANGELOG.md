@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.2.1 - 2022-08-30(12:46:37 +0000)
+
+### Fixes
+
+- [tr181-xpon](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon): Correct import of the mod-xpon-prpl module
+
 ## Release proj_prpl_M2-2022_v1.2.0 - 2022-08-29(19:03:21 +0000)
 
 ### New
