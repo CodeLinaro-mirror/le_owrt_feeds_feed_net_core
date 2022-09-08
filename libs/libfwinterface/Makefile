@@ -48,6 +48,11 @@ define Package/$(PKG_NAME)
   DEPENDS += +kmod-nfnetlink-queue
   DEPENDS += +kmod-nf-reject
   DEPENDS += +kmod-nf-reject6
+  DEPENDS += +kmod-ipt-conntrack-extra
+  DEPENDS += +kmod-ip6tables-extra
+  DEPENDS += +kmod-nf-nathelper
+  DEPENDS += +kmod-nf-nathelper-extra
+  DEPENDS += +ip6tables-extra
   DEPENDS += +libip4tc
   DEPENDS += +libip6tc
   DEPENDS += +libsahtrace
