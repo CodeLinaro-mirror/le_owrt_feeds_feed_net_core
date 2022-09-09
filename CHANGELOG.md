@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.2.2 - 2022-09-09(09:06:25 +0000)
+
+### Changes
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - Index of insertion too big
+
+### Other
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Correct dependencies
+
 ## Release proj_prpl_M2-2022_v1.2.1 - 2022-08-30(12:46:37 +0000)
 
 ### Fixes
