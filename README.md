@@ -26,6 +26,7 @@ Feed_net_core includes the following components:
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace) - Module for sahtrace logging
 - [mod-vlan-ioctl](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl) - SoC module to help handling vlans
 - [mod-vlan-uci](https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci) - SoC module to help handling vlans
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl) - xpon prpl module
 
 ### Plugins
 
@@ -54,6 +55,7 @@ Feed_net_core includes the following components:
 - [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos) - TR-181 QoS model plugin
 - [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement) - Implementation of Device.RouterAdvertisement object of the TR-181 datamodel
 - [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement) - tr181 user management plugin
+- [tr181-xpon](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon) - TR-181 XPON manager
 - [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing) - WAN Autosensing
 - [wan-manager](https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager) - TR-181 compatible plugin for advanced WAN mode configuration
 
