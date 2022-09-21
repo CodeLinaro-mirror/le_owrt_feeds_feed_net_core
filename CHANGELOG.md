@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v1.1.3 - 2022-09-21(06:34:13 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Failing transactions during stats read
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): No connection to lan after firstboot
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): PPP instances never come up
+
 ## Release proj_prpl_M1-2022_v1.1.2 - 2022-09-09(11:49:15 +0000)
 
 ## Release proj_prpl_M1-2022_v1.1.1 - 2022-09-08(07:11:11 +0000)
