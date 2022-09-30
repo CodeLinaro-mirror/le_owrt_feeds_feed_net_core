@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M1-2022_v1.1.4 - 2022-09-30(12:35:34 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Issue HOP-1855: Revert Route/Neigh/Addr not removed from datamodel when removed in Linux
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Issue HOP-1855: Route/Neigh/Addr not removed from datamodel when removed in Linux
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Route/Neigh/Addr not removed from datamodel when removed in Linux
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): bad typecast
+
+### Other
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): expose bridgetable
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): [CI] Fix typo in dependencies
+
 ## Release proj_prpl_M1-2022_v1.1.3 - 2022-09-21(06:34:13 +0000)
 
 ### Fixes
