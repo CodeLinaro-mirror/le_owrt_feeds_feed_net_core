@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.2.6 - 2022-10-18(13:35:17 +0000)
+
+### Fixes
+
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl): dm_info.c: fix typos in prpl field names
+
+### Changes
+
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl): onu_hal_mock: support dm:object-changed for onu_activation
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl): southbound_if.c: improve error message
+
+### Other
+
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): [SSHServer] Reduce log levels of some debug logs
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): [TR181-SSH] ssh instability when performing firstboots
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): Improve plugin boot order
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): [amx][ssh] Too many restarts when Enabling an Ssh instance
+- [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server): [amx][ssh-server] Remove the Vendor Extension X_PRPL-COM_ from the SSH root object.
+
 ## Release proj_prpl_M2-2022_v1.2.5 - 2022-09-30(12:37:32 +0000)
 
 ### Fixes
