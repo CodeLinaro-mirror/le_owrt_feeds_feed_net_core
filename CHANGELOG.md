@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.2.7 - 2022-10-24(13:06:17 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Netdev instability when performing firstboots
+
+### Other
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Add unit-tests
+
 ## Release proj_prpl_M2-2022_v1.2.6 - 2022-10-18(13:35:17 +0000)
 
 ### Fixes
