@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libqoscommon
-PKG_VERSION:=v0.1.0
+PKG_VERSION:=v0.2.0
 SHORT_DESCRIPTION:=A library for the qos common api
 
-PKG_SOURCE:=libqoscommon-v0.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon/-/archive/v0.1.0
-PKG_HASH:=aaeeeec5244c02c0279acdb6f0f394708502efc246659f43c4f9eb260d991257
-PKG_BUILD_DIR:=$(BUILD_DIR)/libqoscommon-v0.1.0
+PKG_SOURCE:=libqoscommon-v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon/-/archive/v0.2.0
+PKG_HASH:=a9cd0658e16132e862a18256368108f005e60c11b80128df8ce0909a6212abb6
+PKG_BUILD_DIR:=$(BUILD_DIR)/libqoscommon-v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
