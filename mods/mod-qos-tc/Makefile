@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-qos-tc
-PKG_VERSION:=v2.0.0
+PKG_VERSION:=v2.1.2
 SHORT_DESCRIPTION:=Linux tc QoS Implementation
 
-PKG_SOURCE:=mod-qos-tc-v2.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v2.0.0
-PKG_HASH:=7d9271786ec5b834320630330a986f58677dfa0ebad6af13649f07de539d3def
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v2.0.0
+PKG_SOURCE:=mod-qos-tc-v2.1.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc/-/archive/v2.1.2
+PKG_HASH:=28ee5a3a6044dd8ae3924b2e779ea551d92967e6ff464fdb812f0539ef2b2b3f
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-qos-tc-v2.1.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -52,10 +52,10 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
-	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))

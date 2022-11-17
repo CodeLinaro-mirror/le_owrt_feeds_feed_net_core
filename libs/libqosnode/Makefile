@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libqosnode
-PKG_VERSION:=v1.0.0
+PKG_VERSION:=v1.2.1
 SHORT_DESCRIPTION:=A library for the qos node api
 
-PKG_SOURCE:=libqosnode-v1.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode/-/archive/v1.0.0
-PKG_HASH:=2fcb91da97dc647b7f3e8de2fa05d8c4cea9faed958a4ce94d13c8ed4a31bf4b
-PKG_BUILD_DIR:=$(BUILD_DIR)/libqosnode-v1.0.0
+PKG_SOURCE:=libqosnode-v1.2.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode/-/archive/v1.2.1
+PKG_HASH:=7f0dabba9870ca6ed98267f8cab36b8016df0a4d53c3ff660dfd51b41a942cd0
+PKG_BUILD_DIR:=$(BUILD_DIR)/libqosnode-v1.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
