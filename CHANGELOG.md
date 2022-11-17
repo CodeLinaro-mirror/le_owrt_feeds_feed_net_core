@@ -8,6 +8,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.3.0 - 2022-11-17(19:17:13 +0000)
+
+### New
+
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): - [prpl][qos] Integrate new TR-181 parameters for Device.QoS v2.16
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] Integrate new TR-181 parameters for Device.QoS v2.16
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [prpl][qos] Expand unit tests for node creation
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Integrate netmodel to translate interfaces
+
+### Fixes
+
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): - [mod-qos-tc] Error_Misconfigured Status when AssuredRate is unconfigured
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Remove tr181-qos files from install target
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): Enable core dumps by default
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [QoS] Segmentation Error when trying to access QoS. datamodel
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [tr181-qos] Do not require on NetModel.Intf
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [QoS] Queues are in state Error if the wan cable is not connected
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [QoS] Queues are in state Error if the wan cable is not connected
+- [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos): - [VLAN][QOS][WNC] Changing the WANMode to vlan, QoS queues creating will fail
+
+### Changes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): [tr181-qos] Remove component as it supports netmodel
+
+### Other
+
+- [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc): - [mod-qos-tc] Runtime dependency on libqosnode is missing
+- [mod-xpon-prpl](https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl): - XPON manager: ModuleVersion of Transceiver is missing
+- [tr181-xpon](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon): - XPON manager: ModuleVersion of Transceiver is missing
+
 ## Release proj_prpl_M2-2022_v1.2.10 - 2022-11-04(08:55:39 +0000)
 
 ## Release proj_prpl_M2-2022_v1.2.9 - 2022-10-26(18:30:24 +0000)
