@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dnssd
-PKG_VERSION:=v0.2.3
+PKG_VERSION:=v0.3.3
 SHORT_DESCRIPTION:=dns service discovery plugin
 
-PKG_SOURCE:=tr181-dnssd-v0.2.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd/-/archive/v0.2.3
-PKG_HASH:=8c32d679813fa78a58a6bc05fdeb5b69d9c8601b7d777ff78a91ce0d7ef4a5f5
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dnssd-v0.2.3
+PKG_SOURCE:=tr181-dnssd-v0.3.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd/-/archive/v0.3.2
+PKG_HASH:=a298cc8e5b3a88e8ec60c1faaf139a81f721c0bc313fdda91c53faee02e3c0eb
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dnssd-v0.3.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -62,10 +62,10 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
-	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
 define Package/$(PKG_NAME)/config
