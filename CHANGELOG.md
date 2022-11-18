@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.1.0 - 2022-11-18(08:15:34 +0000)
+
+### New
+
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp): Component added
+
 ## Release proj_prpl_M3-2022_v1.0.1 - 2022-11-17(20:13:54 +0000)
 
 ## Release proj_prpl_M3-2022_v1.0.0 - 2022-11-17(19:15:22 +0000)
