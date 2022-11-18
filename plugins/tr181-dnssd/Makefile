@@ -4,10 +4,10 @@ PKG_NAME:=tr181-dnssd
 PKG_VERSION:=v0.3.3
 SHORT_DESCRIPTION:=dns service discovery plugin
 
-PKG_SOURCE:=tr181-dnssd-v0.3.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd/-/archive/v0.3.2
-PKG_HASH:=a298cc8e5b3a88e8ec60c1faaf139a81f721c0bc313fdda91c53faee02e3c0eb
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dnssd-v0.3.2
+PKG_SOURCE:=tr181-dnssd-v0.3.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd/-/archive/v0.3.3
+PKG_HASH:=2a48f37a395259209d75261df2725852f78f7251f9ccbdd2465e1374525550d5
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dnssd-v0.3.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
