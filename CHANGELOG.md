@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.4.0 - 2022-11-18(11:36:10 +0000)
+
+### New
+
+- [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd): [tr181-dnssd] add advertisement datamodel
+
+### Fixes
+
+- [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd): Issue : HOP-2199 [CDRouter][IPv4][VLAN] FAIL: mDNS lookup for prplOS.local failed
+- [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd): [tr181-dnssd] add Documentation and README
+
+### Other
+
+- [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd): tr181-dnssd: mDNS service is not available over IPv6
+
 ## Release proj_prpl_M2-2022_v1.3.1 - 2022-11-17(20:13:26 +0000)
 
 ## Release proj_prpl_M2-2022_v1.3.0 - 2022-11-17(19:17:13 +0000)
