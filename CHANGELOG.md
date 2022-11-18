@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.2.1 - 2022-11-18(13:58:00 +0000)
+
+### Changes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] NTP server on wnc not reachable
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] create more unit tests for time-manager
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] BBF Time Manager Datamodel Evolutions: Time.Server.
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] BBF Time Manager Datamodel Evolutions: Time.Client.
+
 ## Release proj_prpl_M3-2022_v1.2.0 - 2022-11-18(11:40:58 +0000)
 
 ### New
