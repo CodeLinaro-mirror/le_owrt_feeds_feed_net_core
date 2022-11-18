@@ -54,6 +54,7 @@ Feed_net_core includes the following components:
 - [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp) - TR-181 compatible PPP plugin
 - [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos) - TR-181 QoS model plugin
 - [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement) - Implementation of Device.RouterAdvertisement object of the TR-181 datamodel
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp) - upnp manager
 - [tr181-usermanagement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement) - tr181 user management plugin
 - [tr181-xpon](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon) - TR-181 XPON manager
 - [wan-autosensing](https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing) - WAN Autosensing
