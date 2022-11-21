@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.3.1 - 2022-11-21(12:21:52 +0000)
+
+### Other
+
+- [mod-httpaccess-lighttpd](https://gitlab.com/prpl-foundation/components/core/modules/mod-httpaccess-lighttpd): Opensource component
+- [tr181-httpaccess](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess): Opensource component
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp): Opensource component
+
 ## Release proj_prpl_M3-2022_v1.3.0 - 2022-11-21(07:51:57 +0000)
 
 ### New
