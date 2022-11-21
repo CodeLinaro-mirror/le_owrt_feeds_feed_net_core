@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.3.0 - 2022-11-21(07:51:57 +0000)
+
+### New
+
+- [mod-httpaccess-lighttpd](https://gitlab.com/soft.at.home/httpaccess/modules/mod_httpaccess_lighttpd): Component added
+- [tr181-httpaccess](https://gitlab.com/soft.at.home/httpaccess/applications/tr181-httpaccess): Component added
+
 ## Release proj_prpl_M3-2022_v1.2.2 - 2022-11-18(16:38:55 +0000)
 
 ## Release proj_prpl_M3-2022_v1.2.1 - 2022-11-18(13:58:00 +0000)
