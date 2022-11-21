@@ -1,10 +1,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-upnp
-PKG_VERSION:=v0.1.1
+PKG_VERSION:=v0.1.2
 SHORT_DESCRIPTION:=upnp manager
 
+PKG_SOURCE:=tr181-upnp-v0.1.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp/-/archive/v0.1.2
+PKG_HASH:=594f8f8e4a1887116ca43534ca31eafafb56adda402009f0acad3fe5713d07b4
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-upnp-v0.1.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
+PKG_LICENSE:=BSD-2-Clause-Patent
+PKG_LICENSE_FILES:=LICENSE
 
 COMPONENT:=tr181-upnp
 
@@ -21,6 +27,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
   SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
+  URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp
   DEPENDS += +libamxb
   DEPENDS += +libamxc
   DEPENDS += +libamxd
@@ -56,10 +63,10 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
+	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
-	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
 endef
 
 define Package/$(PKG_NAME)/config
