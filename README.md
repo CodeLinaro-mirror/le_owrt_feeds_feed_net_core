@@ -21,7 +21,7 @@ Feed_net_core includes the following components:
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext) - Data model extension module
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy) - Data model object proxy
 - [mod-dmstats](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats) - Reusable stats module
-- [mod-httpaccess-lighttpd](https://gitlab.com/soft.at.home/httpaccess/modules/mod_httpaccess_lighttpd) - Module to manage HTTP accesses for lighttpd server
+- [mod-httpaccess-lighttpd](https://gitlab.com/prpl-foundation/components/core/modules/mod-httpaccess-lighttpd) - Module to manage HTTP accesses for lighttpd server
 - [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc) - Upgrade Persistent Configuration Manager service module
 - [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc) - Linux tc QoS Implementation
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace) - Module for sahtrace logging
@@ -50,7 +50,7 @@ Feed_net_core includes the following components:
 - [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns) - dns plugin
 - [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd) - dns service discovery plugin
 - [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall) - TR181 firewall manager
-- [tr181-httpaccess](https://gitlab.com/soft.at.home/httpaccess/applications/tr181-httpaccess) - TR-181 HTTPAccess model plugin
+- [tr181-httpaccess](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess) - TR-181 HTTPAccess model plugin
 - [tr181-logical](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical) - logical interface plugin
 - [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery) - TR-181 compatible neighbordiscovery plugin
 - [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp) - TR-181 compatible PPP plugin
