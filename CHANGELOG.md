@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.3.2 - 2022-11-25(08:51:08 +0000)
+
+### Other
+
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp): Add runtime dependency on miniupnp
+
 ## Release proj_prpl_M3-2022_v1.3.1 - 2022-11-21(12:21:52 +0000)
 
 ### Other
