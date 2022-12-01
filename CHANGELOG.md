@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M2-2022_v1.5.0 - 2022-12-01(13:23:18 +0000)
+
+### New
+
+- [debug-information](https://gitlab.com/prpl-foundation/components/utilities/debug-information): Component added
+
 ## Release proj_prpl_M2-2022_v1.4.2 - 2022-11-29(08:50:50 +0000)
 
 ## Release proj_prpl_M2-2022_v1.4.1 - 2022-11-18(16:38:54 +0000)
