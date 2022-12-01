@@ -66,6 +66,7 @@ Feed_net_core includes the following components:
 
 ### Utilities
 
+- [debug-information](https://gitlab.com/prpl-foundation/components/utilities/debug-information) - Scripts to provide debug Information for a running system
 - [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator) - Odl generator using ucode.
 
 ### Other
