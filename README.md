@@ -49,6 +49,8 @@ Feed_net_core includes the following components:
 - [tr181-dhcpv6client](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client) - TR-181 compatible DHCPv6 client
 - [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns) - dns plugin
 - [tr181-dnssd](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd) - dns service discovery plugin
+- [tr181-dslite](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite) - TR-181 compatible DSLite plugin
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns) - DynamicDNS plugin
 - [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall) - TR181 firewall manager
 - [tr181-httpaccess](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess) - TR-181 HTTPAccess model plugin
 - [tr181-logical](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical) - logical interface plugin
