@@ -1,0 +1,13 @@
+diff --git a/odl/defaults.d/40_service_defaults.odl b/odl/defaults.d/40_service_defaults.odl
+index 6a08571..b84c48a 100644
+--- a/odl/defaults.d/40_service_defaults.odl
++++ b/odl/defaults.d/40_service_defaults.odl
+@@ -100,7 +100,7 @@
+             parameter Protocol = "TCP";
+             parameter DestinationPort = "5000";
+             parameter Interface = "${lan}";
+-            parameter IPVersion = 4;
++            parameter IPVersion = 0;
+             parameter Enable = 1;
+             parameter Persistent = 1;
+         }
