@@ -8,6 +8,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.5.0 - 2022-12-09(09:06:04 +0000)
+
+### New
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): add firewall rules to forward traffic for PCP mapped packets
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [amx][firewall]It must be possible to configure firewall specific InterfaceSettings.
+
+### Fixes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Cannot configure a Port Mapping via TR069, LeaseTime is defined as RO while should be W
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Switch the wan interface of the tr181-firewall to the Logical.Interface.1.
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [NeighbourDiscovery][Firewall]Too many ports are opened by the neighbourdiscovery plugin
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [Firewall][StealthMode] stealth rules open the firewall by default.
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [amx][firewall] Fix ipv6 issues caused by spoofing protection.
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Add missing default ipv6 rules
+
+### Changes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): enable doc-check
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [Hosts] AccessControl block hosts directly in iptables
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [Hosts] AccessControl block hosts directly in ip6tables
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [NAT][DSLite] In case dslite is enabled for ipv4, NAT should be disabled
+
+### Other
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [amx][firewall] Implement Spoofing protection on specific InterfaceSettings.
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [tr181-firewall] ip6tables-restore is broken
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): [IPv6][Firewall] IPv6 connectivity is broken by spoofing protection feature
+
 ## Release proj_prpl_M3-2022_v1.4.1 - 2022-12-08(13:01:48 +0000)
 
 ## Release proj_prpl_M3-2022_v1.4.0 - 2022-12-01(13:34:17 +0000)
