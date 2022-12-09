@@ -1,8 +1,8 @@
 diff --git a/odl/defaults.d/40_service_defaults.odl b/odl/defaults.d/40_service_defaults.odl
-index 6a08571..b84c48a 100644
+index a5057a2..1f36959 100644
 --- a/odl/defaults.d/40_service_defaults.odl
 +++ b/odl/defaults.d/40_service_defaults.odl
-@@ -100,7 +100,7 @@
+@@ -94,7 +94,7 @@
              parameter Protocol = "TCP";
              parameter DestinationPort = "5000";
              parameter Interface = "${lan}";
