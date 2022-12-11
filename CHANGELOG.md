@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M3-2022_v1.5.1 - 2022-12-11(14:08:03 +0000)
+
+### Changes
+
+- [tr181-firewall](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall): Component downstepped from v4.7.2 to v4.5.2
+
 ## Release proj_prpl_M3-2022_v1.5.0 - 2022-12-09(09:06:04 +0000)
 
 ### New
