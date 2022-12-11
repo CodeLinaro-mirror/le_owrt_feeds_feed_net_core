@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.2.0 - 2022-12-11(17:43:00 +0000)
+
+### New
+
+- [libimtp](https://gitlab.com/soft.at.home/usp/libraries/libimtp): Component added
+- [libnetlink-utils](https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils): Component added
+- [libpacket-interception](https://gitlab.com/prpl-foundation/components/core/libraries/libpacket-interception): Component added
+- [packet-interception](https://gitlab.com/prpl-foundation/components/core/plugins/packet-interception): Component added
+
+### Fixes
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [ibsen][mtk] Mediatek config for QoS
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): - [libfwinterface] Fix unused variable
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): Add missing dependencies
+
+### Other
+
+- [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface): [Packet Interception] Create the new Packet Interception component
+
 ## Release proj_prpl_M4-2022_v1.1.1 - 2022-12-11(14:08:18 +0000)
 
 ## Release proj_prpl_M4-2022_v1.1.0 - 2022-12-01(13:24:57 +0000)
