@@ -11,7 +11,10 @@ Feed_net_core includes the following components:
 - [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions) - Library to parse and evaluate the binary data of DHCP options
 - [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
+- [libimtp](https://gitlab.com/soft.at.home/usp/libraries/libimtp) - libimtp is a library which provides functionality to set up a connection between two internal USP endpoints using a unix domain socket.
 - [libipat](https://gitlab.com/prpl-foundation/components/core/libraries/libipat) - IP Address Tools
+- [libnetlink-utils](https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils) - Netlink utility library
+- [libpacket-interception](https://gitlab.com/prpl-foundation/components/core/libraries/libpacket-interception) - Packet Interception library
 - [libqoscommon](https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon) - A library for the qos common api
 - [libqosnode](https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode) - A library for the qos node api
 - [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx) - Ambiorix module to configure the tr181-firewall
@@ -39,6 +42,7 @@ Feed_net_core includes the following components:
 - [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca) - moca plugin
 - [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings) - multisettings plugin
 - [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev) - NetDev monitors the operating system's network devices
+- [packet-interception](https://gitlab.com/prpl-foundation/components/core/plugins/packet-interception) - Packet Interception component
 - [pcm-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm) - Upgrade Persistent Configuration Manager
 - [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing) - Implementation of Device.Routing of the TR-181 datamodel
 - [ssh-server](https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server) - Process Controller Data Model - dropbear
