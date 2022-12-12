@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.2.2 - 2022-12-12(08:11:07 +0000)
+
+### Fixes
+
+- [tr181-dslite](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite): [Config] coredump generation should be configurable
+
+### Changes
+
+- [tr181-dslite](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite): Fix issue with Enable parameters
+
+### Other
+
+- [tr181-dslite](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite): Add runtime dependencies "kmod-ip6-tunnel" and "kmod-iptunnel6"
+
 ## Release proj_prpl_M4-2022_v1.2.1 - 2022-12-11(18:34:19 +0000)
 
 ## Release proj_prpl_M4-2022_v1.2.0 - 2022-12-11(17:43:00 +0000)
