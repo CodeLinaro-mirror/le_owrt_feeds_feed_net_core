@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.3.2 - 2022-12-13(19:34:12 +0000)
+
+### Changes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [tr181-time] create unit tests for uci-chrony module
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [prpl][Timeplugin] The timeserver must not start until the Time client has synced the time correctly.
+
 ## Release proj_prpl_M4-2022_v1.3.1 - 2022-12-13(15:53:00 +0000)
 
 ### Fixes
