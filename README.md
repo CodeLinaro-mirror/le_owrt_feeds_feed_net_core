@@ -59,6 +59,7 @@ Feed_net_core includes the following components:
 - [tr181-httpaccess](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess) - TR-181 HTTPAccess model plugin
 - [tr181-logical](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical) - logical interface plugin
 - [tr181-neighbordiscovery](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery) - TR-181 compatible neighbordiscovery plugin
+- [tr181-pcp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcp) - Port control protocol
 - [tr181-ppp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp) - TR-181 compatible PPP plugin
 - [tr181-qos](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos) - TR-181 QoS model plugin
 - [tr181-routeradvertisement](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement) - Implementation of Device.RouterAdvertisement object of the TR-181 datamodel
