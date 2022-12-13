@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.3.1 - 2022-12-13(15:53:00 +0000)
+
+### Fixes
+
+- [tr181-dslite](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite): Correct linking with /opt/prplos
+
 ## Release proj_prpl_M4-2022_v1.3.0 - 2022-12-13(10:48:28 +0000)
 
 ### New
