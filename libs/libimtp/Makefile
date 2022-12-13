@@ -4,6 +4,10 @@ PKG_NAME:=libimtp
 PKG_VERSION:=v1.5.1
 SHORT_DESCRIPTION:=libimtp is a library which provides functionality to set up a connection between two internal USP endpoints using a unix domain socket
 
+PKG_SOURCE:=libimtp-v1.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/libraries/libimtp/-/archive/v1.5.1
+PKG_HASH:=a9c9dd723e332009f333cdff13febd9b8a46a0938d7a080890bc50c94d6e4b85
+PKG_BUILD_DIR:=$(BUILD_DIR)/libimtp-v1.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
