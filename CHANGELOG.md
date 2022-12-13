@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.3.0 - 2022-12-13(10:48:28 +0000)
+
+### New
+
+- [tr181-pcp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcp): Component added
+
+### Fixes
+
+- [libnetlink-utils](https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils): Correct syntax for option to compile with libraries installed at /opt/prplos
+
 ## Release proj_prpl_M4-2022_v1.2.2 - 2022-12-12(08:11:07 +0000)
 
 ### Fixes
