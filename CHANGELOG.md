@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.3.3 - 2022-12-16(10:37:22 +0000)
+
+### Fixes
+
+- [debug-information](https://gitlab.com/prpl-foundation/components/utilities/debug-information): Improve getDebugInformation prplOs compatibility
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [Config] coredump generation should be configurable
+
+### Changes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Excessive chronyd restarts
+
+### Other
+
+- [debug-information](https://gitlab.com/prpl-foundation/components/utilities/debug-information): Add missing opensource license
+- [debug-information](https://gitlab.com/prpl-foundation/components/utilities/debug-information): add boot measure script
+
 ## Release proj_prpl_M4-2022_v1.3.2 - 2022-12-13(19:34:12 +0000)
 
 ### Changes
