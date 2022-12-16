@@ -1,18 +1,25 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=debug-information
-PKG_VERSION:=v0.1.9
+PKG_VERSION:=v0.1.12
 SHORT_DESCRIPTION:=Scripts to provide debug Information for a running system
 
-PKG_SOURCE:=debug-information-v0.1.9.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/debug-information/-/archive/v0.1.9
-PKG_HASH:=88412e99c1c5f4b629b68d399aae3ea2340c18ffb7f71c94b9df7020043d31d4
-PKG_BUILD_DIR:=$(BUILD_DIR)/debug-information-v0.1.9
+PKG_SOURCE:=debug-information-v0.1.12.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/debug-information/-/archive/v0.1.12
+PKG_HASH:=7b859330ea07da96278d028a168bf49e9cb1d0753e69fba41a676f135d0295aa
+PKG_BUILD_DIR:=$(BUILD_DIR)/debug-information-v0.1.12
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=
+PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
+COMPONENT:=debug-information
+
 PKG_RELEASE:=1
+
+define SAHInit/Install
+	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
+	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/boot_measure ${PKG_INSTALL_DIR}/etc/rc.d/S02boot_measure
+endef
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -40,6 +47,8 @@ define Build/Install
 	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
+
+	$(call SAHInit/Install)
 endef
 
 define Build/InstallDev
