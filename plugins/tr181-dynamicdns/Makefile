@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dynamicdns
-PKG_VERSION:=v0.1.2
+PKG_VERSION:=v0.1.5
 SHORT_DESCRIPTION:=DynamicDNS plugin
 
-PKG_SOURCE:=tr181-dynamicdns-v0.1.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns/-/archive/v0.1.2
-PKG_HASH:=0472598e81edebedeeb3214cfb1f5339b554fe0bf67ba0aa1cc4d75fb563c861
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dynamicdns-v0.1.2
+PKG_SOURCE:=tr181-dynamicdns-v0.1.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns/-/archive/v0.1.5
+PKG_HASH:=21e2d30fc34d2c6db71bebb7b9b9e87c7bfaae582655b73f6ef8c495a917c43f
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dynamicdns-v0.1.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -51,7 +51,8 @@ define Package/$(PKG_NAME)
   DEPENDS += +ca-certificates
   DEPENDS += +curl
   DEPENDS += +ca-bundle
-  DEPENDS += +libatomic
+  DEPENDS += +libatomic1
+  DEPENDS += +libuv1
   DEPENDS += +libopenssl-conf
   DEPENDS += +openssl-util
   DEPENDS += +bind-libs
