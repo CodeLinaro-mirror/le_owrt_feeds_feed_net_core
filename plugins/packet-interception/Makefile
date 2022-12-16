@@ -45,6 +45,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libnetmodel
   DEPENDS += +libnetlink-utils
   DEPENDS += +libpacket-interception
+  DEPENDS += iptables-mod-nfqueue
   MENU:=1
 endef
 
