@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.4.0 - 2022-12-19(15:29:23 +0000)
+
+### New
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add validator for check_is_empty_or_in
+
 ## Release proj_prpl_M4-2022_v1.3.3 - 2022-12-16(10:37:22 +0000)
 
 ### Fixes
