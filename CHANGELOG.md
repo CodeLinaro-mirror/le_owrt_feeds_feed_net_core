@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.5.0 - 2022-12-20(10:20:22 +0000)
+
+### New
+
+- [hosts-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts): Component added
+
 ## Release proj_prpl_M4-2022_v1.4.1 - 2022-12-20(09:36:46 +0000)
 
 ### Fixes
