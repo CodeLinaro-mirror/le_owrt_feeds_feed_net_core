@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4-2022_v1.4.1 - 2022-12-20(09:36:46 +0000)
+
+### Fixes
+
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): [DynDNS] Crash when entering wrong interface reference
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): [Config] coredump generation should be configurable
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): [DynDNS] Crash when removing a Client instance
+
 ## Release proj_prpl_M4-2022_v1.4.0 - 2022-12-19(15:29:23 +0000)
 
 ### New
