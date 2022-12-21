@@ -1,43 +1,37 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=debug-information
-PKG_VERSION:=v0.1.13
-SHORT_DESCRIPTION:=Scripts to provide debug Information for a running system
+PKG_NAME:=libfiletransfer
+PKG_VERSION:=v1.1.3
+SHORT_DESCRIPTION:=Libfiletransfer is a library providing an upload/download API for HTTP(s)
 
-PKG_SOURCE:=debug-information-v0.1.13.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/debug-information/-/archive/v0.1.13
-PKG_HASH:=b9ac836c940db54909b447987cced9eb80de1f62dac730ae1e8ab1cd75c9be79
-PKG_BUILD_DIR:=$(BUILD_DIR)/debug-information-v0.1.13
+PKG_SOURCE:=libfiletransfer-v1.1.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libfiletransfer/-/archive/v1.1.3
+PKG_HASH:=e4ad295ab08fa36269ccd5dfd74af4c3f6fb16979fd3ef12e842c6c262d797f5
+PKG_BUILD_DIR:=$(BUILD_DIR)/libfiletransfer-v1.1.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
-COMPONENT:=debug-information
-
 PKG_RELEASE:=1
-
-define SAHInit/Install
-	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/boot_measure ${PKG_INSTALL_DIR}/etc/rc.d/S02boot_measure
-endef
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
-  SUBMENU:=Utilities
+  SUBMENU:=Libraries
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/utilities/debug-information
-  DEPENDS += +procps-ng
-  DEPENDS += +procps-ng-pmap
-  DEPENDS += +procps-ng-ps
-  DEPENDS += +lua-amx
-  DEPENDS += +lua
+  URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libfiletransfer
+  DEPENDS += +libamxc
+  DEPENDS += +libamxp
+  DEPENDS += +curl
+  DEPENDS += +libopenssl
+  DEPENDS += +uriparser
+  DEPENDS += +libsahtrace
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	Scripts to provide debug Information for a running system
+	Libfiletransfer is a library providing an upload/download API for HTTP(s)
 endef
 
 define Build/Compile
@@ -49,8 +43,6 @@ define Build/Install
 	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
-
-	$(call SAHInit/Install)
 endef
 
 define Build/InstallDev

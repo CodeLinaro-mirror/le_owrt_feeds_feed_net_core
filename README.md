@@ -9,6 +9,7 @@ Feed_net_core includes the following components:
 ### Libraries
 
 - [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions) - Library to parse and evaluate the binary data of DHCP options
+- [libfiletransfer](https://gitlab.com/prpl-foundation/components/core/libraries/libfiletransfer) - Libfiletransfer is a library providing an upload/download API for HTTP(s)
 - [libfwinterface](https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface) - A library providing interfaces between libfwrules and netfilter
 - [libfwrules](https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules) - A library to store ordered firewall rules
 - [libimtp](https://gitlab.com/soft.at.home/usp/libraries/libimtp) - libimtp is a library which provides functionality to set up a connection between two internal USP endpoints using a unix domain socket.
@@ -38,8 +39,9 @@ Feed_net_core includes the following components:
 - [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4) - Implementation of Device.DHCPv4 object of the TR-181 datamodel
 - [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s) - Implementation of Device.DHCPv6.Server. object of the TR-181 datamodel
 - [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet) - Ethernet plugin
+- [hosts-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts) - Implementation of Device.Hosts of the TR-181 datamodel
 - [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip) - Implementation of Device.IP of the TR-181 datamodel
-- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca) - moca plugin
+- [moca-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca) - MoCA plugin
 - [multisettings](https://gitlab.com/prpl-foundation/components/core/plugins/multisettings) - multisettings plugin
 - [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev) - NetDev monitors the operating system's network devices
 - [packet-interception](https://gitlab.com/prpl-foundation/components/core/plugins/packet-interception) - Packet Interception component
