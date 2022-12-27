@@ -1,0 +1,30 @@
+From 141789037936cc5f275b348310d8f508b88ea632 Mon Sep 17 00:00:00 2001
+From: Matthias FRANCK <matthias.franck_ext@softathome.com>
+Date: Tue, 27 Dec 2022 14:47:22 +0100
+Subject: [PATCH] Update 00_lan_access_ui.odl
+
+---
+ odl/defaults.d/00_lan_access_ui.odl | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/odl/defaults.d/00_lan_access_ui.odl b/odl/defaults.d/00_lan_access_ui.odl
+index 36f1738..eaf4fcb 100644
+--- a/odl/defaults.d/00_lan_access_ui.odl
++++ b/odl/defaults.d/00_lan_access_ui.odl
+@@ -67,11 +67,11 @@
+             parameter Order = 1;
+             parameter AccessType = LocalAccess;
+             parameter AllowedRoles = "Device.Users.Role.admin-role.";
+-            parameter Interface = "${wan}";
++            parameter Interface = "${lan}";
+             parameter Port = 80;
+             parameter Protocol = "HTTP";
+             parameter AllowedHosts = "";
+             parameter AllowedPathPrefix = "";
+         }
+     }
+-}
+\ No newline at end of file
++}
+-- 
+GitLab
