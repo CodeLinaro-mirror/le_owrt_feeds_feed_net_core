@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.0.4 - 2023-01-06(10:10:30 +0000)
+
+### Fixes
+
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): unable to use hyphen in hostname
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): TR181-DynamicDNS] Server instance indexes shift when ddns service list is updated breaking dyndns client references
+
 ## Release proj_prpl_M4.1-2022_v1.0.3 - 2022-12-27(18:15:07 +0000)
 
 ## Release proj_prpl_M4.1-2022_v1.0.2 - 2022-12-23(15:38:57 +0000)
