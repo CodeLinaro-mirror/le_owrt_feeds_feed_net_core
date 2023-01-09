@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-httpaccess
-PKG_VERSION:=v0.2.4
+PKG_VERSION:=v0.2.5
 SHORT_DESCRIPTION:=TR-181 HTTPAccess model plugin
 
-PKG_SOURCE:=tr181-httpaccess-v0.2.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess/-/archive/v0.2.4
-PKG_HASH:=351a70f28d70249246212ecc4657903fb6909d2b408ab112fdfb98058df61c59
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-httpaccess-v0.2.4
+PKG_SOURCE:=tr181-httpaccess-v0.2.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess/-/archive/v0.2.5
+PKG_HASH:=eb9a6352119b352fa1aeefd8d40f91e03b7e0b21c84823e532fcde98e70cb41b
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-httpaccess-v0.2.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
