@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.0.5 - 2023-01-09(12:41:17 +0000)
+
+### Fixes
+
+- [tr181-httpaccess](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess): Port 8080 opened on WAN when using VLAN as wan
+
 ## Release proj_prpl_M4.1-2022_v1.0.4 - 2023-01-06(10:10:30 +0000)
 
 ### Fixes
