@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.0.6 - 2023-01-11(13:01:21 +0000)
+
+### Fixes
+
+- [tr181-dynamicdns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns): [dyndns] CDRouter test failing on M4.1
+
 ## Release proj_prpl_M4.1-2022_v1.0.5 - 2023-01-09(12:41:17 +0000)
 
 ### Fixes
