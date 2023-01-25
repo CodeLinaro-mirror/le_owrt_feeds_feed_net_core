@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.0.7 - 2023-01-25(13:02:00 +0000)
+
+### Fixes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): Fix typos in odl ...
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): init without clean on local variables
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): avoidable copies of strings, htables and lists
+
+### Changes
+
+- [time-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time): [time-manager] Excessive chronyd restarts
+
 ## Release proj_prpl_M4.1-2022_v1.0.6 - 2023-01-11(13:01:21 +0000)
 
 ### Fixes
