@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.1.0 - 2023-01-30(16:10:39 +0000)
+
+### New
+
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [import-dbg] Disable import-dbg by default for all amxrt plugin
+
+### Fixes
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Don't set IPv4/6 netmodel flag if IP interface is of type Tunneled
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): avoidable allocation with amxc_string_dup
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): Move netlink code from IP-manager to NetDev
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): [tr181][routing] their is no ppp default route
+- [routing-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing): avoidable allocation with amxc_string_dup
+
+### Other
+
+- [ip-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip): [IP][Guest] Make a default IPv6 Configuration for the guest bridge.
+
 ## Release proj_prpl_M4.1-2022_v1.0.7 - 2023-01-25(13:02:00 +0000)
 
 ### Fixes
