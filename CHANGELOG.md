@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.2.0 - 2023-01-31(08:46:39 +0000)
+
+### New
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Setting defaults parameters in odl file for endpoint
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Issue: SSW-SSW-5515 [pwhm] use default dir iso one default file
+
+### Fixes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Enable guest vaps
+
+### Changes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Disable SSID by default
+
+### Other
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): set SSID LowerLayers as TR181 compliant path
+
 ## Release proj_prpl_M4.1-2022_v1.1.0 - 2023-01-30(16:10:39 +0000)
 
 ### New
