@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1-2022_v1.2.1 - 2023-02-02(12:00:55 +0000)
+
+### Fixes
+
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Move netlink code from IP-manager to NetDev
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): Fix copyright in the debian packages
+- [netdev-plugin](https://gitlab.com/prpl-foundation/components/core/plugins/netdev): No event sent for State changes on bridge interfaces
+
 ## Release proj_prpl_M4.1-2022_v1.2.0 - 2023-01-31(08:46:39 +0000)
 
 ### New
