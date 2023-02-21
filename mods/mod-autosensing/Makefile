@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=libqosnode
-PKG_VERSION:=v1.3.0
-SHORT_DESCRIPTION:=A library for the qos node api
+PKG_NAME:=mod-autosensing
+PKG_VERSION:=v0.2.0
+SHORT_DESCRIPTION:=SoC module wan-manager select the active wan-mode
 
-PKG_SOURCE:=libqosnode-v1.3.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode/-/archive/v1.3.0
-PKG_HASH:=0dfe2b3833c0a99e549e44d1a3d8597aca9f49511f9aec888f7bfb49adccb0a5
-PKG_BUILD_DIR:=$(BUILD_DIR)/libqosnode-v1.3.0
+PKG_SOURCE:=mod-autosensing-v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing/-/archive/v0.2.0
+PKG_HASH:=ebf0240352fcf8130304dfae67502d0bbdf4212e7aa34f0f085114b190716cbd
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-autosensing-v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -18,23 +18,24 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
-  SUBMENU:=Libraries
+  SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode
+  URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing
   DEPENDS += +libamxc
+  DEPENDS += +libamxj
+  DEPENDS += +libamxm
+  DEPENDS += +libamxo
   DEPENDS += +libamxp
-  DEPENDS += +libamxd
   DEPENDS += +libsahtrace
-  DEPENDS += +libqoscommon
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	A library for the qos node api
+	SoC module wan-manager select the active wan-mode
 endef
 
 define Build/Compile
-	$(call Build/Compile/Default, STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PKG_CONFIG_PATH=$(STAGING_DIR)/usr/lib/pkgconfig RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
+	$(call Build/Compile/Default, STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PKG_CONFIG_PATH=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
 endef
 
 define Build/Install

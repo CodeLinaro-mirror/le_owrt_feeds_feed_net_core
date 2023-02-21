@@ -1,59 +1,34 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=ip-manager
-PKG_VERSION:=v1.32.10
-SHORT_DESCRIPTION:=Implementation of Device
+PKG_NAME:=libqosmodule
+PKG_VERSION:=v1.0.0
+SHORT_DESCRIPTION:=A helper library to ease the implementation of QoS modules
 
-PKG_SOURCE:=tr181-ip-v1.32.10.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/v1.32.10
-PKG_HASH:=49bf0ce396e615c32ceff521b69dbbae6e4c3524836dfbf48e8036e8d490e7a8
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-v1.32.10
+PKG_SOURCE:=libqosmodule-v1.0.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosmodule/-/archive/v1.0.0
+PKG_HASH:=06c0ac73037674a4745deb99321b68570709ffe911cdf4193742e560d65d53e3
+PKG_BUILD_DIR:=$(BUILD_DIR)/libqosmodule-v1.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
-COMPONENT:=ip-manager
-
 PKG_RELEASE:=1
-
-define SAHInit/Install
-	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/S21$(COMPONENT)
-endef
-
-define SAHBackupRestore/Install
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/backup 
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/restore 
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/import 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/backup/B10$(COMPONENT) 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/restore/R10$(COMPONENT) 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/import/R10$(COMPONENT) 
-endef
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
-  SUBMENU:=Plugins
+  SUBMENU:=Libraries
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip
-  DEPENDS += +libamxb
+  URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libqosmodule
   DEPENDS += +libamxc
-  DEPENDS += +libamxd
-  DEPENDS += +libamxj
   DEPENDS += +libamxm
-  DEPENDS += +libamxo
-  DEPENDS += +libamxp
   DEPENDS += +libsahtrace
-  DEPENDS += +mod-dmext
-  DEPENDS += +mod-netmodel
-  DEPENDS += +libnetmodel
-  DEPENDS += +libipat
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	Implementation of Device.IP of the TR-181 datamodel
+	A helper library to ease the implementation of QoS modules
 endef
 
 define Build/Compile
@@ -65,9 +40,6 @@ define Build/Install
 	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
-
-	$(call SAHInit/Install)
-	$(call SAHBackupRestore/Install)
 endef
 
 define Build/InstallDev

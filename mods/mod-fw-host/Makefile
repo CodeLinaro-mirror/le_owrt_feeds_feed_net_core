@@ -1,59 +1,42 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=ip-manager
-PKG_VERSION:=v1.32.10
-SHORT_DESCRIPTION:=Implementation of Device
+PKG_NAME:=mod-fw-host
+PKG_VERSION:=v0.1.1
+SHORT_DESCRIPTION:=Host Module for Firewall
 
-PKG_SOURCE:=tr181-ip-v1.32.10.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/v1.32.10
-PKG_HASH:=49bf0ce396e615c32ceff521b69dbbae6e4c3524836dfbf48e8036e8d490e7a8
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-v1.32.10
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=BSD-2-Clause-Patent
-PKG_LICENSE_FILES:=LICENSE
-
-COMPONENT:=ip-manager
 
 PKG_RELEASE:=1
-
-define SAHInit/Install
-	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/S21$(COMPONENT)
-endef
-
-define SAHBackupRestore/Install
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/backup 
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/restore 
-	install -d ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/import 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/backup/B10$(COMPONENT) 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/restore/R10$(COMPONENT) 
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/usr/lib/hgwcfg/import/R10$(COMPONENT) 
-endef
+PKG_BUILD_DEPENDS += libgmap-client
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=ambiorix
-  SUBMENU:=Plugins
+  SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip
-  DEPENDS += +libamxb
   DEPENDS += +libamxc
-  DEPENDS += +libamxd
-  DEPENDS += +libamxj
-  DEPENDS += +libamxm
-  DEPENDS += +libamxo
   DEPENDS += +libamxp
+  DEPENDS += +libamxd
+  DEPENDS += +libamxb
+  DEPENDS += +libamxo
   DEPENDS += +libsahtrace
+  DEPENDS += +amxrt
   DEPENDS += +mod-dmext
-  DEPENDS += +mod-netmodel
-  DEPENDS += +libnetmodel
+  DEPENDS += +libfwrules
+  DEPENDS += +libfwinterface
+  DEPENDS += +libmnl
   DEPENDS += +libipat
+  DEPENDS += +gmap-client
+  DEPENDS += +gmap-mod-ethernet-dev
+  DEPENDS += +gmap-mod-name-selector
+  DEPENDS += +gmap-mod-self
+  DEPENDS += +gmap-server
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	Implementation of Device.IP of the TR-181 datamodel
+	Host Module for Firewall
 endef
 
 define Build/Compile
@@ -65,9 +48,6 @@ define Build/Install
 	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
 	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
-
-	$(call SAHInit/Install)
-	$(call SAHBackupRestore/Install)
 endef
 
 define Build/InstallDev

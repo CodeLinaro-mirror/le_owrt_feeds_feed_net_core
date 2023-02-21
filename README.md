@@ -17,14 +17,17 @@ Feed_net_core includes the following components:
 - [libnetlink-utils](https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils) - Netlink utility library
 - [libpacket-interception](https://gitlab.com/prpl-foundation/components/core/libraries/libpacket-interception) - Packet Interception library
 - [libqoscommon](https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon) - A library for the qos common api
+- [libqosmodule](https://gitlab.com/prpl-foundation/components/core/libraries/libqosmodule) - A helper library to ease the implementation of QoS modules
 - [libqosnode](https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode) - A library for the qos node api
 - [mod-fw-amx](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx) - Ambiorix module to configure the tr181-firewall
 
 ### Modules
 
+- [mod-autosensing](https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing) - SoC module wan-manager select the active wan-mode
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext) - Data model extension module
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy) - Data model object proxy
 - [mod-dmstats](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats) - Reusable stats module
+- [mod-fw-host](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-host) - Host Module for Firewall
 - [mod-httpaccess-lighttpd](https://gitlab.com/prpl-foundation/components/core/modules/mod-httpaccess-lighttpd) - Module to manage HTTP accesses for lighttpd server
 - [mod-pcm-svc](https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc) - Upgrade Persistent Configuration Manager service module
 - [mod-qos-tc](https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc) - Linux tc QoS Implementation
