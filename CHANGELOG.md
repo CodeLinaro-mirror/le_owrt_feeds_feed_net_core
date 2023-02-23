@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1.1-2022_v1.0.1 - 2023-02-23(16:32:32 +0000)
+
+### Other
+
+- [mod-fw-host](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-host): [mod_fw-host] opensource mod_fw-host module
+- [mod-fw-host](https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-host): Opensource component
+
 ## Release proj_prpl_M4.1.1-2022_v1.0.0 - 2023-02-21(15:52:36 +0000)
 
 ### Breaking
