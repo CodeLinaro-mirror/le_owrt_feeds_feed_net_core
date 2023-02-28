@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=odl-generator
-PKG_VERSION:=proj_prpl_M2-2022_v0.5.0
+PKG_VERSION:=proj_prpl_M2-2022_v0.5.1
 SHORT_DESCRIPTION:=Odl generator using ucode
 
-PKG_SOURCE:=odl-generator-proj_prpl_M2-2022_v0.5.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/odl-generator/-/archive/proj_prpl_M2-2022_v0.5.0
-PKG_HASH:=5805acc50cb09817b23041cbd04cc5f95e910a29041ef31f78ff7359987f2f80
-PKG_BUILD_DIR:=$(BUILD_DIR)/odl-generator-proj_prpl_M2-2022_v0.5.0
+PKG_SOURCE:=odl-generator-proj_prpl_M2-2022_v0.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/utilities/odl-generator/-/archive/proj_prpl_M2-2022_v0.5.1
+PKG_HASH:=83f001deae98c1b2486864d2b792041f3bc0ea04bc27fbf23b102614ea031326
+PKG_BUILD_DIR:=$(BUILD_DIR)/odl-generator-proj_prpl_M2-2022_v0.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -30,7 +30,7 @@ define Package/$(PKG_NAME)/description
 endef
 
 define Build/Compile
-	$(call Build/Compile/Default, STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PKG_CONFIG_PATH=$(STAGING_DIR)/usr/lib/pkgconfig RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
+	$(call Build/Compile/Default, STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PKG_CONFIG_PATH=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
 endef
 
 define Build/Install
