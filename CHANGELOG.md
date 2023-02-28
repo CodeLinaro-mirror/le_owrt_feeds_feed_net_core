@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1.1-2022_v1.0.2 - 2023-02-28(15:01:21 +0000)
+
+### Fixes
+
+- [odl-generator](https://gitlab.com/prpl-foundation/components/utilities/odl-generator): Disable Endpoint feature
+
 ## Release proj_prpl_M4.1.1-2022_v1.0.1 - 2023-02-23(16:32:32 +0000)
 
 ### Other
