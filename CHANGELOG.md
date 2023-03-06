@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1.1-2022_v1.0.3 - 2023-03-06(09:04:02 +0000)
+
+### Changes
+
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp): Change default controller to UCI
+
+### Other
+
+- [tr181-upnp](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp): Add missing runtime dependency on rpcd
+
 ## Release proj_prpl_M4.1.1-2022_v1.0.2 - 2023-02-28(15:01:21 +0000)
 
 ### Fixes
