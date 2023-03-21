@@ -39,7 +39,7 @@ Feed_net_core includes the following components:
 ### Plugins
 
 - [deviceinfo-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo) - TR-181 compatible DeviceInfo plugin
-- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4) - Implementation of Device.DHCPv4 object of the TR-181 datamodel
+- [dhcpv4-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4) - Implementation of Device.DHCPv4.Server object of the TR-181 datamodel
 - [dhcpv6s-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s) - Implementation of Device.DHCPv6.Server. object of the TR-181 datamodel
 - [ethernet-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet) - Ethernet plugin
 - [hosts-manager](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts) - Implementation of Device.Hosts of the TR-181 datamodel
