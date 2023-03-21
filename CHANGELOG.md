@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release proj_prpl_M4.1.1-2022_v1.0.5 - 2023-03-21(10:09:15 +0000)
+
+### Fixes
+
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): [CDROUTER][DNS] The DNS proxy seems not working on the Box LAN GUA IPv6@
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): DNS servers are disabled in wanmode ppp
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): random: firewall rule allowing DNS traffic from LAN is missing
+
+### Other
+
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): tr181-components: missing explicit dependency on rpcd service providing ubus uci backend
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): Add AP config files
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): [baf] Correct typo in config option
+- [tr181-dns](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns): [Config] enable configurable coredump generation
+
 ## Release proj_prpl_M4.1.1-2022_v1.0.4 - 2023-03-16(15:15:29 +0000)
 
 ## Release proj_prpl_M4.1.1-2022_v1.0.3 - 2023-03-06(09:04:02 +0000)
