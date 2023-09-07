@@ -1,9 +1,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libamx-mqtt-client
-PKG_VERSION:=v0.2.1
+PKG_VERSION:=v0.2.2
 
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=v0.2.2
+PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/components/libamx-mqtt-client.git
+PKG_MIRROR_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=LICENSE
 
 
 PKG_RELEASE:=1
@@ -14,6 +21,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=amx
   SUBMENU:=Libraries
   TITLE:=$(PKG_NAME)
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/components/libamx-mqtt-client
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
