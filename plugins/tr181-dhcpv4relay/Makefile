@@ -1,10 +1,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dhcpv4relay
-PKG_VERSION:=v0.2.2
+PKG_VERSION:=v0.2.3
 SHORT_DESCRIPTION:=TR-181 DHCPv4 Relay plugin
 
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=v0.2.3
+PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/components/tr181-dhcpv4relay.git
+PKG_MIRROR_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=LICENSE
 
 COMPONENT:=tr181-dhcpv4relay
 
@@ -31,6 +38,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=amx
   SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/components/tr181-dhcpv4relay
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
