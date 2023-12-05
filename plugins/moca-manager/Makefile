@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=moca-manager
-PKG_VERSION:=v0.3.4
+PKG_VERSION:=v0.3.5
 SHORT_DESCRIPTION:=MoCA plugin
 
-PKG_SOURCE:=tr181-moca-v0.3.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/v0.3.4
-PKG_HASH:=baa8bcbd3438588097945f5016119be7b5839e7ee946ee522bac324c0c5e38a8
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-v0.3.4
+PKG_SOURCE:=tr181-moca-v0.3.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/v0.3.5
+PKG_HASH:=57f50223543c5ec1c7427b59b2af6aa7c99ebae8110e1b07cbc3be20b876f50a
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-v0.3.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -25,7 +25,7 @@ endef
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=amx
+  CATEGORY:=prpl Foundation
   SUBMENU:=TR-181 Managers
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca
