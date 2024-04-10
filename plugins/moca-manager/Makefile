@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=moca-manager
-PKG_VERSION:=v0.5.7
+PKG_VERSION:=v0.5.8
 SHORT_DESCRIPTION:=MoCA plugin
 
-PKG_SOURCE:=tr181-moca-v0.5.7.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/v0.5.7
-PKG_HASH:=946e5546d0ed6b67a357fc8ff5153bfb72ae9855b6b32673ad75b46143843952
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-v0.5.7
+PKG_SOURCE:=tr181-moca-v0.5.8.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/v0.5.8
+PKG_HASH:=ad5986b3f96888827a75a9ba4cbbc74f7dc471de8f35bbc5f380d280783f406e
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-v0.5.8
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
