@@ -1,13 +1,12 @@
-# test
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=amx-upmonitor
-PKG_VERSION:=v0.2.6
+PKG_VERSION:=v0.2.7
 SHORT_DESCRIPTION:=UpMonitor monitors default routes events from NetDev
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.2.6
+PKG_SOURCE_VERSION:=v0.2.7
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/amx-upmonitor.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -31,6 +30,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=amx
   SUBMENU:=TR-181 Managers
   TITLE:=$(SHORT_DESCRIPTION)
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/amx-upmonitor
   DEPENDS += +libamxb
   DEPENDS += +libamxc
   DEPENDS += +libamxp
