@@ -1,0 +1,20 @@
+config PACKAGE_switch-manager
+    tristate
+    select SAH_AMX_SWITCH_MANAGER
+
+if PACKAGE_switch-manager
+
+menu "Select switch-manager build options"
+    depends on PACKAGE_switch-manager
+
+config SAH_AMX_SWITCH_MANAGER
+    bool "Build a generic switch manager"
+    default y
+
+config SAH_AMX_SWITCH_MANAGER_ORDER
+    int "Switch manager startup order"
+    default 19
+
+endmenu
+
+endif
