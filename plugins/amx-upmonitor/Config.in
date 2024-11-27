@@ -1,0 +1,20 @@
+config PACKAGE_amx-upmonitor
+    tristate
+    select SAH_AMX_UPMONITOR
+
+if PACKAGE_amx-upmonitor
+
+menu "Select amx-upmonitor build options"
+    depends on PACKAGE_amx-upmonitor
+
+config SAH_AMX_UPMONITOR
+    bool "Build UpLinkMonitor data model plug-in"
+    default y
+
+config SAH_AMX_UPMONITOR_ORDER
+    int "Start up order for the UpLinkMonitor plugin"
+    default 21
+
+endmenu
+
+endif
