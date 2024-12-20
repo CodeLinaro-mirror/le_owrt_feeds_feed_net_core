@@ -1,0 +1,68 @@
+diff --git a/odl/ethernet-manager_defaults/00_ethernet-manager_defaults.odl.uc b/odl/ethernet-manager_defaults/00_ethernet-manager_defaults.odl.uc
+index 6222cf3..1d23365 100644
+--- a/odl/ethernet-manager_defaults/00_ethernet-manager_defaults.odl.uc
++++ b/odl/ethernet-manager_defaults/00_ethernet-manager_defaults.odl.uc
+@@ -3,36 +3,25 @@
+         instance add (Alias = "link_lo", Name = "lo") {
+             parameter Enable = "true";
+         }
+-{% if (BDfn.hasAnyUpstream()) : %}
+-{% let moca_count=0; let xpon_count=0; let ethernet_count=0 %}
+-{# The default wan interface needs to be set first (ip manager refers to Ethernet.Link.2.)#}
+-{% let DefaultItf = BD.Interfaces[BDfn.getUpstreamInterfaceIndex()] %}
+-{% IntfIndex = BDfn.getInterfaceIndex(DefaultItf.Name, DefaultItf.Type); %}
+-        instance add ("{{DefaultItf.Type}}_wan", Name = "{{DefaultItf.Name}}") {
+-{% if (DefaultItf.Type == "moca") : %}{% moca_count++ %}
+-            parameter LowerLayers = "Device.MoCA.Interface.{{IntfIndex + 1}}.";
+-{% elif (DefaultItf.Type == "xpon") : %}{% xpon_count++ %}
+-            parameter LowerLayers = "Device.XPON.ONU.1.EthernetUNI.1.";
+-{% else %}{% ethernet_count++ %}
+-            parameter LowerLayers = "Device.Ethernet.Interface.{{IntfIndex + 1}}.";
+-{% endif; %}
++{% UpstreamItfIdx = BDfn.getUpstreamInterfaceIndex();
++if (UpstreamItfIdx >= 0 ) : %}
++{% if (BD.Interfaces[UpstreamItfIdx].Type == "moca") : %}
++        instance add ("moca_wan", Name = "{{BD.Interfaces[UpstreamItfIdx].Name}}") {
+             parameter Enable = "true";
+-        }
+-{# loop over all other interfaces (except the default wan interface) #}
+-{% for (let Itf in BD.Interfaces) : if (Itf.Upstream == "true" && Itf.Name != DefaultItf.Name) : %}
+-{% IntfIndex = BDfn.getInterfaceIndex(Itf.Name, Itf.Type); %}
+-{% if (Itf.Type == "moca") : %}{% moca_count++ %}
+-        instance add ("{{Itf.Type}}_wan{% if (moca_count > 1) : %}_{{ moca_count }}{% endif; %}", Name = "{{Itf.Name}}") {
++{% IntfIndex = BDfn.getInterfaceIndex(BD.Interfaces[UpstreamItfIdx].Name ,"moca");
++if (IntfIndex >= 0 ) : %}
+             parameter LowerLayers = "Device.MoCA.Interface.{{IntfIndex + 1}}.";
+-{% elif (Itf.Type == "xpon") : %}{% xpon_count++ %}
+-        instance add ("{{Itf.Type}}_wan{% if (xpon_count > 1) : %}_{{ xpon_count }}{% endif; %}", Name = "{{Itf.Name}}") {
+-            parameter LowerLayers = "Device.XPON.ONU.1.EthernetUNI.1.";
+-{% else %}{% ethernet_count++ %}
+-        instance add ("{{Itf.Type}}_wan{% if (ethernet_count > 1) : %}_{{ ethernet_count }}{% endif; %}", Name = "{{Itf.Name}}") {
++{% endif %}
++        }
++{% else %}
++        instance add ("eth_wan", Name = "{{BD.Interfaces[UpstreamItfIdx].Name}}") {
++            parameter Enable = "true";
++{% IntfIndex = BDfn.getInterfaceIndex(BD.Interfaces[UpstreamItfIdx].Name ,"ethernet");
++if (IntfIndex >= 0 ) : %}
+             parameter LowerLayers = "Device.Ethernet.Interface.{{IntfIndex + 1}}.";
+-{% endif; %}
++{% endif %}
+         }
+-{% endif; endfor; %}
++{% endif; %}
+ {% endif; %}
+ {% let i = 0 %}
+ {% for (let Bridge in BD.Bridges) : %}
+@@ -42,5 +31,11 @@
+             parameter LowerLayers = "Device.Bridging.Bridge.{{i}}.Port.1.";
+         }
+ {% endfor; %}
++{% for ( let Itf in BD.Interfaces ) : if ( Itf.Type == "xpon" ) : %}
++        instance add ("eth_xpon", Name = "{{Itf.Name}}") {
++            parameter Enable = "true";
++            parameter LowerLayers = "Device.XPON.ONU.1.EthernetUNI.1.";
++        }
++{% endif; endfor; %}
+     }
+ }
