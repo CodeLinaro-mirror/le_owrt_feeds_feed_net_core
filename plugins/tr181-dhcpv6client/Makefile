@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dhcpv6client
-PKG_VERSION:=v1.6.0
+PKG_VERSION:=v1.6.1
 SHORT_DESCRIPTION:=TR-181 compatible DHCPv6 client
 
-PKG_SOURCE:=tr181-dhcpv6client-v1.6.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client/-/archive/v1.6.0
-PKG_HASH:=3cbe6cda73d139d68c720b75532fc1d5c88c0ce8741f7dbcc27e2647e7392603
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6client-v1.6.0
+PKG_SOURCE:=tr181-dhcpv6client-v1.6.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client/-/archive/v1.6.1
+PKG_HASH:=66bf89bdf841a2c6b49f68f79ac654d8ac361b21ce4d559ab205a0e93a6a1d41
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6client-v1.6.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -35,7 +35,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Plugins
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client
   DEPENDS += +libamxb
