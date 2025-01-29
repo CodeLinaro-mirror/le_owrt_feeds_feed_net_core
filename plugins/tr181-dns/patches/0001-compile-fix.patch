@@ -1,0 +1,10 @@
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -24,6 +24,7 @@ OBJECTS = $(addprefix $(OBJDIR)/,$(notdi
+ CFLAGS += -Wall -Wextra -Werror \
+           -Wformat=2 -Wshadow -Wwrite-strings -Wredundant-decls \
+           -Wmissing-declarations -Wno-attributes -Wno-format-nonliteral \
++          -Wno-error=deprecated-declarations \
+           -fPIC -g3 $(addprefix -I ,$(INCDIRS)) \
+           -DSAHTRACES_ENABLED -DSAHTRACES_LEVEL=500
+ 
