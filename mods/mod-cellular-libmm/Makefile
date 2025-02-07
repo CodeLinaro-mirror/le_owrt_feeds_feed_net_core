@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-cellular-libmm
-PKG_VERSION:=sah-next_v1.0.3
+PKG_VERSION:=sah-next_v2.0.0
 SHORT_DESCRIPTION:=SoC module to help handling Linux Cellular Implementation
 
-PKG_SOURCE:=mod-cellular-libmm-sah-next_v1.0.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v1.0.3
-PKG_HASH:=932837964ed478076c80b169bf572f2387c87494471a4fa3a01ad1bccb3e69fb
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v1.0.3
+PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.0.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.0.0
+PKG_HASH:=601786cd371f26e911d507404aa82043280bfdecd1deaca83bd4df1b1c2ddca1
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -25,6 +25,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxc
   DEPENDS += +libamxm
   DEPENDS += +libamxp
+  DEPENDS += +libamxb
   DEPENDS += +libsahtrace
   DEPENDS += +glib2
   DEPENDS += +modemmanager
