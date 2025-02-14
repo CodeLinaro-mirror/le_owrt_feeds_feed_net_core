@@ -4,10 +4,12 @@ PKG_NAME:=dhcpv6s-manager
 PKG_VERSION:=v0.20.10
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-dhcpv6s-v0.20.10.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s/-/archive/v0.20.10
-PKG_HASH:=0ed6f6fdd01e1237259b83b35dc01cc1042a1b1be9108057d3c7914d0ae2db39
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6s-v0.20.10
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=94b12d277cfaa973a3c5238c7053bdcbe7266afd
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s.git
+PKG_MIRROR_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
