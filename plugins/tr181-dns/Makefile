@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dns
-PKG_VERSION:=sah-next_v4.1.1
+PKG_VERSION:=sah-next_v4.1.2
 SHORT_DESCRIPTION:=dns plugin
 
-PKG_SOURCE:=tr181-dns-sah-next_v4.1.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next_v4.1.1
-PKG_HASH:=12f33b2c1e29ab5f9147c0787ad0817d5692edfcf497a9b105e95bcedcb69f00
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next_v4.1.1
+PKG_SOURCE:=tr181-dns-sah-next_v4.1.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next_v4.1.2
+PKG_HASH:=af758364e5e7fc6dbc3a83b918b414876555fccabcb3e83bb70fe1152e4582d9
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next_v4.1.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
