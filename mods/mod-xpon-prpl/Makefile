@@ -5,7 +5,7 @@ PKG_VERSION:=v1.0.6
 SHORT_DESCRIPTION:=xpon prpl module
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=68109691dbaaad3369dbbdbc550b7fbda6633940
+PKG_SOURCE_VERSION:=a164e47bfe3d86f692589632cc577b1ac8a6d727
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
