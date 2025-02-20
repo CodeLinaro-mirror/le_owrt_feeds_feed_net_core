@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-logical
-PKG_VERSION:=sah-next_v1.1.0
+PKG_VERSION:=sah-next_v1.0.3
 SHORT_DESCRIPTION:=logical interface plugin
 
-PKG_SOURCE:=tr181-logical-sah-next_v1.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical/-/archive/sah-next_v1.1.0
-PKG_HASH:=5e090f4a25dc83b5f59d077b54cc6fc32383bee795cd2429dea773b2b1d5ce0d
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-logical-sah-next_v1.1.0
+PKG_SOURCE:=tr181-logical-sah-next_v1.0.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical/-/archive/sah-next_v1.0.3
+PKG_HASH:=7ce140e94c97fbf6eeb0b26a1f2c12fa292393b028a4d11e252ce9b1469b9a4e
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-logical-sah-next_v1.0.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
