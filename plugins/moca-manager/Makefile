@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=MoCA plugin
 
 PKG_SOURCE:=tr181-moca-sah-next_v0.6.3.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/sah-next_v0.6.3
-PKG_HASH:=skip
+PKG_HASH:=c28f8b553c3fcb3e9b2bfd44c98d918bc566792fe80ee2862995bdd56c8b611c
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-sah-next_v0.6.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
