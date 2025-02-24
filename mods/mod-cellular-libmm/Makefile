@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-cellular-libmm
-PKG_VERSION:=sah-next_v2.0.0
+PKG_VERSION:=sah-next_v2.1.0
 SHORT_DESCRIPTION:=SoC module to help handling Linux Cellular Implementation
 
-PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.0.0
-PKG_HASH:=601786cd371f26e911d507404aa82043280bfdecd1deaca83bd4df1b1c2ddca1
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.0.0
+PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.1.0
+PKG_HASH:=de5a1781bc305c9f9fe5215363324a94711503cb8cc1490dbd96ae90c9e2b60e
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -29,6 +29,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libsahtrace
   DEPENDS += +glib2
   DEPENDS += +modemmanager
+  DEPENDS += +libipat
   MENU:=1
 endef
 
