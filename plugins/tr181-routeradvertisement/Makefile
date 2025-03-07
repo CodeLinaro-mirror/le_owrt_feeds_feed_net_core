@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Implementation of Device
 
 PKG_SOURCE:=tr181-routeradvertisement-sah-next_v0.19.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/archive/sah-next_v0.19.0
-PKG_HASH:=skip
+PKG_HASH:=701bb20b380419b0c03d6e60f23b0c435e488c07c78e137d5aec2e756ef44f78
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routeradvertisement-sah-next_v0.19.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
