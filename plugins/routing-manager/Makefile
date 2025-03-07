@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=routing-manager
-PKG_VERSION:=sah-next_v1.21.1
+PKG_VERSION:=sah-next_v2.0.0
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-routing-sah-next_v1.21.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing/-/archive/sah-next_v1.21.1
-PKG_HASH:=48e0e7156031120828b17e6a1532ccc54d929d75fd5d201dc4769fbd5c5cde06
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routing-sah-next_v1.21.1
+PKG_SOURCE:=tr181-routing-sah-next_v2.0.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing/-/archive/sah-next_v2.0.0
+PKG_HASH:=acea7ed3fc41be0ee32aa38fbff4d271d47c306f73fad42a16055ce4d9cb7b07
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routing-sah-next_v2.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
