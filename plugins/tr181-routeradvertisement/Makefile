@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-routeradvertisement
-PKG_VERSION:=sah-next_v0.18.15
+PKG_VERSION:=sah-next_v0.19.0
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-routeradvertisement-sah-next_v0.18.15.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/archive/sah-next_v0.18.15
-PKG_HASH:=a674db1d57296c47fceef9276ccfb8fbdbd23aae5e361753d9973db3860fe71d
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routeradvertisement-sah-next_v0.18.15
+PKG_SOURCE:=tr181-routeradvertisement-sah-next_v0.19.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/archive/sah-next_v0.19.0
+PKG_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routeradvertisement-sah-next_v0.19.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
