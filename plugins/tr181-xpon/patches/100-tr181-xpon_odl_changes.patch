@@ -1,0 +1,57 @@
+Index: tr181-xpon-v1.4.5/odl/tr181-xpon_ANI.odl.m4
+===================================================================
+--- tr181-xpon-v1.4.5/odl/tr181-xpon_ANI.odl.m4
++++ tr181-xpon-v1.4.5/odl/tr181-xpon_ANI.odl.m4
+@@ -176,6 +176,24 @@
+             on action validate call check_enum
+                 ["Unknown", "G-PON", "XG-PON", "NG-PON2", "XGS-PON" ];
+         }
++	object Stats {
++	    %read-only uint32 BytesSent;
++            %read-only uint32 BytesReceived;
++            %read-only uint32 PacketsSent;
++            %read-only uint32 PacketsReceived;
++            %read-only uint32 ErrorsSent;
++            %read-only uint32 ErrorsReceived;
++            %read-only uint32 UnicastPacketsSent;
++            %read-only uint32 UnicastPacketsReceived;
++            %read-only uint32 DiscardPacketsSent;
++            %read-only uint32 DiscardPacketsReceived;
++            %read-only uint32 MulticastPacketsSent;
++            %read-only uint32 MulticastPacketsReceived;
++            %read-only uint32 BroadcastPacketsSent;
++            %read-only uint32 BroadcastPacketsReceived;
++            %read-only uint32 UnknownProtoPacketsReceived;
++
++	}
+ 
+         /**
+             This object represents an ITU-T PON TC layer device.
+Index: tr181-xpon-v1.4.5/odl/tr181-xpon_EthernetUNI.odl.m4
+===================================================================
+--- tr181-xpon-v1.4.5/odl/tr181-xpon_EthernetUNI.odl.m4
++++ tr181-xpon-v1.4.5/odl/tr181-xpon_EthernetUNI.odl.m4
+@@ -231,6 +231,23 @@
+         %read-only string InterdomainName {
+             on action validate call check_maximum_length 25;
+         }
++	object Stats {
++	    %read-only uint32 BytesSent;
++            %read-only uint32 BytesReceived;
++            %read-only uint32 PacketsSent;
++            %read-only uint32 PacketsReceived;
++            %read-only uint32 ErrorsSent;
++            %read-only uint32 ErrorsReceived;
++            %read-only uint32 UnicastPacketsSent;
++            %read-only uint32 UnicastPacketsReceived;
++            %read-only uint32 DiscardPacketsSent;
++            %read-only uint32 DiscardPacketsReceived;
++            %read-only uint32 MulticastPacketsSent;
++            %read-only uint32 MulticastPacketsReceived;
++            %read-only uint32 BroadcastPacketsSent;
++            %read-only uint32 BroadcastPacketsReceived;
++            %read-only uint32 UnknownProtoPacketsReceived;
++	}
+ 
+         ifdef(`CONFIG_SAH_AMX_TR181_XPON_USE_NETDEV_COUNTERS', /**
+         * Throughput statistics for this interface.
