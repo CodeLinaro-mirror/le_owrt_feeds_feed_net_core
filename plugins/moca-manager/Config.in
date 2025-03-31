@@ -15,6 +15,10 @@ config SAH_AMX_TR181_MOCA_ORDER
     int "Start up order for the tr181 moca plugin"
     default 97
 
+config SAH_AMX_TR181_MOCA_STOP_ORDER
+    string "Shutdown order for the tr181 moca plugin"
+    default "03"
+
 endmenu
 
 endif
