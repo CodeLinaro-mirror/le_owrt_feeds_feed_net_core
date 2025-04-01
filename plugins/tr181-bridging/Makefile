@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-bridging
-PKG_VERSION:=sah-next_v2.9.4
+PKG_VERSION:=sah-next_v2.10.2
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-bridging-sah-next_v2.9.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next_v2.9.4
-PKG_HASH:=5c5bd13826982d9abf8eb817770cf5d525c44433e0736309d33f2f69a246efe0
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next_v2.9.4
+PKG_SOURCE:=tr181-bridging-sah-next_v2.10.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next_v2.10.2
+PKG_HASH:=2b376f1b4bc603e9ffa562dcd2ce04ae7ca594b05ca6560fd029f7d4f11597f6
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next_v2.10.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
