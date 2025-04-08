@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-bridging
-PKG_VERSION:=sah-next_v2.10.2
+PKG_VERSION:=sah-next_v2.10.3
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-bridging-sah-next_v2.10.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next_v2.10.2
-PKG_HASH:=2b376f1b4bc603e9ffa562dcd2ce04ae7ca594b05ca6560fd029f7d4f11597f6
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next_v2.10.2
+PKG_SOURCE:=tr181-bridging-sah-next_v2.10.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next_v2.10.3
+PKG_HASH:=e3aeac49507c605da10696d71a8efa1fc5bcc0940d05731dd1d3527aa85b5c08
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next_v2.10.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging
   DEPENDS += +libamxc
