@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ip-manager
-PKG_VERSION:=sah-next_v1.49.1
+PKG_VERSION:=sah-next_v1.50.0
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-ip-sah-next_v1.49.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next_v1.49.1
-PKG_HASH:=39bba35e4f14130fda8891a87a50720fd9b008f8c7f9dc896a47cd873277de04
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next_v1.49.1
+PKG_SOURCE:=tr181-ip-sah-next_v1.50.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next_v1.50.0
+PKG_HASH:=5e50ebd815cbea59280cf8bd59e56a77ef4c3748beb9cc87b125576c80b672d6
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next_v1.50.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip
   DEPENDS += +libamxb
