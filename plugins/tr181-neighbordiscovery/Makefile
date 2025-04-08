@@ -1,15 +1,13 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
-# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-neighbordiscovery
-PKG_VERSION:=sah-next_v1.1.11
+PKG_VERSION:=v1.1.10
 SHORT_DESCRIPTION:=TR-181 compatible neighbordiscovery plugin
 
-PKG_SOURCE:=tr181-neighbordiscovery-sah-next_v1.1.11.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/sah-next_v1.1.11
-PKG_HASH:=7261709533fdfaae4125ddf9fd4f167f1c6fd283c36e845e6bff19854de8857f
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-sah-next_v1.1.11
+PKG_SOURCE:=tr181-neighbordiscovery-v1.1.10.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/v1.1.10
+PKG_HASH:=cf20c083d368794c38b1036201bd581812a74221d285d747d65f4dd2646c9b62
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-v1.1.10
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -28,7 +26,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Ambiorix
+  SUBMENU:=TR-181 Managers
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery
   DEPENDS += +libamxc
