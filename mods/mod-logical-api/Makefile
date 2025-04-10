@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-logical-api
-PKG_VERSION:=sah-next_v0.8.13
+PKG_VERSION:=sah-next_v0.8.14
 SHORT_DESCRIPTION:=High Level API for configuring interface hierarchies
 
-PKG_SOURCE:=mod-logical-api-sah-next_v0.8.13.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next_v0.8.13
-PKG_HASH:=95545f548923f7efeb056b8242e45fe7cce6469111f7479283ae67bffcc4a586
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next_v0.8.13
+PKG_SOURCE:=mod-logical-api-sah-next_v0.8.14.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next_v0.8.14
+PKG_HASH:=29f08934ac45ded8eb63de571546616f110c453faa108842d3305068022f1ecf
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next_v0.8.14
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Modules
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api
   DEPENDS += +libamxc
