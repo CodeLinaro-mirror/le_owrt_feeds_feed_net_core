@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dns-unbound
-PKG_VERSION:=sah-next_v2.1.0
+PKG_VERSION:=sah-next_v2.1.1
 SHORT_DESCRIPTION:=Ambiorix module to manage Unbound as DNS forwarder
 
-PKG_SOURCE:=mod-dns-unbound-sah-next_v2.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next_v2.1.0
-PKG_HASH:=79b55c2d9c46b4be4dd76452e5bd1fbac20c4d2e99a11cca92869763911554dd
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next_v2.1.0
+PKG_SOURCE:=mod-dns-unbound-sah-next_v2.1.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next_v2.1.1
+PKG_HASH:=a02ab198ee3b6dc3aa7edd78e3806f927f22d4c0383c7b433220843dec3633d6
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next_v2.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
