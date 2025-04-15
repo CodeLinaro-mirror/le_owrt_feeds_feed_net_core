@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=wan-manager
-PKG_VERSION:=sah-next_v1.17.0
+PKG_VERSION:=sah-next_v1.17.1
 SHORT_DESCRIPTION:=TR-181 compatible plugin for advanced WAN mode configuration
 
-PKG_SOURCE:=wan-manager-sah-next_v1.17.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/archive/sah-next_v1.17.0
-PKG_HASH:=6e23fee80c730017f142b7ca3dd190fae18324c1074c07f09c05dce21bde8f80
-PKG_BUILD_DIR:=$(BUILD_DIR)/wan-manager-sah-next_v1.17.0
+PKG_SOURCE:=wan-manager-sah-next_v1.17.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/archive/sah-next_v1.17.1
+PKG_HASH:=f5abb78242f4927908d55002cbc6ebc3e60296c47eedaacf0db9d2a4fb7d1e04
+PKG_BUILD_DIR:=$(BUILD_DIR)/wan-manager-sah-next_v1.17.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
