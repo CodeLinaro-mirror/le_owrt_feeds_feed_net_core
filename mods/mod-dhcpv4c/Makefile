@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-dhcpv4c/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dhcpv4c
-PKG_VERSION:=sah-next_v0.13.9
+PKG_VERSION:=sah-next_v0.14.0
 SHORT_DESCRIPTION:=Implementation of a DHCPv4 client as ambiorix module
 
-PKG_SOURCE:=mod-dhcpv4c-sah-next_v0.13.9.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dhcpv4c/-/archive/sah-next_v0.13.9
-PKG_HASH:=89344235dc77a2b77893f10c97f8c1d86fbc514404f48b797b2ef3d63297dd0b
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dhcpv4c-sah-next_v0.13.9
+PKG_SOURCE:=mod-dhcpv4c-sah-next_v0.14.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dhcpv4c/-/archive/sah-next_v0.14.0
+PKG_HASH:=c2410cb433478981bbeda1d869fe50096a3e64b5699496c2f553ab8b0f07024f
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dhcpv4c-sah-next_v0.14.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Modules
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dhcpv4c
   DEPENDS += +libamxc
