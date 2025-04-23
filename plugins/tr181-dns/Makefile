@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dns
-PKG_VERSION:=sah-next_v4.3.1
+PKG_VERSION:=sah-next_v4.4.0
 SHORT_DESCRIPTION:=dns plugin
 
-PKG_SOURCE:=tr181-dns-sah-next_v4.3.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next_v4.3.1
-PKG_HASH:=c316572ef1c5a4eb48c63be13993c483a417222b1bb52e0f1708380158ceb834
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next_v4.3.1
+PKG_SOURCE:=tr181-dns-sah-next_v4.4.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next_v4.4.0
+PKG_HASH:=26dde8b3d85d8ef8a00c0200a14b05e9cb58609d8b3f1177fa5358d5c9159e9d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next_v4.4.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns
   DEPENDS += +libamxb
