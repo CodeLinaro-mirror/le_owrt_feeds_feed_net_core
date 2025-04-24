@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libnetlink-utils
-PKG_VERSION:=sah-next_v0.1.5
+PKG_VERSION:=sah-next_v0.2.0
 SHORT_DESCRIPTION:=Netlink utility library
 
-PKG_SOURCE:=libnetlink-utils-sah-next_v0.1.5.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/archive/sah-next_v0.1.5
-PKG_HASH:=03cfb8683c2f1968ca03a9cf31a5c450a59f444b2f5485a1c7e0ed27209bf098
-PKG_BUILD_DIR:=$(BUILD_DIR)/libnetlink-utils-sah-next_v0.1.5
+PKG_SOURCE:=libnetlink-utils-sah-next_v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/archive/sah-next_v0.2.0
+PKG_HASH:=e371eb67b9e3c2f314db453b12ae0a996112951983949da0d385ae9eb5fdc4ff
+PKG_BUILD_DIR:=$(BUILD_DIR)/libnetlink-utils-sah-next_v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Libraries
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils
   DEPENDS += +libamxc
