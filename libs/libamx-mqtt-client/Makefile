@@ -1,11 +1,13 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/libamx-mqtt-client/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=libamx-mqtt-client
-PKG_VERSION:=v0.2.5
+PKG_VERSION:=v0.3.0
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.2.5
+PKG_SOURCE_VERSION:=v0.3.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/libamx-mqtt-client.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -19,8 +21,8 @@ PKG_RELEASE:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=amx
-  SUBMENU:=Libraries
+  CATEGORY:=SoftAtHome
+  SUBMENU:=Ambiorix
   TITLE:=$(PKG_NAME)
   URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/libamx-mqtt-client
   DEPENDS += +libamxc
