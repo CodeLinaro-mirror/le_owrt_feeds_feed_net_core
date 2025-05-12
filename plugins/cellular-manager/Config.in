@@ -11,9 +11,13 @@ config SAH_AMX_TR181_CELLULAR
     bool "Build a tr181 compatible cellular plugin"
     default y
 
-config SAH_AMX_TR181_CELLULAR_ORDER
+config SAH_AMX_TR181_CELLULAR_START_ORDER
     int "Start up order for the tr181 cellular plugin"
     default 97
+
+config SAH_AMX_TR181_CELLULAR_STOP_ORDER
+    string "Shutdown order for the tr181 cellular plugin"
+    default "03"
 
 endmenu
 
