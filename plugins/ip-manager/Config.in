@@ -11,6 +11,22 @@ config SAH_AMX_TR181_IP
     bool "TR-181 Device.IP datamodel implementation"
     default y
 
+config SAH_AMX_TR181_IP_START_ORDER
+    int "IP-MANAGER plugin startup order"
+    default 21
+
+config SAH_AMX_TR181_IP_STOP_ORDER
+    int "IP-MANAGER plugin shutdown order"
+    default 79
+
+config SAH_AMX_TR181_IP_BACKUPRESTORE_ORDER
+    int "IP-MANAGER plugin backup restore order"
+    default 10
+
+config SAH_AMX_TR181_IP_DEBUGINFO_ORDER
+    int "IP-MANAGER plugin debug info order"
+    default 10
+
 config SAH_AMX_TR181_IP_RUN_AS_USER
     string "User will be used for the IP-MANAGER plugin"
     default "tr181_app"
