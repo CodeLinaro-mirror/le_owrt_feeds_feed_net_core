@@ -11,9 +11,13 @@ config SAH_AMX_WAN_MANAGER
     bool "Build a tr181 compatible time plugin"
     default y
 
-config SAH_AMX_WAN_MANAGER_ORDER
+config SAH_AMX_WAN_MANAGER_START_ORDER
     int "WAN manager plugin start up order"
     default 80
+
+config SAH_AMX_WAN_MANAGER_STOP_ORDER
+    int "WAN manager plugin shutdown order"
+    default 20
 
 config SAH_AMX_WAN_MANAGER_RUN_AS_USER
     string "User will be used for the WAN-MANAGER plugin"
