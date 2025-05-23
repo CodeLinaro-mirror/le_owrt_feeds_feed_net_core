@@ -11,6 +11,22 @@ config SAH_AMX_TR181_ROUTING
     bool "TR-181 Routing"
     default y
 
+config SAH_AMX_TR181_ROUTING_START_ORDER
+    int "TR-181 Routing plugin startup order"
+    default 30
+
+config SAH_AMX_TR181_ROUTING_STOP_ORDER
+    int "TR-181 Routing plugin shutdown order"
+    default 70
+
+config SAH_AMX_TR181_ROUTING_BACKUPRESTORE_ORDER
+    int "TR-181 Routing plugin backup restore order"
+    default 10
+
+config SAH_AMX_TR181_ROUTING_DEBUGINFO_ORDER
+    int "TR-181 Routing plugin debug info order"
+    default 10
+
 config SAH_AMX_TR181_ROUTING_RUN_AS_USER
     string "User will be used for the ROUTING-MANAGER plugin"
     default "tr181_app"
