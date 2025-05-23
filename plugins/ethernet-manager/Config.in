@@ -11,9 +11,13 @@ config SAH_AMX_TR181_ETHERNET
     bool "Build a tr181 compatible ethernet plugin"
     default y
 
-config SAH_AMX_TR181_ETHERNET_ORDER
+config SAH_AMX_TR181_ETHERNET_START_ORDER
     int "Start up order for the tr181 ethernet plugin"
     default 21
+
+config SAH_AMX_TR181_ETHERNET_STOP_ORDER
+    int "Shutdown order for the tr181 ethernet plugin"
+    default 79
 
 config SAH_AMX_TR181_ETHERNET_RUN_AS_USER
     string "User will be used for the tr181-ethernet plugin"
