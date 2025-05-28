@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-cellular-libmm
-PKG_VERSION:=sah-next_v2.1.4
+PKG_VERSION:=sah-next_v2.1.5
 SHORT_DESCRIPTION:=SoC module to help handling Linux Cellular Implementation
 
-PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.1.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.1.4
-PKG_HASH:=31024afa4f4bd13024346fa40607641bc28e281d0ecccf4c49c678b2e3ecfafe
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.1.4
+PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.1.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.1.5
+PKG_HASH:=408be164be9fd48c09c461dd4e7f4adc7f2c60576a14894e1b54324839d75683
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.1.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Modules
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm
   DEPENDS += +libamxc
