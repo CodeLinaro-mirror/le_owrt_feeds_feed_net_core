@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=tr181-sfp
-PKG_VERSION:=v0.1.0
+PKG_VERSION:=v0.1.1
 SHORT_DESCRIPTION:=TR-181 SFP manager
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.1.0
+PKG_SOURCE_VERSION:=v0.1.1
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/tr181-sfp.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -42,6 +42,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxo
   DEPENDS += +libsahtrace
   DEPENDS += +amxrt
+  DEPENDS += +mod-dmext
   MENU:=1
 endef
 
