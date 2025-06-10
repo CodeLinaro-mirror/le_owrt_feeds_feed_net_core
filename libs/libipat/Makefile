@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libipat/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libipat
-PKG_VERSION:=sah-next_v1.8.3
+PKG_VERSION:=sah-next_v1.8.4
 SHORT_DESCRIPTION:=IP Address Tools
 
-PKG_SOURCE:=libipat-sah-next_v1.8.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libipat/-/archive/sah-next_v1.8.3
-PKG_HASH:=f74546cf6236ff520056fd5c5ef31175985cbe6043ff9bdad67d87108356d8ba
-PKG_BUILD_DIR:=$(BUILD_DIR)/libipat-sah-next_v1.8.3
+PKG_SOURCE:=libipat-sah-next_v1.8.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libipat/-/archive/sah-next_v1.8.4
+PKG_HASH:=a0b4354a9f7e2fb20b4a8e2bfa382f809e275df73903a4a4d465f4ab75ce465d
+PKG_BUILD_DIR:=$(BUILD_DIR)/libipat-sah-next_v1.8.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
