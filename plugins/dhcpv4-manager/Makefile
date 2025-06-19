@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dhcpv4-manager
-PKG_VERSION:=sah-next_v2.17.5
+PKG_VERSION:=sah-next_v2.17.6
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-dhcpv4-sah-next_v2.17.5.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/archive/sah-next_v2.17.5
-PKG_HASH:=9cfc93155db2cbdf42ea47c6f29392b50587b2a6c39763fe26b3a99e74db14ab
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv4-sah-next_v2.17.5
+PKG_SOURCE:=tr181-dhcpv4-sah-next_v2.17.6.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/archive/sah-next_v2.17.6
+PKG_HASH:=a435574ffb3e84ae81f8e95eeb68ea71f6db79fe121b9dc60f1f2fb7ec4069f4
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv4-sah-next_v2.17.6
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
