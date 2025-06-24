@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libnetlink-utils
-PKG_VERSION:=sah-next_v0.2.2
+PKG_VERSION:=sah-next_v0.2.3
 SHORT_DESCRIPTION:=Netlink utility library
 
-PKG_SOURCE:=libnetlink-utils-sah-next_v0.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/archive/sah-next_v0.2.2
-PKG_HASH:=71092d81d2dbcd1ea58f7288ae1adf93199f81427ae7cde254e96708289e79b7
-PKG_BUILD_DIR:=$(BUILD_DIR)/libnetlink-utils-sah-next_v0.2.2
+PKG_SOURCE:=libnetlink-utils-sah-next_v0.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/archive/sah-next_v0.2.3
+PKG_HASH:=a2b2771c2c6e2e9ea905682406195b5756fd895aad8fbf0a7c3f4221bd5ed22e
+PKG_BUILD_DIR:=$(BUILD_DIR)/libnetlink-utils-sah-next_v0.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
