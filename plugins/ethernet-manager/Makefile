@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ethernet-manager
-PKG_VERSION:=sah-next_v5.2.2
+PKG_VERSION:=sah-next_v5.2.3
 SHORT_DESCRIPTION:=Ethernet plugin
 
-PKG_SOURCE:=tr181-ethernet-sah-next_v5.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next_v5.2.2
-PKG_HASH:=31ff2df3190dd473a2c451d40f68dada370cfe97e319b93bec49c39322362189
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next_v5.2.2
+PKG_SOURCE:=tr181-ethernet-sah-next_v5.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next_v5.2.3
+PKG_HASH:=97f4e40520772744a4225e5daaf2095930b0d06125e5c55edd0c05851984ec3d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next_v5.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
