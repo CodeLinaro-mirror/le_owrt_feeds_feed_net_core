@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-xpon
-PKG_VERSION:=sah-next_v1.5.0
+PKG_VERSION:=sah-next_v1.5.1
 SHORT_DESCRIPTION:=TR-181 XPON manager
 
-PKG_SOURCE:=tr181-xpon-sah-next_v1.5.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon/-/archive/sah-next_v1.5.0
-PKG_HASH:=5839fd27169479c85f227912ae836b7807ee5be95f597f87cf851b8c155af566
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-xpon-sah-next_v1.5.0
+PKG_SOURCE:=tr181-xpon-sah-next_v1.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon/-/archive/sah-next_v1.5.1
+PKG_HASH:=a8c9bd719de15c6c2b32d899521c51886eae78df833d9882dd00c4056729b533
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-xpon-sah-next_v1.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
