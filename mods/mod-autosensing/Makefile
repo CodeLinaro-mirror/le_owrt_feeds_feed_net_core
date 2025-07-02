@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-autosensing
-PKG_VERSION:=sah-next_v0.4.0
+PKG_VERSION:=sah-next_v0.4.1
 SHORT_DESCRIPTION:=SoC module wan-manager select the active wan-mode
 
-PKG_SOURCE:=mod-autosensing-sah-next_v0.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing/-/archive/sah-next_v0.4.0
-PKG_HASH:=85309e3e48d5c6d25301f8ae0f65db200276dfbef51174ad74b5583456f88f88
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-autosensing-sah-next_v0.4.0
+PKG_SOURCE:=mod-autosensing-sah-next_v0.4.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing/-/archive/sah-next_v0.4.1
+PKG_HASH:=38f639d884770cec095daeda4dd8ca9a6634c9a2cd1b66b4f70fa9e95275ef1a
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-autosensing-sah-next_v0.4.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Modules
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing
   DEPENDS += +libamxc
