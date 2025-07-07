@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dhcpv6s-manager
-PKG_VERSION:=sah-next_v0.21.2
+PKG_VERSION:=sah-next_v0.21.3
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-dhcpv6s-sah-next_v0.21.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s/-/archive/sah-next_v0.21.2
-PKG_HASH:=c40b1249da14d5b4220889491c58e8578ffba9341ebbb5e1e45ab8a128c62da7
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6s-sah-next_v0.21.2
+PKG_SOURCE:=tr181-dhcpv6s-sah-next_v0.21.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s/-/archive/sah-next_v0.21.3
+PKG_HASH:=be464ce96949c83169a678b6bff49eb5da6cb33a0db3a06da3ff262066ca1607
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6s-sah-next_v0.21.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s
   DEPENDS += +amxrt
