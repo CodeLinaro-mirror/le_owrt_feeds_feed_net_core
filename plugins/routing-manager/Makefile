@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=routing-manager
-PKG_VERSION:=sah-next_v3.0.1
+PKG_VERSION:=sah-next_v3.0.2
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-routing-sah-next_v3.0.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing/-/archive/sah-next_v3.0.1
-PKG_HASH:=41186000e2fb7bf902cd51afe921fd8a43dd11b3674408c1afbc53564b4f07ef
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routing-sah-next_v3.0.1
+PKG_SOURCE:=tr181-routing-sah-next_v3.0.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing/-/archive/sah-next_v3.0.2
+PKG_HASH:=6f8302654c2a29b5017aec0bb15d5c5328eac40ca31d6fb1aa94f5a61468458d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routing-sah-next_v3.0.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -45,6 +45,8 @@ define Package/$(PKG_NAME)
   DEPENDS += +libnetmodel
   DEPENDS += +libdhcpoptions
   DEPENDS += +rpcd
+  DEPENDS += +libnl-core
+  DEPENDS += +libnl-route
   DEPENDS += +libipat
   MENU:=1
 endef
