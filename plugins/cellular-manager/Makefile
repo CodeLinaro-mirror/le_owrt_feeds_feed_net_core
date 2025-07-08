@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cellular-manager
-PKG_VERSION:=sah-next_v2.2.2
+PKG_VERSION:=sah-next_v2.2.3
 SHORT_DESCRIPTION:=Cellular plugin
 
-PKG_SOURCE:=cellular-manager-sah-next_v2.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/cellular-manager/-/archive/sah-next_v2.2.2
-PKG_HASH:=a7c4cd5fc7f15bf68565a6541c99fe193582246dcefa4beb8f647ace76af3c36
-PKG_BUILD_DIR:=$(BUILD_DIR)/cellular-manager-sah-next_v2.2.2
+PKG_SOURCE:=cellular-manager-sah-next_v2.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/cellular-manager/-/archive/sah-next_v2.2.3
+PKG_HASH:=6193aef580b368091087e90ebc97da4e19c479506f7f9f1b0c78afa6b9125712
+PKG_BUILD_DIR:=$(BUILD_DIR)/cellular-manager-sah-next_v2.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
