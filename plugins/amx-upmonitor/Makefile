@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=amx-upmonitor
-PKG_VERSION:=v0.3.3
+PKG_VERSION:=v0.3.4
 SHORT_DESCRIPTION:=UpMonitor monitors default routes events from NetDev
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.3.3
+PKG_SOURCE_VERSION:=v0.3.4
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/amx-upmonitor.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
