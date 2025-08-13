@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=NetDev monitors the operating system's network devices
 
 PKG_SOURCE:=netdev-sah-next_v1.13.4.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/archive/sah-next_v1.13.4
-PKG_HASH:=skip
+PKG_HASH:=9a35ddc46fe00bbb4d4689b61f50a83544c241c4c36e1755d6ea9abb4ee4f0a6
 PKG_BUILD_DIR:=$(BUILD_DIR)/netdev-sah-next_v1.13.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
