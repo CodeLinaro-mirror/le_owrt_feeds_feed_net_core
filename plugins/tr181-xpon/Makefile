@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-xpon
-PKG_VERSION:=sah-next_v1.5.1
+PKG_VERSION:=sah-next_v1.6.0
 SHORT_DESCRIPTION:=TR-181 XPON manager
 
-PKG_SOURCE:=tr181-xpon-sah-next_v1.5.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon/-/archive/sah-next_v1.5.1
-PKG_HASH:=a8c9bd719de15c6c2b32d899521c51886eae78df833d9882dd00c4056729b533
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-xpon-sah-next_v1.5.1
+PKG_SOURCE:=tr181-xpon-sah-next_v1.6.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon/-/archive/sah-next_v1.6.0
+PKG_HASH:=fc29c0cd79531bc4e6d8c35933bb6ab66efe908bdc61b5e0284c73655bc370cf
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-xpon-sah-next_v1.6.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -40,6 +40,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libsahtrace
   DEPENDS += +amxrt
   DEPENDS += +mod-netmodel
+  DEPENDS += +mod-dmext
   DEPENDS += +SAH_AMX_TR181_XPON_USE_NETDEV_COUNTERS:mod-dmstats
   MENU:=1
 endef
