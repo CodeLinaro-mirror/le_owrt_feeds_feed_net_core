@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=Implementation of Device
 
 PKG_SOURCE:=tr181-bridging-sah-next_v2.10.9.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next_v2.10.9
-PKG_HASH:=skip
+PKG_HASH:=2dbbe4a1e2dc15e1ae5084f8c967486bb9ae8f895b8f30af46aef552ea8c4ea0
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next_v2.10.9
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
