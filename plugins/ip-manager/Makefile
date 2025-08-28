@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ip-manager
-PKG_VERSION:=sah-next_v1.50.9
+PKG_VERSION:=sah-next_v1.50.10
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-ip-sah-next_v1.50.9.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next_v1.50.9
-PKG_HASH:=d583576fdd8e1941b3ef6c6977597d7bd7226aa2dc6d31fe4c51ccd7800f2042
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next_v1.50.9
+PKG_SOURCE:=tr181-ip-sah-next_v1.50.10.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next_v1.50.10
+PKG_HASH:=4d8fdf0624a40a5cc913666b0886a27cb52891f5a71c6c17912afc341252dca3
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next_v1.50.10
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
