@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-vlan-ioctl
-PKG_VERSION:=v0.1.7
+PKG_VERSION:=sah-next_v0.1.8
 SHORT_DESCRIPTION:=SoC module to help handling vlans
 
-PKG_SOURCE:=mod-vlan-ioctl-v0.1.7.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl/-/archive/v0.1.7
-PKG_HASH:=cd3e1b98ecf9f0c332493a344957f2e3ed10cdd2cfc8932d587ce2910a6fe86c
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-vlan-ioctl-v0.1.7
+PKG_SOURCE:=mod-vlan-ioctl-sah-next_v0.1.8.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl/-/archive/sah-next_v0.1.8
+PKG_HASH:=185d1544503ab6ca7b0446a7f943ffd605a8f07ee6facc0cf23fff1473ead771
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-vlan-ioctl-sah-next_v0.1.8
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Modules
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl
   DEPENDS += +libamxc
