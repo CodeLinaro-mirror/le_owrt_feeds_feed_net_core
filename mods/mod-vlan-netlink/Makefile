@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=mod-vlan-netlink
-PKG_VERSION:=v0.2.0
+PKG_VERSION:=v0.2.1
 SHORT_DESCRIPTION:=SoC module to help handling vlans
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.2.0
+PKG_SOURCE_VERSION:=v0.2.1
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/mod-vlan-netlink.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
