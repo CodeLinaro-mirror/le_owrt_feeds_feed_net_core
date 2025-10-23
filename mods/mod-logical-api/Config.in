@@ -1,0 +1,20 @@
+config PACKAGE_mod-logical-api
+    tristate
+    select SAH_MOD_LOGICAL_API
+
+if PACKAGE_mod-logical-api
+
+menu "Select mod-logical-api build options"
+    depends on PACKAGE_mod-logical-api
+
+config SAH_MOD_LOGICAL_API
+    bool "Build mod Logical API"
+    default y
+
+config LOGICAL_KICKSTATIONS_SUPPORTED
+    bool "Use the kickKnownStations RPC to force a DORA cycle on wifi"
+    default n
+
+endmenu
+
+endif
