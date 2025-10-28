@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-neighbordiscovery
-PKG_VERSION:=sah-next_v1.1.12
+PKG_VERSION:=sah-next_v1.1.13
 SHORT_DESCRIPTION:=TR-181 compatible neighbordiscovery plugin
 
-PKG_SOURCE:=tr181-neighbordiscovery-sah-next_v1.1.12.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/sah-next_v1.1.12
-PKG_HASH:=d22dd50e6ea310d75de3add26c82e0920ab5bdfff4e3e4e1c435a638b0f8460c
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-sah-next_v1.1.12
+PKG_SOURCE:=tr181-neighbordiscovery-sah-next_v1.1.13.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/sah-next_v1.1.13
+PKG_HASH:=36b4ea9f02615cd1ff48283aabd9aad8233385150b9e806613c4e191e391e8ab
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-sah-next_v1.1.13
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
