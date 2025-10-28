@@ -11,7 +11,7 @@ config SAH_MOD_LOGICAL_API
     bool "Build mod Logical API"
     default y
 
-config LOGICAL_KICKSTATIONS_SUPPORTED
+config SAH_MOD_LOGICAL_API_LOGICAL_KICKSTATIONS_SUPPORTED
     bool "Use the kickKnownStations RPC to force a DORA cycle on wifi"
     default n
 
