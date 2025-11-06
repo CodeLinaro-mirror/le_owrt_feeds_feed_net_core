@@ -1,11 +1,14 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/ippt-manager/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=ippt-manager
-PKG_VERSION:=main
+PKG_VERSION:=v1.0.1
 SHORT_DESCRIPTION:=IP passthrough manager
 
 PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=v1.0.1
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/ippt-manager.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -13,7 +16,7 @@ PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
-COMPONENT:=ippt_manager
+COMPONENT:=ippt-manager
 
 PKG_RELEASE:=1
 
@@ -29,6 +32,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=SoftAtHome
   SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/ippt-manager
   DEPENDS += +mod-lua-amx
   MENU:=1
 endef
