@@ -1,0 +1,24 @@
+config PACKAGE_ippt-manager
+    tristate
+    select SAH_AMX_IPPT_MANAGER
+
+if PACKAGE_ippt-manager
+
+menu "Select ippt-manager build options"
+    depends on PACKAGE_ippt-manager
+
+config SAH_AMX_IPPT_MANAGER
+    bool "IP passthrough manager"
+    default y
+
+config SAH_AMX_IPPT_MANAGER_START_ORDER
+    int "Start up order for the IP passthrough manager"
+    default 21
+
+config SAH_AMX_IPPT_MANAGER_STOP_ORDER
+    int "Shutdown order for the IP passthrough manager"
+    default 79
+
+endmenu
+
+endif
