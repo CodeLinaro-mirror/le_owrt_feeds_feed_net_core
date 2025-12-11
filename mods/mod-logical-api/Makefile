@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-logical-api
-PKG_VERSION:=sah-next_v0.11.0
+PKG_VERSION:=sah-next_v0.11.1
 SHORT_DESCRIPTION:=High Level API for configuring interface hierarchies
 
-PKG_SOURCE:=mod-logical-api-sah-next_v0.11.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next_v0.11.0
-PKG_HASH:=71c329491e4cd3111e7b7e2a7a210c03f280bc380c611016cd9d4dfa37be85d6
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next_v0.11.0
+PKG_SOURCE:=mod-logical-api-sah-next_v0.11.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next_v0.11.1
+PKG_HASH:=52d12a7ff8c97f73f795bb630ea186e616ae5a2c94dbf2531fb518ac73465891
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next_v0.11.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
