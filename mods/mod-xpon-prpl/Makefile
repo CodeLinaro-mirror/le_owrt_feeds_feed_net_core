@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=xpon prpl module
 
 PKG_SOURCE:=mod-xpon-prpl-sah-next-4.1_v0.1.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl/-/archive/sah-next-4.1_v0.1.0
-PKG_HASH:=skip
+PKG_HASH:=0419ab681253a3447d215b7adf08640ba16cd28a791704b821e5f2e88832a539
 PKG_BUILD_DIR:=$(BUILD_DIR)/mod-xpon-prpl-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
