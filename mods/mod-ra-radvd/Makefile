@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-ra-radvd
-PKG_VERSION:=sah-next_v0.8.0
+PKG_VERSION:=sah-next-4.1_v0.1.0
 SHORT_DESCRIPTION:=SoC module to manage the radvd process
 
-PKG_SOURCE:=mod-ra-radvd-sah-next_v0.8.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-ra-radvd/-/archive/sah-next_v0.8.0
-PKG_HASH:=02db5728422a771443fb093008fc4d877e915c40f68b7eae62407abd7816b681
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-ra-radvd-sah-next_v0.8.0
+PKG_SOURCE:=mod-ra-radvd-sah-next-4.1_v0.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-ra-radvd/-/archive/sah-next-4.1_v0.1.0
+PKG_HASH:=c7bc5a6cc9afd923fde6dea9cc0713c3ecaa67349ee9a8fd011c147a2dfc60b0
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-ra-radvd-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
