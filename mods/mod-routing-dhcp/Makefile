@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=Routing module to fetch dhcp options
 
 PKG_SOURCE:=mod-routing-dhcp-sah-next-4.1_v0.1.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-routing-dhcp/-/archive/sah-next-4.1_v0.1.0
-PKG_HASH:=skip
+PKG_HASH:=6d0561d00e819956a289e29368343c6591f000b765122e12769b56ea099f736a
 PKG_BUILD_DIR:=$(BUILD_DIR)/mod-routing-dhcp-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
