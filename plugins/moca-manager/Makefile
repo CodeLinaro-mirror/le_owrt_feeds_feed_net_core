@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=moca-manager
-PKG_VERSION:=sah-next_v3.1.1
+PKG_VERSION:=sah-next_v3.1.2
 SHORT_DESCRIPTION:=MoCA plugin
 
-PKG_SOURCE:=tr181-moca-sah-next_v3.1.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/sah-next_v3.1.1
-PKG_HASH:=fdc3a60d922125caaf18055c364a4c0974c3d2af81f0db1e98f85f63159e86b7
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-sah-next_v3.1.1
+PKG_SOURCE:=tr181-moca-sah-next_v3.1.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/sah-next_v3.1.2
+PKG_HASH:=d24e966f8b3db41f5df81bb69ffc8abf973429bc2d6ec5357e64ede913695aaa
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-sah-next_v3.1.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
