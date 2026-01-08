@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-cellular-libmm
-PKG_VERSION:=sah-next_v2.1.6
+PKG_VERSION:=sah-next-4.1_v0.1.0
 SHORT_DESCRIPTION:=SoC module to help handling Linux Cellular Implementation
 
-PKG_SOURCE:=mod-cellular-libmm-sah-next_v2.1.6.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next_v2.1.6
-PKG_HASH:=7c83fedc88ec1f7166333345f1f5c869ee5729f0ea51911a0bf3c9851a688d1a
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next_v2.1.6
+PKG_SOURCE:=mod-cellular-libmm-sah-next-4.1_v0.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm/-/archive/sah-next-4.1_v0.1.0
+PKG_HASH:=48a87be0ed28a3f652674249e9ca7d9a640b868851f8f82adf6f20096dada0d5
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-cellular-libmm-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Ambiorix
+  SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-cellular-libmm
   DEPENDS += +libamxc
@@ -29,7 +29,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxp
   DEPENDS += +libamxb
   DEPENDS += +libsahtrace
-  DEPENDS += +glib2
+  DEPENDS += +glib-2.0
   DEPENDS += +modemmanager
   DEPENDS += +libipat
   MENU:=1
