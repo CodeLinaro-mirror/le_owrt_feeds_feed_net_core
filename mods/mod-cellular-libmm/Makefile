@@ -29,7 +29,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxp
   DEPENDS += +libamxb
   DEPENDS += +libsahtrace
-  DEPENDS += +glib-2.0
+  DEPENDS += +glib2
   DEPENDS += +modemmanager
   DEPENDS += +libipat
   MENU:=1
