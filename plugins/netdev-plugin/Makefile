@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netdev-plugin
-PKG_VERSION:=sah-next-4.1_v0.3.0
+PKG_VERSION:=sah-next-4.1_v0.3.1
 SHORT_DESCRIPTION:=NetDev monitors the operating system's network devices
 
-PKG_SOURCE:=netdev-sah-next-4.1_v0.3.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/archive/sah-next-4.1_v0.3.0
-PKG_HASH:=b748fcc3a80067de77c8d123b9e2d26ba7f872f2059f6cb0b965fa9feaf36ff0
-PKG_BUILD_DIR:=$(BUILD_DIR)/netdev-sah-next-4.1_v0.3.0
+PKG_SOURCE:=netdev-sah-next-4.1_v0.3.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/archive/sah-next-4.1_v0.3.1
+PKG_HASH:=9682586ae0c8357a8ec69f2f75c08c033ad6492e16e2f610dad3e597bd28d934
+PKG_BUILD_DIR:=$(BUILD_DIR)/netdev-sah-next-4.1_v0.3.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
