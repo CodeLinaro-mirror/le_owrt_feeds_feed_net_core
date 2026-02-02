@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ethernet-manager
-PKG_VERSION:=sah-next-4.1_v0.1.0
+PKG_VERSION:=sah-next-4.1_v0.1.1
 SHORT_DESCRIPTION:=Ethernet plugin
 
-PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.1.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.1.0
-PKG_HASH:=e01397a93bd60278cdfb49ebaf0de3c43002da595bf7be2cbff3ff86f26ca948
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.1.0
+PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.1.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.1.1
+PKG_HASH:=27e4604a05b1561f3593b62995872ac8a8eedeef4b08281055df05b9de826888
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.1.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -46,6 +46,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +mod-vlan-uci
   DEPENDS += +mod-netmodel
   DEPENDS += +mod-dmext
+  DEPENDS += +mod-mtu
   MENU:=1
 endef
 
