@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dns-unbound
-PKG_VERSION:=sah-next_v3.0.0
+PKG_VERSION:=sah-next-4.1_v3.0.1
 SHORT_DESCRIPTION:=Ambiorix module to manage Unbound as DNS forwarder
 
-PKG_SOURCE:=mod-dns-unbound-sah-next_v3.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next_v3.0.0
-PKG_HASH:=f14fbe924619a89c9d41f145a01ef8f8b1f735c3b0bb8bc7216c7040264fa7c3
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next_v3.0.0
+PKG_SOURCE:=mod-dns-unbound-sah-next-4.1_v3.0.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next-4.1_v3.0.1
+PKG_HASH:=9279045355302ccb254e01c4dbdc776ab3c6644e68b1613e1d865748c4b3bcd1
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next-4.1_v3.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Ambiorix
+  SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound
   DEPENDS += +libamxb
