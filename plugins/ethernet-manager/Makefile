@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ethernet-manager
-PKG_VERSION:=sah-next-4.1_v0.2.0
+PKG_VERSION:=sah-next-4.1_v0.3.0
 SHORT_DESCRIPTION:=Ethernet plugin
 
-PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.2.0
-PKG_HASH:=6c23de7b0240ff8753cc4ee2c8a31572bdb802a20b230bd582c81aebeea87a1d
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.2.0
+PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.3.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.3.0
+PKG_HASH:=bb80b5825336f0cedc65a7b7244f4520f8814cca684c0fa7ceef2851f2be606d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.3.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -43,7 +43,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +amxrt
   DEPENDS += +mod-dmstats
   DEPENDS += +mod-vlan-ioctl
-  DEPENDS += +mod-vlan-uci
+  DEPENDS += +mod-vlan-netlink
   DEPENDS += +mod-netmodel
   DEPENDS += +mod-dmext
   DEPENDS += +mod-mtu
