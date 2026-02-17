@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-routeradvertisement
-PKG_VERSION:=sah-next-4.1_v0.1.2
+PKG_VERSION:=sah-next-4.1_v0.1.3
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-routeradvertisement-sah-next-4.1_v0.1.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/archive/sah-next-4.1_v0.1.2
-PKG_HASH:=5e60d75b669fe4607aad0dea45fe0d34f3482985d566773a64fe584dbde96692
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routeradvertisement-sah-next-4.1_v0.1.2
+PKG_SOURCE:=tr181-routeradvertisement-sah-next-4.1_v0.1.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/archive/sah-next-4.1_v0.1.3
+PKG_HASH:=1c251daba7256e6dbaffe1f15b7099a50577fd9c3c5974482d23c2988406e049
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-routeradvertisement-sah-next-4.1_v0.1.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
