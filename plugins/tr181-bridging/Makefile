@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.4)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-bridging
-PKG_VERSION:=sah-next-4.1_v0.2.2
+PKG_VERSION:=sah-next-4.1_v0.2.3
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-bridging-sah-next-4.1_v0.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next-4.1_v0.2.2
-PKG_HASH:=3fc6d6bb5e054cd16b9c59501417ff52ce844194a4fbbfea8ab32ff04752691a
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next-4.1_v0.2.2
+PKG_SOURCE:=tr181-bridging-sah-next-4.1_v0.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging/-/archive/sah-next-4.1_v0.2.3
+PKG_HASH:=576a9dfd2dc9085d47ae54c6508966f40d2d804641e2e91fdb143f241a856d0d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-bridging-sah-next-4.1_v0.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
