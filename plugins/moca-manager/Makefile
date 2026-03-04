@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.4)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=moca-manager
-PKG_VERSION:=sah-next-4.1_v3.2.0
+PKG_VERSION:=sah-next-4.1_v3.2.1
 SHORT_DESCRIPTION:=MoCA plugin
 
-PKG_SOURCE:=tr181-moca-sah-next-4.1_v3.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/sah-next-4.1_v3.2.0
-PKG_HASH:=04a6192a14715302860883f463591ab26266771aaf23dee32ebe6985ec09a061
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-sah-next-4.1_v3.2.0
+PKG_SOURCE:=tr181-moca-sah-next-4.1_v3.2.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca/-/archive/sah-next-4.1_v3.2.1
+PKG_HASH:=654ec3553652c858289b9406e7d09fc784a506a3d33ed02fa598a19c3bd70b8b
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-moca-sah-next-4.1_v3.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
