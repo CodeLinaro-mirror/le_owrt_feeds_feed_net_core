@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.1)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ethernet-manager
-PKG_VERSION:=sah-next-4.1_v0.3.0
+PKG_VERSION:=sah-next-4.1_v0.4.0
 SHORT_DESCRIPTION:=Ethernet plugin
 
-PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.3.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.3.0
-PKG_HASH:=bb80b5825336f0cedc65a7b7244f4520f8814cca684c0fa7ceef2851f2be606d
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.3.0
+PKG_SOURCE:=tr181-ethernet-sah-next-4.1_v0.4.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet/-/archive/sah-next-4.1_v0.4.0
+PKG_HASH:=c2ffda108c9ea3fcd661e05b5e38a9843ed6c33e7a8ce32996e3a0a2e07ea8d1
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ethernet-sah-next-4.1_v0.4.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
