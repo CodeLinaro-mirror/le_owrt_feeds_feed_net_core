@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.1)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/blob/main/baf.yml instead
 config PACKAGE_mod-logical-api
     tristate
     select SAH_MOD_LOGICAL_API
@@ -13,6 +15,10 @@ config SAH_MOD_LOGICAL_API
 
 config SAH_MOD_LOGICAL_API_LOGICAL_KICKSTATIONS_SUPPORTED
     bool "Use the kickKnownStations RPC to force a DORA cycle on wifi"
+    default n
+
+config SAH_MOD_LOGICAL_API_LEGACY_SUPPORT
+    bool "Use the old toggle logic to force a DORA cycle on Ethernet and MoCA, instead of the reset RPC"
     default n
 
 endmenu
