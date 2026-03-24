@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/blob/main/baf.yml instead
 config PACKAGE_dhcpv4-manager
     tristate
     select SAH_SERVICES_AMX-DHCPV4-MANAGER
