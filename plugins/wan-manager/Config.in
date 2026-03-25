@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/blob/main/baf.yml instead
 config PACKAGE_wan-manager
     tristate
     select SAH_AMX_WAN_MANAGER
@@ -26,6 +28,55 @@ config SAH_AMX_WAN_MANAGER_RUN_AS_USER
 config SAH_AMX_WAN_MANAGER_RUN_AS_GROUP
     string "Group will be used for the WAN-MANAGER plugin"
     default "tr181_app"
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+    bool "Install defaults for the different wanmodes"
+    default y
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_DEMO_WANMODE
+    bool "Install the demo wanmode defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_ETHERNET_DHCP
+    bool "Install the ethernet dhcp defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_ETHERNET_PPP
+    bool "Install the ethernet ppp defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_ETHERNET_PPP6
+    bool "Install the ethernet ppp6 defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_GPON_DHCP
+    bool "Install the gpon dhcp defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_GPON_PPP6
+    bool "Install the gpon ppp6 defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_ETHERNET_BRIDGED
+    bool "Install the ethernet bridged defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_GPON_BRIDGED
+    bool "Install the gpon bridged defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
+
+config SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS_CELLULAR
+    bool "Install the cellular defaults"
+    default y
+    depends on SAH_AMX_WAN_MANAGER_INSTALL_DEFAULTS
 
 endmenu
 
