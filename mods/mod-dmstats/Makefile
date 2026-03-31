@@ -9,7 +9,7 @@ SHORT_DESCRIPTION:=Reusable stats module
 
 PKG_SOURCE:=mod-dmstats-sah-next-4.2_v0.2.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats/-/archive/sah-next-4.2_v0.2.0
-PKG_HASH:=skip
+PKG_HASH:=9dac5e5cea77944a30fd7ef2c71ed05ef79bd0aa0304f0c5f4574ca40e42dbff
 PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmstats-sah-next-4.2_v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
