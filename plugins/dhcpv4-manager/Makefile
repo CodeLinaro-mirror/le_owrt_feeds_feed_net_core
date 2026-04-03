@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dhcpv4-manager
-RAW_VERSION:=sah-next-4.1_v3.4.0
+RAW_VERSION:=sah-next-4.1_v4.0.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-dhcpv4-sah-next-4.1_v3.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/archive/sah-next-4.1_v3.4.0
-PKG_HASH:=c235bbff7680796bee1df8b3060b776ca4fce90fa64feba4c96c7c65674a81cd
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv4-sah-next-4.1_v3.4.0
+PKG_SOURCE:=tr181-dhcpv4-sah-next-4.1_v4.0.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4/-/archive/sah-next-4.1_v4.0.0
+PKG_HASH:=6ec1d3b5dcdd6334cb814734e33bbb1848b6631c475219390390aada59fd6761
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv4-sah-next-4.1_v4.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
