@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/tr181-sfp/-/blob/main/baf.yml instead
 config PACKAGE_tr181-sfp
     tristate
     select SAH_AMX_TR181_SFP
