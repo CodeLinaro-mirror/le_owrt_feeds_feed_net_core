@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon/-/blob/main/baf.yml instead
 config PACKAGE_tr181-xpon
     tristate
     select SAH_AMX_TR181_XPON
