@@ -9,7 +9,7 @@ SHORT_DESCRIPTION:=Implementation of Device
 
 PKG_SOURCE:=tr181-dhcpv6s-sah-next-4.1_v1.0.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s/-/archive/sah-next-4.1_v1.0.0
-PKG_HASH:=skip
+PKG_HASH:=7bfb2e4f6fe495f2ce225bd747345dfb8c8b8a4461706cd5037a7900dde59e3d
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dhcpv6s-sah-next-4.1_v1.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
