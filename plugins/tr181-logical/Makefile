@@ -9,7 +9,7 @@ SHORT_DESCRIPTION:=logical interface plugin
 
 PKG_SOURCE:=tr181-logical-sah-next-4.1_v1.0.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical/-/archive/sah-next-4.1_v1.0.0
-PKG_HASH:=skip
+PKG_HASH:=baaefe3a4efeb0a60aecf1fd72f16ee3062c80ca3e9123e06880fe198a32139a
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-logical-sah-next-4.1_v1.0.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
