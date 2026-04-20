@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dns-unbound
-RAW_VERSION:=sah-next-4.1_v3.0.2
+RAW_VERSION:=sah-next-4.1_v3.1.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Ambiorix module to manage Unbound as DNS forwarder
 
-PKG_SOURCE:=mod-dns-unbound-sah-next-4.1_v3.0.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next-4.1_v3.0.2
-PKG_HASH:=ac8390136cf1ff90afe2ed26b560fdff7b11005f4afef73e0c357d78e643fe9f
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next-4.1_v3.0.2
+PKG_SOURCE:=mod-dns-unbound-sah-next-4.1_v3.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound/-/archive/sah-next-4.1_v3.1.0
+PKG_HASH:=6084247ad59ecddcc92645be9d651e86c2624c2c698b2f58cae32ee147b7fc81
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dns-unbound-sah-next-4.1_v3.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -54,7 +54,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
-	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
+	if [ -d $(PKG_INSTALL_DIR) ]; then \
+		$(CP) $(PKG_INSTALL_DIR)/* $(1)/; \
+	fi
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
