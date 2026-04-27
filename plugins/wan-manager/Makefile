@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=wan-manager
-RAW_VERSION:=sah-next-4.1_v2.3.0
+RAW_VERSION:=sah-next-4.1-lts_v2.3.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=TR-181 compatible plugin for advanced WAN mode configuration
 
-PKG_SOURCE:=wan-manager-sah-next-4.1_v2.3.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/archive/sah-next-4.1_v2.3.0
-PKG_HASH:=65edf0e9cd81a655845067c2b407fa6550d1bceed17de43535b1514431eae8da
-PKG_BUILD_DIR:=$(BUILD_DIR)/wan-manager-sah-next-4.1_v2.3.0
+PKG_SOURCE:=wan-manager-sah-next-4.1-lts_v2.3.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager/-/archive/sah-next-4.1-lts_v2.3.0
+PKG_HASH:=16f3dc4f0dfb0cd91914ab57430f4746fc87ddf50bcff21878cd1f9571de1160
+PKG_BUILD_DIR:=$(BUILD_DIR)/wan-manager-sah-next-4.1-lts_v2.3.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
