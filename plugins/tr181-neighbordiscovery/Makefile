@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-neighbordiscovery
-RAW_VERSION:=sah-next-4.1_v0.3.1
+RAW_VERSION:=sah-next-4.1-lts_v0.3.1
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=TR-181 compatible neighbordiscovery plugin
 
-PKG_SOURCE:=tr181-neighbordiscovery-sah-next-4.1_v0.3.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/sah-next-4.1_v0.3.1
-PKG_HASH:=f8a590361b87bdd05dfc9e9f3fdb32ec76431a04d78c421c9686847a987895ca
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-sah-next-4.1_v0.3.1
+PKG_SOURCE:=tr181-neighbordiscovery-sah-next-4.1-lts_v0.3.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery/-/archive/sah-next-4.1-lts_v0.3.1
+PKG_HASH:=3030918111207141d250c00bca97e6b727fd38a333a657fa86fa7ae035f72009
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-neighbordiscovery-sah-next-4.1-lts_v0.3.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
