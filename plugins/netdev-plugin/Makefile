@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netdev-plugin
-PKG_VERSION:=sah-next-4.1_v0.4.0
+PKG_VERSION:=sah-next-4.1-lts_v0.4.0
 SHORT_DESCRIPTION:=NetDev monitors the operating system's network devices
 
-PKG_SOURCE:=netdev-sah-next-4.1_v0.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/archive/sah-next-4.1_v0.4.0
-PKG_HASH:=48482c8e1fdb8280862cf4e462d2c43ae6b50be78cd2dc1df76c3bed8087475f
-PKG_BUILD_DIR:=$(BUILD_DIR)/netdev-sah-next-4.1_v0.4.0
+PKG_SOURCE:=netdev-sah-next-4.1-lts_v0.4.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/netdev/-/archive/sah-next-4.1-lts_v0.4.0
+PKG_HASH:=ea112936c7d5f2424a7a4c4f6150f671d8d6ae6b9bd5aeb236fc765ed837407b
+PKG_BUILD_DIR:=$(BUILD_DIR)/netdev-sah-next-4.1-lts_v0.4.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
