@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-dmstats
-PKG_VERSION:=sah-next-4.1_v0.2.0
+PKG_VERSION:=sah-next-4.1-lts_v0.2.0
 SHORT_DESCRIPTION:=Reusable stats module
 
-PKG_SOURCE:=mod-dmstats-sah-next-4.1_v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats/-/archive/sah-next-4.1_v0.2.0
-PKG_HASH:=b6e70389716bbeca171f9e318b860bb7d5dc4e380ff6ae6d21a059ff53364ff9
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmstats-sah-next-4.1_v0.2.0
+PKG_SOURCE:=mod-dmstats-sah-next-4.1-lts_v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats/-/archive/sah-next-4.1-lts_v0.2.0
+PKG_HASH:=65bcc5ca9fbeab4a4cc1427c85624d4b4038dbc61d5009bd5582f5a83cd35228
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-dmstats-sah-next-4.1-lts_v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
