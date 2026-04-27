@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-dns
-PKG_VERSION:=sah-next-4.1_v4.8.4
+PKG_VERSION:=sah-next-4.1-lts_v4.8.4
 SHORT_DESCRIPTION:=dns plugin
 
-PKG_SOURCE:=tr181-dns-sah-next-4.1_v4.8.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next-4.1_v4.8.4
-PKG_HASH:=39e5eb5ac2b83b72f1f69355a453928bdb1b75e40d49ecee32aa8e4c762bc44e
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next-4.1_v4.8.4
+PKG_SOURCE:=tr181-dns-sah-next-4.1-lts_v4.8.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns/-/archive/sah-next-4.1-lts_v4.8.4
+PKG_HASH:=0cde1893fc195ec61ff2bdf2c7bd7358eed2678ac120bb9a3d8c5619267e8c4a
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-dns-sah-next-4.1-lts_v4.8.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
