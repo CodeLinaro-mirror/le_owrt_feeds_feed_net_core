@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.1)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.40.1)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-logical-api
-PKG_VERSION:=sah-next-4.1_v0.2.0
+PKG_VERSION:=sah-next-4.1-lts_v0.2.0
 SHORT_DESCRIPTION:=High Level API for configuring interface hierarchies
 
-PKG_SOURCE:=mod-logical-api-sah-next-4.1_v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next-4.1_v0.2.0
-PKG_HASH:=85791f9d27707a0ae41aab75837ed0c329c6c6790969e64408288bed73bd877a
-PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next-4.1_v0.2.0
+PKG_SOURCE:=mod-logical-api-sah-next-4.1-lts_v0.2.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api/-/archive/sah-next-4.1-lts_v0.2.0
+PKG_HASH:=488b2f05cd533ec62e2ebecc7ee8f191dc1b1ae23f3a3447927d62f3301c66a7
+PKG_BUILD_DIR:=$(BUILD_DIR)/mod-logical-api-sah-next-4.1-lts_v0.2.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
