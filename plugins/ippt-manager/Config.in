@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/ippt-manager/-/blob/main/baf.yml instead
 config PACKAGE_ippt-manager
     tristate
     select SAH_AMX_IPPT_MANAGER
