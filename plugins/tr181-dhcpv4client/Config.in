@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client/-/blob/main/baf.yml instead
 config PACKAGE_tr181-dhcpv4client
     tristate
@@ -24,6 +24,14 @@ config SAH_AMX_TR181_DHCPV4CLIENT_RUN_AS_GROUP
 config SAH_AMX_TR181_DHCPV4CLIENT_SENTOPTION_125
     string "Vendor-Identifying Vendor-Specific Information Option to sent in DHCP requests"
     default ""
+
+config SAH_AMX_TR181_DHCPV4CLIENT_START_ORDER
+    int "Init start up order for the TR-181 DHCPV4CLIENT plugin"
+    default 27
+
+config SAH_AMX_TR181_DHCPV4CLIENT_STOP_ORDER
+    int "Init stop order for the TR-181 DHCPV4CLIENT plugin"
+    default 75
 
 endmenu
 
