@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/blob/main/baf.yml instead
 config PACKAGE_ip-manager
     tristate
@@ -14,12 +14,12 @@ config SAH_AMX_TR181_IP
     default y
 
 config SAH_AMX_TR181_IP_START_ORDER
-    int "IP-MANAGER plugin startup order"
+    int "Init start up order for the IP-MANAGER plugin"
     default 21
 
 config SAH_AMX_TR181_IP_STOP_ORDER
-    int "IP-MANAGER plugin shutdown order"
-    default 79
+    int "Init stop order for the IP-MANAGER plugin"
+    default 10
 
 config SAH_AMX_TR181_IP_BACKUPRESTORE_ORDER
     int "IP-MANAGER plugin backup restore order"
