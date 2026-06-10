@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement/-/blob/main/baf.yml instead
 config PACKAGE_tr181-routeradvertisement
     tristate
@@ -20,6 +20,14 @@ config SAH_SERVICES_AMX-TR181ROUTERADVERTISEMENT_RUN_AS_USER
 config SAH_SERVICES_AMX-TR181ROUTERADVERTISEMENT_RUN_AS_GROUP
     string "Group will be used for the tr181-routeradvertisement plugin"
     default "tr181_app"
+
+config SAH_SERVICES_AMX-TR181ROUTERADVERTISEMENT_START_ORDER
+    int "Init start up order for the tr181-routeradvertisement plugin"
+    default 40
+
+config SAH_SERVICES_AMX-TR181ROUTERADVERTISEMENT_STOP_ORDER
+    int "Init stop order for the tr181-routeradvertisement plugin"
+    default 60
 
 endmenu
 
