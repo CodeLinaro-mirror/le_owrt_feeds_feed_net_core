@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/tr181-usb/-/blob/main/baf.yml instead
 config PACKAGE_tr181-usb
     tristate
