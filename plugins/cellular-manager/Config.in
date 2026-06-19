@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.41.1)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/cellular-manager/-/blob/main/baf.yml instead
 config PACKAGE_cellular-manager
     tristate
     select SAH_AMX_TR181_CELLULAR
