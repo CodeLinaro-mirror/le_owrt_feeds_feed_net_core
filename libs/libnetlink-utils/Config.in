@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils/-/blob/main/baf.yml instead
 config PACKAGE_libnetlink-utils
     tristate
     select SAH_LIB_NETLINK-UTILS
