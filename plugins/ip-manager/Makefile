@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.41.2)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ip-manager
-RAW_VERSION:=sah-next-4.2_v1.0.2
+RAW_VERSION:=sah-next-4.2_v1.0.3
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-ip-sah-next-4.2_v1.0.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next-4.2_v1.0.2
-PKG_HASH:=95463542d87ff5caba6f3687482c65750ec2ca6ed51b0376b22b0652b2cd4901
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next-4.2_v1.0.2
+PKG_SOURCE:=tr181-ip-sah-next-4.2_v1.0.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip/-/archive/sah-next-4.2_v1.0.3
+PKG_HASH:=f07e33978cccf249c30831c28cde8d1dd794ec906b13d4fed85c499df9418ac5
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-ip-sah-next-4.2_v1.0.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
